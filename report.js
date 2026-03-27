@@ -9,8 +9,7 @@ const UI_TEXT = {
     originalOnly: "仅原文",
     translatedOnly: "仅译文",
     bilingual: "双语",
-    translating: "正在翻译...",
-    translateFail: "翻译失败，显示原文。",
+    noTranslation: "当前报告暂无离线译文。",
     loadFailed: "加载失败",
   },
   en: {
@@ -23,8 +22,7 @@ const UI_TEXT = {
     originalOnly: "Original",
     translatedOnly: "Translation",
     bilingual: "Bilingual",
-    translating: "Translating...",
-    translateFail: "Translation failed, original shown.",
+    noTranslation: "No offline translation for this report yet.",
     loadFailed: "Load failed",
   },
 };
@@ -48,69 +46,15 @@ function normalizeName(name) {
   return (name || "").replaceAll("-", "_").toLowerCase();
 }
 
-function detectLang(text) {
-  const zhCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-  return zhCount > 20 ? "zh" : "en";
-}
-
-function splitTextForTranslate(text, maxLen = 1200) {
-  const chunks = [];
-  const lines = text.split("\n");
-  let curr = "";
-
-  for (const line of lines) {
-    if ((curr + "\n" + line).length > maxLen && curr) {
-      chunks.push(curr);
-      curr = line;
-    } else {
-      curr = curr ? `${curr}\n${line}` : line;
-    }
-  }
-
-  if (curr) {
-    chunks.push(curr);
-  }
-  return chunks;
-}
-
-async function translateChunk(text, targetLang) {
-  const url = "https://translate.googleapis.com/translate_a/single"
-    + `?client=gtx&sl=auto&tl=${encodeURIComponent(targetLang)}&dt=t&q=${encodeURIComponent(text)}`;
-
-  const resp = await fetch(url);
-  if (!resp.ok) {
-    throw new Error(`translate http ${resp.status}`);
-  }
-  const data = await resp.json();
-  const rows = data?.[0] || [];
-  return rows.map((x) => x?.[0] || "").join("");
-}
-
-async function translateText(text, targetLang, cacheKey) {
-  const cached = localStorage.getItem(cacheKey);
-  if (cached) {
-    return cached;
-  }
-
-  const chunks = splitTextForTranslate(text);
-  const translatedChunks = [];
-  for (const chunk of chunks) {
-    if (!chunk.trim()) {
-      translatedChunks.push(chunk);
-      continue;
-    }
-    const translated = await translateChunk(chunk, targetLang);
-    translatedChunks.push(translated);
-  }
-
-  const merged = translatedChunks.join("\n");
-  localStorage.setItem(cacheKey, merged);
-  return merged;
-}
-
-function applyViewMode(mode) {
+function applyViewMode(mode, hasTranslation) {
   const sourceWrap = document.getElementById("content").parentElement;
   const translatedWrap = document.getElementById("translated-wrap");
+
+  if (!hasTranslation) {
+    sourceWrap.style.display = "block";
+    translatedWrap.style.display = "none";
+    return;
+  }
 
   if (mode === "source") {
     sourceWrap.style.display = "block";
@@ -128,18 +72,21 @@ function applyViewMode(mode) {
   translatedWrap.style.display = "block";
 }
 
-function renderModeTabs(uiLang, onChange) {
+function renderModeTabs(uiLang, hasTranslation, onChange) {
   const t = UI_TEXT[uiLang];
   const host = document.getElementById("view-mode");
   host.innerHTML = `
     <button class="mode-btn active" data-mode="source">${t.originalOnly}</button>
-    <button class="mode-btn" data-mode="translated">${t.translatedOnly}</button>
-    <button class="mode-btn" data-mode="both">${t.bilingual}</button>
+    <button class="mode-btn" data-mode="translated" ${hasTranslation ? "" : "disabled"}>${t.translatedOnly}</button>
+    <button class="mode-btn" data-mode="both" ${hasTranslation ? "" : "disabled"}>${t.bilingual}</button>
   `;
 
   const buttons = host.querySelectorAll("button[data-mode]");
   buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
+      if (btn.disabled) {
+        return;
+      }
       buttons.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       onChange(btn.dataset.mode);
@@ -222,21 +169,26 @@ async function renderReport() {
   const mdText = await mdResp.text();
   content.innerHTML = sanitizeHtml(marked.parse(mdText));
 
-  translatedContent.innerHTML = `<p>${t.translating}</p>`;
-
-  const srcLang = detectLang(mdText);
-  const targetLang = srcLang === "zh" ? "en" : "zh-CN";
-  const cacheKey = `tr:${activeFile.path}:${targetLang}`;
-
-  try {
-    const translated = await translateText(mdText, targetLang, cacheKey);
-    translatedContent.innerHTML = sanitizeHtml(marked.parse(translated));
-  } catch {
-    translatedContent.innerHTML = `<p>${t.translateFail}</p>` + sanitizeHtml(marked.parse(mdText));
+  let hasTranslation = false;
+  if (activeFile.translated_path) {
+    try {
+      const trResp = await fetch(`./${activeFile.translated_path}`);
+      if (trResp.ok) {
+        const trText = await trResp.text();
+        translatedContent.innerHTML = sanitizeHtml(marked.parse(trText));
+        hasTranslation = true;
+      }
+    } catch {
+      hasTranslation = false;
+    }
   }
 
-  renderModeTabs(uiLang, (mode) => applyViewMode(mode));
-  applyViewMode("source");
+  if (!hasTranslation) {
+    translatedContent.innerHTML = `<p>${t.noTranslation}</p>`;
+  }
+
+  renderModeTabs(uiLang, hasTranslation, (mode) => applyViewMode(mode, hasTranslation));
+  applyViewMode("source", hasTranslation);
 }
 
 renderReport().catch((err) => {

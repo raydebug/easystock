@@ -13,31 +13,52 @@
       "files": [
         {
           "name": "final_trade_decision",
-          "path": "reports/SMCI/2026-03-22/final_trade_decision.md"
+          "path": "reports/SMCI/2026-03-22/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/final_trade_decision.zh-CN.md"
         },
         {
           "name": "fundamentals_report",
-          "path": "reports/SMCI/2026-03-22/fundamentals_report.md"
+          "path": "reports/SMCI/2026-03-22/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/fundamentals_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
-          "path": "reports/SMCI/2026-03-22/investment_plan.md"
+          "path": "reports/SMCI/2026-03-22/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/investment_plan.zh-CN.md"
         },
         {
           "name": "market_report",
-          "path": "reports/SMCI/2026-03-22/market_report.md"
+          "path": "reports/SMCI/2026-03-22/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/market_report.zh-CN.md"
         },
         {
           "name": "news_report",
-          "path": "reports/SMCI/2026-03-22/news_report.md"
+          "path": "reports/SMCI/2026-03-22/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/news_report.zh-CN.md"
         },
         {
           "name": "sentiment_report",
-          "path": "reports/SMCI/2026-03-22/sentiment_report.md"
+          "path": "reports/SMCI/2026-03-22/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/sentiment_report.zh-CN.md"
         },
         {
           "name": "trader_investment_plan",
-          "path": "reports/SMCI/2026-03-22/trader_investment_plan.md"
+          "path": "reports/SMCI/2026-03-22/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SMCI/2026-03-22/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -54,31 +75,52 @@
       "files": [
         {
           "name": "final_trade_decision",
-          "path": "reports/TSLA/2026-03-22/final_trade_decision.md"
+          "path": "reports/TSLA/2026-03-22/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/final_trade_decision.zh-CN.md"
         },
         {
           "name": "fundamentals_report",
-          "path": "reports/TSLA/2026-03-22/fundamentals_report.md"
+          "path": "reports/TSLA/2026-03-22/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/fundamentals_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
-          "path": "reports/TSLA/2026-03-22/investment_plan.md"
+          "path": "reports/TSLA/2026-03-22/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/investment_plan.zh-CN.md"
         },
         {
           "name": "market_report",
-          "path": "reports/TSLA/2026-03-22/market_report.md"
+          "path": "reports/TSLA/2026-03-22/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/market_report.zh-CN.md"
         },
         {
           "name": "news_report",
-          "path": "reports/TSLA/2026-03-22/news_report.md"
+          "path": "reports/TSLA/2026-03-22/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/news_report.zh-CN.md"
         },
         {
           "name": "sentiment_report",
-          "path": "reports/TSLA/2026-03-22/sentiment_report.md"
+          "path": "reports/TSLA/2026-03-22/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/sentiment_report.zh-CN.md"
         },
         {
           "name": "trader_investment_plan",
-          "path": "reports/TSLA/2026-03-22/trader_investment_plan.md"
+          "path": "reports/TSLA/2026-03-22/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSLA/2026-03-22/trader_investment_plan.zh-CN.md"
         }
       ]
     }

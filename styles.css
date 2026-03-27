@@ -196,3 +196,9 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.mode-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
