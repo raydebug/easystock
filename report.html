@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradingAgents Report Viewer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="container report-page">
+    <a class="back-link" href="./index.html">← 返回报告列表</a>
+    <header>
+      <p id="meta" class="eyebrow"></p>
+      <h1 id="title">报告详情</h1>
+      <nav id="tabs" class="tabs"></nav>
+    </header>
+    <article id="content" class="markdown-body"></article>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./report.js" defer></script>
+</body>
+</html>

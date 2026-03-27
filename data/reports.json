@@ -1,0 +1,74 @@
+{
+  "reports": [
+    {
+      "ticker": "SMCI",
+      "date": "2026-03-22",
+      "decision": "BUY",
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/SMCI/2026-03-22/final_trade_decision.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/SMCI/2026-03-22/fundamentals_report.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/SMCI/2026-03-22/investment_plan.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/SMCI/2026-03-22/market_report.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/SMCI/2026-03-22/news_report.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/SMCI/2026-03-22/sentiment_report.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/SMCI/2026-03-22/trader_investment_plan.md"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "date": "2026-03-22",
+      "decision": "SELL",
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/TSLA/2026-03-22/final_trade_decision.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/TSLA/2026-03-22/fundamentals_report.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/TSLA/2026-03-22/investment_plan.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/TSLA/2026-03-22/market_report.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/TSLA/2026-03-22/news_report.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/TSLA/2026-03-22/sentiment_report.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/TSLA/2026-03-22/trader_investment_plan.md"
+        }
+      ]
+    }
+  ]
+}
