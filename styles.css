@@ -32,14 +32,36 @@ body {
   padding: 24px 18px 40px;
 }
 
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch {
+  display: flex;
+  gap: 6px;
+}
+
+.lang-switch button,
+.mode-btn {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.lang-switch button.active,
+.mode-btn.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
 .hero h1 {
   margin: 8px 0 10px;
   font-size: clamp(30px, 4vw, 46px);
-}
-
-.subtitle {
-  margin: 0;
-  color: var(--muted);
 }
 
 .eyebrow {
@@ -113,17 +135,9 @@ body {
   margin: 4px 0;
 }
 
-.price-diff.up {
-  color: #0b7f3e;
-}
-
-.price-diff.down {
-  color: #b1261f;
-}
-
-.price-diff.flat {
-  color: var(--muted);
-}
+.price-diff.up { color: #0b7f3e; }
+.price-diff.down { color: #b1261f; }
+.price-diff.flat { color: var(--muted); }
 
 .report-page header {
   margin-bottom: 14px;
@@ -156,8 +170,14 @@ body {
   background: var(--accent-soft);
 }
 
+.bilingual-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
 .markdown-body {
-  margin-top: 14px;
+  margin-top: 8px;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -169,4 +189,10 @@ body {
 .markdown-body h2,
 .markdown-body h3 {
   line-height: 1.35;
+}
+
+@media (min-width: 980px) {
+  .bilingual-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }

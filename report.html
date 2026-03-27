@@ -8,13 +8,29 @@
 </head>
 <body>
   <main class="container report-page">
-    <a class="back-link" href="./index.html">← 返回报告列表</a>
+    <div class="topbar">
+      <a id="back-link" class="back-link" href="./index.html">← 返回报告列表</a>
+      <div class="lang-switch" id="lang-switch">
+        <button data-lang="zh">中文</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
     <header>
       <p id="meta" class="eyebrow"></p>
       <h1 id="title">报告详情</h1>
       <nav id="tabs" class="tabs"></nav>
+      <div id="view-mode" class="tabs"></div>
     </header>
-    <article id="content" class="markdown-body"></article>
+    <section id="content-area" class="bilingual-grid">
+      <article>
+        <h3 id="source-title"></h3>
+        <article id="content" class="markdown-body"></article>
+      </article>
+      <article id="translated-wrap">
+        <h3 id="translated-title"></h3>
+        <article id="translated-content" class="markdown-body"></article>
+      </article>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
