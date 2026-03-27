@@ -73,6 +73,11 @@ body {
   box-shadow: 0 10px 26px rgba(23, 32, 41, .1);
 }
 
+.card-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .card h3 {
   margin: 6px 0;
   font-size: 22px;
@@ -93,6 +98,30 @@ body {
 
 .card p {
   margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.price-block {
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.price-block p {
+  margin: 4px 0;
+}
+
+.price-diff.up {
+  color: #0b7f3e;
+}
+
+.price-diff.down {
+  color: #b1261f;
+}
+
+.price-diff.flat {
   color: var(--muted);
 }
 

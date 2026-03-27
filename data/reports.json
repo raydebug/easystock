@@ -4,6 +4,12 @@
       "ticker": "SMCI",
       "date": "2026-03-22",
       "decision": "BUY",
+      "pricing": {
+        "report_close": 20.53,
+        "current_price": 21.97,
+        "price_diff": 1.44,
+        "price_diff_pct": 7.0141
+      },
       "files": [
         {
           "name": "final_trade_decision",
@@ -39,6 +45,12 @@
       "ticker": "TSLA",
       "date": "2026-03-22",
       "decision": "SELL",
+      "pricing": {
+        "report_close": 367.96,
+        "current_price": 361.83,
+        "price_diff": -6.13,
+        "price_diff_pct": -1.6659
+      },
       "files": [
         {
           "name": "final_trade_decision",
