@@ -3,7 +3,7 @@
     {
       "ticker": "APPL",
       "date": "2026-03-28",
-      "decision": "SELL",
+      "decision": "BUY",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -127,7 +127,7 @@
     {
       "ticker": "TSLA",
       "date": "2026-03-22",
-      "decision": "SELL",
+      "decision": "UNKNOWN",
       "pricing": {
         "report_close": 367.96,
         "current_price": 361.83,
