@@ -1,6 +1,23 @@
 {
   "reports": [
     {
+      "ticker": "DRO.AX",
+      "date": "2026-03-28",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Analyzing agents · elapsed 18:11",
+      "progress_pct": 82.0,
+      "elapsed_seconds": 1091,
+      "phase": "Analyzing agents",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "SMCI",
       "date": "2026-03-22",
       "decision": "SELL",
