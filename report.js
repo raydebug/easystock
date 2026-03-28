@@ -27,6 +27,16 @@ const UI_TEXT = {
   },
 };
 
+const REPORT_NAME_MAP = {
+  final_trade_decision: { zh: "最终交易决策", en: "Final Trade Decision" },
+  fundamentals_report: { zh: "基本面报告", en: "Fundamentals Report" },
+  investment_plan: { zh: "研究计划", en: "Investment Plan" },
+  market_report: { zh: "市场报告", en: "Market Report" },
+  news_report: { zh: "新闻报告", en: "News Report" },
+  sentiment_report: { zh: "情绪报告", en: "Sentiment Report" },
+  trader_investment_plan: { zh: "交易员计划", en: "Trader Investment Plan" },
+};
+
 function getUiLang() {
   const lang = localStorage.getItem("ui_lang") || "zh";
   return ["zh", "en"].includes(lang) ? lang : "zh";
@@ -44,6 +54,15 @@ function sanitizeHtml(html) {
 
 function normalizeName(name) {
   return (name || "").replaceAll("-", "_").toLowerCase();
+}
+
+function localizeReportName(name, lang) {
+  const key = normalizeName(name);
+  const mapped = REPORT_NAME_MAP[key];
+  if (mapped && mapped[lang]) {
+    return mapped[lang];
+  }
+  return key.replaceAll("_", " ");
 }
 
 function applyViewMode(mode, hasTranslation) {
@@ -72,13 +91,13 @@ function applyViewMode(mode, hasTranslation) {
   translatedWrap.style.display = "block";
 }
 
-function renderModeTabs(uiLang, hasTranslation, onChange) {
+function renderModeTabs(uiLang, hasTranslation, defaultMode, onChange) {
   const t = UI_TEXT[uiLang];
   const host = document.getElementById("view-mode");
   host.innerHTML = `
-    <button class="mode-btn active" data-mode="source">${t.originalOnly}</button>
-    <button class="mode-btn" data-mode="translated" ${hasTranslation ? "" : "disabled"}>${t.translatedOnly}</button>
-    <button class="mode-btn" data-mode="both" ${hasTranslation ? "" : "disabled"}>${t.bilingual}</button>
+    <button class="mode-btn ${defaultMode === "source" ? "active" : ""}" data-mode="source">${t.originalOnly}</button>
+    <button class="mode-btn ${defaultMode === "translated" ? "active" : ""}" data-mode="translated" ${hasTranslation ? "" : "disabled"}>${t.translatedOnly}</button>
+    <button class="mode-btn ${defaultMode === "both" ? "active" : ""}" data-mode="both" ${hasTranslation ? "" : "disabled"}>${t.bilingual}</button>
   `;
 
   const buttons = host.querySelectorAll("button[data-mode]");
@@ -161,7 +180,8 @@ async function renderReport() {
       const norm = normalizeName(f.name);
       const isActive = norm === normalizeName(activeFile.name);
       const href = `./report.html?id=${id}&file=${encodeURIComponent(norm)}`;
-      return `<a class="${isActive ? "active" : ""}" href="${href}">${f.name}</a>`;
+      const label = localizeReportName(f.name, uiLang);
+      return `<a class="${isActive ? "active" : ""}" href="${href}">${label}</a>`;
     })
     .join("");
 
@@ -187,8 +207,9 @@ async function renderReport() {
     translatedContent.innerHTML = `<p>${t.noTranslation}</p>`;
   }
 
-  renderModeTabs(uiLang, hasTranslation, (mode) => applyViewMode(mode, hasTranslation));
-  applyViewMode("source", hasTranslation);
+  const defaultMode = hasTranslation && uiLang === "zh" ? "translated" : "source";
+  renderModeTabs(uiLang, hasTranslation, defaultMode, (mode) => applyViewMode(mode, hasTranslation));
+  applyViewMode(defaultMode, hasTranslation);
 }
 
 renderReport().catch((err) => {
