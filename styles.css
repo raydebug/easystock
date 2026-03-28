@@ -202,3 +202,23 @@ body {
   cursor: not-allowed;
 }
 
+
+.card-status {
+  cursor: default;
+}
+
+.card-status.generating {
+  border-color: #c9a84d;
+  background: #fff8e8;
+}
+
+.card-status.failed {
+  border-color: #cf8b83;
+  background: #fff0ee;
+}
+
+.status-message {
+  font-size: 12px;
+  word-break: break-word;
+}
+

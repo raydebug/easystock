@@ -7,6 +7,10 @@ const UI_TEXT = {
     currentPrice: "当前价格",
     priceDiff: "价格差",
     loadFailed: "加载失败",
+    generating: "正在生成",
+    generatingDesc: "该报告正在生成中，请稍后刷新。",
+    failed: "生成失败",
+    failedDesc: "生成失败，请检查日志后重试。",
   },
   en: {
     title: "Stock Research Report Center",
@@ -16,6 +20,10 @@ const UI_TEXT = {
     currentPrice: "Current Price",
     priceDiff: "Price Change",
     loadFailed: "Load failed",
+    generating: "Generating",
+    generatingDesc: "This report is being generated. Please refresh later.",
+    failed: "Failed",
+    failedDesc: "Generation failed. Check logs and retry.",
   },
 };
 
@@ -63,6 +71,26 @@ function bindLangSwitch(render) {
   });
 }
 
+function renderStatusCard(item, t, status) {
+  const isFailed = status === "failed";
+  const statusLabel = isFailed ? t.failed : t.generating;
+  const statusDesc = isFailed ? t.failedDesc : t.generatingDesc;
+  const msg = item.message ? `<p class="status-message">${item.message}</p>` : "";
+  return `
+    <div class="card card-status ${status}">
+      <div class="card-top">
+        <span class="chip ${isFailed ? "sell" : "hold"}">${statusLabel}</span>
+      </div>
+      <h3>${item.ticker}</h3>
+      <p>${item.date}</p>
+      <div class="price-block">
+        <p>${statusDesc}</p>
+        ${msg}
+      </div>
+    </div>
+  `;
+}
+
 async function renderHome() {
   const lang = getUiLang();
   const t = UI_TEXT[lang];
@@ -81,6 +109,11 @@ async function renderHome() {
 
   root.innerHTML = reports
     .map((item, idx) => {
+      const status = (item.status || "").toLowerCase();
+      if (status === "generating" || status === "failed") {
+        return renderStatusCard(item, t, status);
+      }
+
       const decision = (item.decision || "UNKNOWN").toUpperCase();
       const cls = ["BUY", "SELL", "HOLD"].includes(decision)
         ? decision.toLowerCase()
