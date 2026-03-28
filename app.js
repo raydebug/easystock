@@ -11,6 +11,8 @@ const UI_TEXT = {
     generatingDesc: "该报告正在生成中，请稍后刷新。",
     failed: "生成失败",
     failedDesc: "生成失败，请检查日志后重试。",
+    progress: "进度",
+    elapsed: "已耗时",
   },
   en: {
     title: "Stock Research Report Center",
@@ -24,6 +26,8 @@ const UI_TEXT = {
     generatingDesc: "This report is being generated. Please refresh later.",
     failed: "Failed",
     failedDesc: "Generation failed. Check logs and retry.",
+    progress: "Progress",
+    elapsed: "Elapsed",
   },
 };
 
@@ -56,6 +60,20 @@ function trendClass(v) {
   return v > 0 ? "up" : "down";
 }
 
+function formatElapsed(seconds) {
+  if (typeof seconds !== "number") {
+    return "--";
+  }
+  const sec = Math.max(0, Math.floor(seconds));
+  const s = sec % 60;
+  const m = Math.floor(sec / 60) % 60;
+  const h = Math.floor(sec / 3600);
+  if (h > 0) {
+    return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  }
+  return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
 function bindLangSwitch(render) {
   const lang = getUiLang();
   const holder = document.getElementById("lang-switch");
@@ -76,6 +94,13 @@ function renderStatusCard(item, t, status) {
   const statusLabel = isFailed ? t.failed : t.generating;
   const statusDesc = isFailed ? t.failedDesc : t.generatingDesc;
   const msg = item.message ? `<p class="status-message">${item.message}</p>` : "";
+  const progress = typeof item.progress_pct === "number" ? Math.max(0, Math.min(100, item.progress_pct)) : null;
+  const progressText = progress !== null ? `${progress.toFixed(1)}%` : "--";
+  const elapsedText = formatElapsed(item.elapsed_seconds);
+  const progressBar = progress !== null
+    ? `<div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>`
+    : "";
+
   return `
     <div class="card card-status ${status}">
       <div class="card-top">
@@ -85,6 +110,9 @@ function renderStatusCard(item, t, status) {
       <p>${item.date}</p>
       <div class="price-block">
         <p>${statusDesc}</p>
+        <p><strong>${t.progress}:</strong> ${progressText}</p>
+        <p><strong>${t.elapsed}:</strong> ${elapsedText}</p>
+        ${progressBar}
         ${msg}
       </div>
     </div>
