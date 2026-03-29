@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "COL.AX",
+      "ticker": "STO.AX",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "status": "generating",
+      "message": "Analyzing agents · elapsed 30:59",
+      "progress_pct": 90.0,
+      "elapsed_seconds": 1859,
+      "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "STO.AX",
+      "ticker": "COL.AX",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 29:55",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 1795,
-      "phase": "Analyzing agents",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
