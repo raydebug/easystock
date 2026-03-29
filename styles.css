@@ -237,3 +237,24 @@ body {
   background: linear-gradient(90deg, #e6b750 0%, #d88939 100%);
 }
 
+
+.toolbar {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar label {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+#market-filter {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  padding: 6px 10px;
+  color: var(--ink);
+}
+
