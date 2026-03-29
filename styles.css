@@ -258,3 +258,9 @@ body {
   color: var(--ink);
 }
 
+
+.card-status.queued {
+  border-color: #9ea7d4;
+  background: #f1f4ff;
+}
+

@@ -7,6 +7,8 @@ const UI_TEXT = {
     currentPrice: "当前价格",
     priceDiff: "价格差",
     loadFailed: "加载失败",
+    queued: "排队中",
+    queuedDesc: "该报告已进入队列，等待前序任务完成。",
     generating: "正在生成",
     generatingDesc: "该报告正在生成中，请稍后刷新。",
     failed: "生成失败",
@@ -27,6 +29,8 @@ const UI_TEXT = {
     currentPrice: "Current Price",
     priceDiff: "Price Change",
     loadFailed: "Load failed",
+    queued: "Queued",
+    queuedDesc: "This report is queued and waiting for previous tasks.",
     generating: "Generating",
     generatingDesc: "This report is being generated. Please refresh later.",
     failed: "Failed",
@@ -147,8 +151,9 @@ function bindMarketFilter(render, t) {
 
 function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
-  const statusLabel = isFailed ? t.failed : t.generating;
-  const statusDesc = isFailed ? t.failedDesc : t.generatingDesc;
+  const isQueued = status === "queued";
+  const statusLabel = isFailed ? t.failed : (isQueued ? t.queued : t.generating);
+  const statusDesc = isFailed ? t.failedDesc : (isQueued ? t.queuedDesc : t.generatingDesc);
   const msg = item.message ? `<p class="status-message">${item.message}</p>` : "";
   const progress = typeof item.progress_pct === "number" ? Math.max(0, Math.min(100, item.progress_pct)) : null;
   const progressText = progress !== null ? `${progress.toFixed(1)}%` : "--";
@@ -211,9 +216,9 @@ async function renderHome() {
   }
 
   root.innerHTML = filtered
-    .map((item, idx) => {
+    .map((item) => {
       const status = (item.status || "").toLowerCase();
-      if (status === "generating" || status === "failed") {
+      if (status === "queued" || status === "generating" || status === "failed") {
         return renderStatusCard(item, t, status);
       }
 
