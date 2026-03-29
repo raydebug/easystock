@@ -1,23 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "SFR.AX",
-      "date": "2026-03-28",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 01:23:53",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 5033,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "DRO.AX",
       "date": "2026-03-28",
       "decision": "BUY",
@@ -76,6 +59,68 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/DRO.AX/2026-03-28/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "SFR.AX",
+      "date": "2026-03-28",
+      "decision": "BUY",
+      "pricing": {
+        "report_close": 15.88,
+        "current_price": 15.88,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/SFR.AX/2026-03-28/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/SFR.AX/2026-03-28/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/SFR.AX/2026-03-28/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/SFR.AX/2026-03-28/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/SFR.AX/2026-03-28/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/SFR.AX/2026-03-28/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/SFR.AX/2026-03-28/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-03-28/trader_investment_plan.zh-CN.md"
         }
       ]
     },
