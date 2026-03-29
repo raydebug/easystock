@@ -1,6 +1,40 @@
 {
   "reports": [
     {
+      "ticker": "COL.AX",
+      "date": "2026-03-30",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
+      "ticker": "PME.AX",
+      "date": "2026-03-30",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第2位 / Queued #2",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "DRO.AX",
       "date": "2026-03-28",
       "decision": "BUY",
