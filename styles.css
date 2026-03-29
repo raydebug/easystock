@@ -64,6 +64,18 @@ body {
   font-size: clamp(30px, 4vw, 46px);
 }
 
+.disclaimer {
+  margin: 8px 0 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d46845;
+  background: linear-gradient(90deg, #fff2de 0%, #ffe8de 100%);
+  color: #8b2b11;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 .eyebrow {
   margin: 0;
   text-transform: uppercase;

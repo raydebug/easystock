@@ -6,6 +6,7 @@ const UI_TEXT = {
     reportClose: "报告日收盘",
     currentPrice: "当前价格",
     priceDiff: "价格差",
+    disclaimer: "所有内容由 AI 生成，仅用于学习，不构成任何投资建议。",
     loadFailed: "加载失败",
     queued: "排队中",
     queuedDesc: "该报告已进入队列，等待前序任务完成。",
@@ -30,6 +31,7 @@ const UI_TEXT = {
     reportClose: "Close On Report Date",
     currentPrice: "Current Price",
     priceDiff: "Price Change",
+    disclaimer: "All content is AI-generated for learning only and does not constitute investment advice.",
     loadFailed: "Load failed",
     queued: "Queued",
     queuedDesc: "This report is queued and waiting for previous tasks.",
@@ -227,6 +229,7 @@ async function renderHome() {
   const t = UI_TEXT[lang];
 
   document.getElementById("home-title").textContent = t.title;
+  document.getElementById("disclaimer-banner").textContent = t.disclaimer;
 
   const root = document.getElementById("report-list");
   const resp = await fetch("./data/reports.json");
