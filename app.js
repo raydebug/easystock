@@ -20,6 +20,8 @@ const UI_TEXT = {
     filterUs: "美股",
     filterAu: "澳股",
     filterOther: "其他地区",
+    keywordLabel: "关键词",
+    keywordPlaceholder: "输入代码/日期/状态",
   },
   en: {
     title: "Stock Research Report Center",
@@ -42,6 +44,8 @@ const UI_TEXT = {
     filterUs: "US",
     filterAu: "AU",
     filterOther: "Other",
+    keywordLabel: "Keyword",
+    keywordPlaceholder: "ticker/date/status",
   },
 };
 
@@ -61,6 +65,14 @@ function getMarketFilter() {
 
 function setMarketFilter(filter) {
   localStorage.setItem("market_filter", filter);
+}
+
+function getKeywordFilter() {
+  return (localStorage.getItem("keyword_filter") || "").trim();
+}
+
+function setKeywordFilter(keyword) {
+  localStorage.setItem("keyword_filter", keyword);
 }
 
 function classifyMarket(ticker) {
@@ -149,6 +161,36 @@ function bindMarketFilter(render, t) {
   };
 }
 
+function bindKeywordFilter(render, t) {
+  const input = document.getElementById("keyword-filter");
+  const label = document.getElementById("keyword-filter-label");
+  label.textContent = t.keywordLabel;
+  input.placeholder = t.keywordPlaceholder;
+  input.value = getKeywordFilter();
+  input.oninput = () => {
+    setKeywordFilter(input.value);
+    render();
+  };
+}
+
+function reportMatchesKeyword(item, keyword) {
+  if (!keyword) {
+    return true;
+  }
+  const key = keyword.toLowerCase();
+  const status = String(item.status || "").toLowerCase();
+  const decision = String(item.decision || "").toLowerCase();
+  const haystack = [
+    String(item.ticker || ""),
+    String(item.date || ""),
+    status,
+    decision,
+    String(item.phase || ""),
+    String(item.message || ""),
+  ].join(" ").toLowerCase();
+  return haystack.includes(key);
+}
+
 function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
   const isQueued = status === "queued";
@@ -201,13 +243,19 @@ async function renderHome() {
       root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
     });
   }, t);
+  bindKeywordFilter(() => {
+    renderHome().catch((err) => {
+      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
+    });
+  }, t);
 
   const selectedMarket = getMarketFilter();
+  const keyword = getKeywordFilter();
   const filtered = reports.filter((item) => {
-    if (selectedMarket === "all") {
-      return true;
+    if (selectedMarket !== "all" && classifyMarket(item.ticker) !== selectedMarket) {
+      return false;
     }
-    return classifyMarket(item.ticker) === selectedMarket;
+    return reportMatchesKeyword(item, keyword);
   });
 
   if (filtered.length === 0) {
