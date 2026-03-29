@@ -1,6 +1,6 @@
 const UI_TEXT = {
   zh: {
-    title: "股票研究报告中心",
+    title: "Easy Stock",
     empty: "暂无报告，请先运行 `python scripts/build_pages.py` 生成。",
     reportCount: "份报告",
     reportClose: "报告日收盘",
@@ -25,7 +25,7 @@ const UI_TEXT = {
     keywordPlaceholder: "输入代码/日期/状态",
   },
   en: {
-    title: "Stock Research Report Center",
+    title: "Easy Stock",
     empty: "No reports yet. Run `python scripts/build_pages.py` first.",
     reportCount: "reports",
     reportClose: "Close On Report Date",
