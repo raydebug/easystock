@@ -13,6 +13,11 @@ const UI_TEXT = {
     failedDesc: "生成失败，请检查日志后重试。",
     progress: "进度",
     elapsed: "已耗时",
+    filterLabel: "市场过滤",
+    filterAll: "全部",
+    filterUs: "美股",
+    filterAu: "澳股",
+    filterOther: "其他地区",
   },
   en: {
     title: "Stock Research Report Center",
@@ -28,6 +33,11 @@ const UI_TEXT = {
     failedDesc: "Generation failed. Check logs and retry.",
     progress: "Progress",
     elapsed: "Elapsed",
+    filterLabel: "Market Filter",
+    filterAll: "All",
+    filterUs: "US",
+    filterAu: "AU",
+    filterOther: "Other",
   },
 };
 
@@ -38,6 +48,26 @@ function getUiLang() {
 
 function setUiLang(lang) {
   localStorage.setItem("ui_lang", lang);
+}
+
+function getMarketFilter() {
+  const filter = localStorage.getItem("market_filter") || "all";
+  return ["all", "us", "au", "other"].includes(filter) ? filter : "all";
+}
+
+function setMarketFilter(filter) {
+  localStorage.setItem("market_filter", filter);
+}
+
+function classifyMarket(ticker) {
+  const symbol = String(ticker || "").toUpperCase();
+  if (symbol.endsWith(".AX")) {
+    return "au";
+  }
+  if (symbol.includes(".")) {
+    return "other";
+  }
+  return "us";
 }
 
 function fmtPrice(v) {
@@ -89,6 +119,32 @@ function bindLangSwitch(render) {
   });
 }
 
+function bindMarketFilter(render, t) {
+  const select = document.getElementById("market-filter");
+  const label = document.getElementById("market-filter-label");
+  label.textContent = t.filterLabel;
+
+  const options = {
+    all: t.filterAll,
+    us: t.filterUs,
+    au: t.filterAu,
+    other: t.filterOther,
+  };
+
+  select.querySelectorAll("option").forEach((opt) => {
+    const key = opt.value;
+    if (options[key]) {
+      opt.textContent = options[key];
+    }
+  });
+
+  select.value = getMarketFilter();
+  select.onchange = () => {
+    setMarketFilter(select.value);
+    render();
+  };
+}
+
 function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
   const statusLabel = isFailed ? t.failed : t.generating;
@@ -130,12 +186,31 @@ async function renderHome() {
   const data = await resp.json();
   const reports = data.reports || [];
 
-  if (reports.length === 0) {
+  bindLangSwitch(() => {
+    renderHome().catch((err) => {
+      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
+    });
+  });
+  bindMarketFilter(() => {
+    renderHome().catch((err) => {
+      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
+    });
+  }, t);
+
+  const selectedMarket = getMarketFilter();
+  const filtered = reports.filter((item) => {
+    if (selectedMarket === "all") {
+      return true;
+    }
+    return classifyMarket(item.ticker) === selectedMarket;
+  });
+
+  if (filtered.length === 0) {
     root.innerHTML = `<p>${t.empty}</p>`;
     return;
   }
 
-  root.innerHTML = reports
+  root.innerHTML = filtered
     .map((item, idx) => {
       const status = (item.status || "").toLowerCase();
       if (status === "generating" || status === "failed") {
@@ -149,8 +224,9 @@ async function renderHome() {
 
       const pricing = item.pricing || {};
       const diffCls = trendClass(pricing.price_diff);
+      const originalIdx = reports.indexOf(item);
+      const link = `./report.html?id=${originalIdx}&file=final_trade_decision`;
 
-      const link = `./report.html?id=${idx}&file=final_trade_decision`;
       return `
         <a class="card" href="${link}">
           <div class="card-top">
@@ -168,12 +244,6 @@ async function renderHome() {
       `;
     })
     .join("");
-
-  bindLangSwitch(() => {
-    renderHome().catch((err) => {
-      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
-    });
-  });
 }
 
 renderHome().catch((err) => {
