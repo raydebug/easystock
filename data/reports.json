@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "CBA.AX",
+      "ticker": "HK",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "status": "generating",
+      "message": "Analyzing agents · elapsed 41:03",
+      "progress_pct": 90.0,
+      "elapsed_seconds": 2463,
+      "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "HK",
+      "ticker": "CBA.AX",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 40:00",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 2400,
-      "phase": "Analyzing agents",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
