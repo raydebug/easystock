@@ -1,0 +1,3 @@
+I notice that you mentioned "HK" as the company ticker symbol, but I need clarification on which specific company this represents. Could you please provide the complete ticker symbol or the company name you'd like me to analyze for your social media and news analysis? 
+
+For example, if it's a stock like HK stock, that would be helpful for me to retrieve the appropriate news data and perform the comprehensive analysis you requested.

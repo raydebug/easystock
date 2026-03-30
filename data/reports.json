@@ -1,48 +1,16 @@
 {
   "reports": [
     {
-      "ticker": "HK",
-      "date": "2026-03-30",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 58:08",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 3488,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "CBA.AX",
-      "date": "2026-03-30",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "DRO.AX",
+      "company_name": "DroneShield Limited",
       "date": "2026-03-28",
       "decision": "BUY",
       "pricing": {
+        "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 3.93,
-        "price_diff": 0.05,
-        "price_diff_pct": 1.2887
+        "current_price": 3.92,
+        "price_diff": 0.04,
+        "price_diff_pct": 1.0309
       },
       "files": [
         {
@@ -97,14 +65,80 @@
       ]
     },
     {
+      "ticker": "HK",
+      "company_name": null,
+      "date": "2026-03-30",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": null,
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/HK/2026-03-30/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/HK/2026-03-30/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/HK/2026-03-30/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/HK/2026-03-30/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/HK/2026-03-30/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/HK/2026-03-30/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/HK/2026-03-30/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/HK/2026-03-30/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "KAR.AX",
+      "company_name": "Karoon Energy Ltd",
       "date": "2026-03-28",
       "decision": "BUY",
       "pricing": {
+        "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 2.175,
-        "price_diff": 0.155,
-        "price_diff_pct": 7.6733
+        "current_price": 2.13,
+        "price_diff": 0.11,
+        "price_diff_pct": 5.4455
       },
       "files": [
         {
@@ -160,9 +194,11 @@
     },
     {
       "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
       "date": "2026-03-30",
       "decision": "BUY",
       "pricing": {
+        "company_name": "Microsoft Corporation",
         "report_close": 356.77,
         "current_price": 356.77,
         "price_diff": 0.0,
@@ -222,13 +258,15 @@
     },
     {
       "ticker": "NXT.AX",
+      "company_name": "NEXTDC Limited",
       "date": "2026-03-30",
       "decision": "SELL",
       "pricing": {
-        "report_close": 11.04,
-        "current_price": 11.04,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "company_name": "NEXTDC Limited",
+        "report_close": 11.18,
+        "current_price": 11.18,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
       },
       "files": [
         {
@@ -284,13 +322,15 @@
     },
     {
       "ticker": "ORG.AX",
+      "company_name": "Origin Energy Limited",
       "date": "2026-03-28",
       "decision": "SELL",
       "pricing": {
+        "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.595,
-        "price_diff": 0.135,
-        "price_diff_pct": 1.0835
+        "current_price": 12.56,
+        "price_diff": 0.1,
+        "price_diff_pct": 0.8026
       },
       "files": [
         {
@@ -346,13 +386,15 @@
     },
     {
       "ticker": "SFR.AX",
+      "company_name": "Sandfire Resources Limited",
       "date": "2026-03-28",
       "decision": "HOLD",
       "pricing": {
+        "company_name": "Sandfire Resources Limited",
         "report_close": 15.88,
-        "current_price": 15.83,
-        "price_diff": -0.05,
-        "price_diff_pct": -0.3149
+        "current_price": 15.89,
+        "price_diff": 0.01,
+        "price_diff_pct": 0.063
       },
       "files": [
         {
@@ -408,9 +450,11 @@
     },
     {
       "ticker": "SMCI",
+      "company_name": "Super Micro Computer, Inc.",
       "date": "2026-03-22",
       "decision": "SELL",
       "pricing": {
+        "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
         "current_price": 21.97,
         "price_diff": 1.44,
@@ -470,13 +514,15 @@
     },
     {
       "ticker": "STO.AX",
+      "company_name": "Santos Limited",
       "date": "2026-03-30",
       "decision": "BUY",
       "pricing": {
-        "report_close": 8.13,
-        "current_price": 8.13,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "company_name": "Santos Limited",
+        "report_close": 8.07,
+        "current_price": 8.07,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -532,9 +578,11 @@
     },
     {
       "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
       "date": "2026-03-22",
       "decision": "SELL",
       "pricing": {
+        "company_name": "Tesla, Inc.",
         "report_close": 367.96,
         "current_price": 361.83,
         "price_diff": -6.13,
@@ -594,13 +642,15 @@
     },
     {
       "ticker": "WDS.AX",
+      "company_name": "Woodside Energy Group Ltd",
       "date": "2026-03-28",
       "decision": "BUY",
       "pricing": {
+        "company_name": "Woodside Energy Group Ltd",
         "report_close": 34.47,
-        "current_price": 35.39,
-        "price_diff": 0.92,
-        "price_diff_pct": 2.669
+        "current_price": 35.22,
+        "price_diff": 0.75,
+        "price_diff_pct": 2.1758
       },
       "files": [
         {
@@ -656,13 +706,15 @@
     },
     {
       "ticker": "WTC.AX",
+      "company_name": "WiseTech Global Limited",
       "date": "2026-03-28",
       "decision": "BUY",
       "pricing": {
+        "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 36.23,
-        "price_diff": -2.13,
-        "price_diff_pct": -5.5527
+        "current_price": 36.48,
+        "price_diff": -1.88,
+        "price_diff_pct": -4.9009
       },
       "files": [
         {
