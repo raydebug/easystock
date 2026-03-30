@@ -3,12 +3,12 @@
     {
       "ticker": "ZIP.AX",
       "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 04:16:44",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 15404,
-      "phase": "Analyzing agents",
+      "decision": "FAILED",
+      "status": "failed",
+      "message": "Connection error.",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 499,
+      "phase": "Failed",
       "pricing": {
         "report_close": null,
         "current_price": null,
