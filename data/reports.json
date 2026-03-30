@@ -1,23 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "CBA.AX",
-      "date": "2026-03-30",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 15:00",
-      "progress_pct": 70.0,
-      "elapsed_seconds": 900,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "DRO.AX",
       "company_name": "DroneShield Limited",
       "date": "2026-03-28",
@@ -25,9 +8,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 3.92,
-        "price_diff": 0.04,
-        "price_diff_pct": 1.0309
+        "current_price": 3.91,
+        "price_diff": 0.03,
+        "price_diff_pct": 0.7732
       },
       "files": [
         {
@@ -82,70 +65,6 @@
       ]
     },
     {
-      "ticker": "HK",
-      "company_name": null,
-      "date": "2026-03-30",
-      "decision": "HOLD",
-      "pricing": {
-        "company_name": null,
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [
-        {
-          "name": "final_trade_decision",
-          "path": "reports/HK/2026-03-30/final_trade_decision.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/final_trade_decision.zh-CN.md"
-        },
-        {
-          "name": "fundamentals_report",
-          "path": "reports/HK/2026-03-30/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/HK/2026-03-30/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/HK/2026-03-30/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/HK/2026-03-30/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/HK/2026-03-30/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/sentiment_report.zh-CN.md"
-        },
-        {
-          "name": "trader_investment_plan",
-          "path": "reports/HK/2026-03-30/trader_investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/HK/2026-03-30/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
       "ticker": "KAR.AX",
       "company_name": "Karoon Energy Ltd",
       "date": "2026-03-28",
@@ -153,9 +72,9 @@
       "pricing": {
         "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 2.13,
-        "price_diff": 0.11,
-        "price_diff_pct": 5.4455
+        "current_price": 2.14,
+        "price_diff": 0.12,
+        "price_diff_pct": 5.9406
       },
       "files": [
         {
@@ -280,10 +199,10 @@
       "decision": "SELL",
       "pricing": {
         "company_name": "NEXTDC Limited",
-        "report_close": 11.18,
-        "current_price": 11.18,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "report_close": 11.28,
+        "current_price": 11.28,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -345,9 +264,9 @@
       "pricing": {
         "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.56,
-        "price_diff": 0.1,
-        "price_diff_pct": 0.8026
+        "current_price": 12.55,
+        "price_diff": 0.09,
+        "price_diff_pct": 0.7223
       },
       "files": [
         {
@@ -409,9 +328,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 15.88,
-        "current_price": 15.89,
-        "price_diff": 0.01,
-        "price_diff_pct": 0.063
+        "current_price": 15.93,
+        "price_diff": 0.05,
+        "price_diff_pct": 0.3149
       },
       "files": [
         {
@@ -536,10 +455,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Santos Limited",
-        "report_close": 8.07,
-        "current_price": 8.07,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "report_close": 8.05,
+        "current_price": 8.05,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
       },
       "files": [
         {
@@ -729,9 +648,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 36.48,
-        "price_diff": -1.88,
-        "price_diff_pct": -4.9009
+        "current_price": 36.53,
+        "price_diff": -1.83,
+        "price_diff_pct": -4.7706
       },
       "files": [
         {
