@@ -1,31 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "NXT.AX",
-      "date": "2026-03-30",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 01:17:05",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 4625,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "DRO.AX",
       "date": "2026-03-28",
       "decision": "BUY",
       "pricing": {
         "report_close": 3.88,
-        "current_price": 3.99,
-        "price_diff": 0.11,
-        "price_diff_pct": 2.835
+        "current_price": 3.93,
+        "price_diff": 0.05,
+        "price_diff_pct": 1.2887
       },
       "files": [
         {
@@ -85,9 +68,9 @@
       "decision": "BUY",
       "pricing": {
         "report_close": 2.02,
-        "current_price": 2.14,
-        "price_diff": 0.12,
-        "price_diff_pct": 5.9406
+        "current_price": 2.175,
+        "price_diff": 0.155,
+        "price_diff_pct": 7.6733
       },
       "files": [
         {
@@ -204,14 +187,76 @@
       ]
     },
     {
+      "ticker": "NXT.AX",
+      "date": "2026-03-30",
+      "decision": "SELL",
+      "pricing": {
+        "report_close": 11.04,
+        "current_price": 11.04,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/NXT.AX/2026-03-30/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/NXT.AX/2026-03-30/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/NXT.AX/2026-03-30/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/NXT.AX/2026-03-30/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/NXT.AX/2026-03-30/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/NXT.AX/2026-03-30/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/NXT.AX/2026-03-30/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NXT.AX/2026-03-30/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "ORG.AX",
       "date": "2026-03-28",
       "decision": "SELL",
       "pricing": {
         "report_close": 12.46,
-        "current_price": 12.52,
-        "price_diff": 0.06,
-        "price_diff_pct": 0.4815
+        "current_price": 12.595,
+        "price_diff": 0.135,
+        "price_diff_pct": 1.0835
       },
       "files": [
         {
@@ -271,9 +316,9 @@
       "decision": "HOLD",
       "pricing": {
         "report_close": 15.88,
-        "current_price": 15.86,
-        "price_diff": -0.02,
-        "price_diff_pct": -0.1259
+        "current_price": 15.83,
+        "price_diff": -0.05,
+        "price_diff_pct": -0.3149
       },
       "files": [
         {
@@ -394,10 +439,10 @@
       "date": "2026-03-30",
       "decision": "BUY",
       "pricing": {
-        "report_close": 8.07,
-        "current_price": 8.07,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "report_close": 8.13,
+        "current_price": 8.13,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
       },
       "files": [
         {
@@ -519,9 +564,9 @@
       "decision": "BUY",
       "pricing": {
         "report_close": 34.47,
-        "current_price": 35.29,
-        "price_diff": 0.82,
-        "price_diff_pct": 2.3789
+        "current_price": 35.39,
+        "price_diff": 0.92,
+        "price_diff_pct": 2.669
       },
       "files": [
         {
@@ -581,9 +626,9 @@
       "decision": "BUY",
       "pricing": {
         "report_close": 38.36,
-        "current_price": 36.36,
-        "price_diff": -2.0,
-        "price_diff_pct": -5.2138
+        "current_price": 36.23,
+        "price_diff": -2.13,
+        "price_diff_pct": -5.5527
       },
       "files": [
         {
