@@ -117,6 +117,14 @@ body {
   font-size: 22px;
 }
 
+.card .company-name {
+  margin: 2px 0 0;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
 .chip {
   display: inline-block;
   border-radius: 99px;
