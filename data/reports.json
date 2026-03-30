@@ -1,33 +1,16 @@
 {
   "reports": [
     {
-      "ticker": "XRO.AX",
-      "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 01:08:22",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 4102,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
       "decision": "BUY",
       "pricing": {
         "company_name": "Xiaomi Corporation",
-        "report_close": 32.38,
+        "report_close": 33.0,
         "current_price": 32.38,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "price_diff": -0.62,
+        "price_diff_pct": -1.8788
       },
       "files": [
         {
@@ -344,8 +327,8 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Microsoft Corporation",
-        "report_close": 356.77,
-        "current_price": 356.77,
+        "report_close": 359.56,
+        "current_price": 359.56,
         "price_diff": 0.0,
         "price_diff_pct": 0.0
       },
@@ -601,9 +584,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 21.97,
-        "price_diff": 1.44,
-        "price_diff_pct": 7.0141
+        "current_price": 21.18,
+        "price_diff": 0.65,
+        "price_diff_pct": 3.1661
       },
       "files": [
         {
@@ -729,9 +712,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 361.83,
-        "price_diff": -6.13,
-        "price_diff_pct": -1.6659
+        "current_price": 357.97,
+        "price_diff": -9.99,
+        "price_diff_pct": -2.715
       },
       "files": [
         {
@@ -910,6 +893,70 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/WTC.AX/2026-03-28/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "XRO.AX",
+      "company_name": "Xero Limited",
+      "date": "2026-03-31",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "Xero Limited",
+        "report_close": 70.5,
+        "current_price": 70.5,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/XRO.AX/2026-03-31/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/XRO.AX/2026-03-31/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/XRO.AX/2026-03-31/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/XRO.AX/2026-03-31/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/XRO.AX/2026-03-31/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/XRO.AX/2026-03-31/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/XRO.AX/2026-03-31/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-03-31/trader_investment_plan.zh-CN.md"
         }
       ]
     }
