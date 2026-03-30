@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "ZIP.AX",
+      "ticker": "360.AX",
       "date": "2026-03-31",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 04:15:41",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 15341,
-      "phase": "Analyzing agents",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "360.AX",
+      "ticker": "ZIP.AX",
       "date": "2026-03-31",
       "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "status": "generating",
+      "message": "Analyzing agents · elapsed 04:15:41",
+      "progress_pct": 90.0,
+      "elapsed_seconds": 15341,
+      "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
