@@ -3,12 +3,12 @@
     {
       "ticker": "360.AX",
       "date": "2026-03-31",
-      "decision": "FAILED",
-      "status": "failed",
-      "message": "Connection error.",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 18,
-      "phase": "Failed",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Starting generation ...",
+      "progress_pct": 5.0,
+      "elapsed_seconds": 0,
+      "phase": "Starting",
       "pricing": {
         "report_close": null,
         "current_price": null,
