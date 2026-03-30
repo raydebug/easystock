@@ -3,6 +3,23 @@
     {
       "ticker": "360.AX",
       "date": "2026-03-31",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
+      "ticker": "360.AX",
+      "date": "2026-03-31",
       "decision": "FAILED",
       "status": "failed",
       "message": "Connection error.",
