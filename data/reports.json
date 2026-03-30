@@ -1,50 +1,16 @@
 {
   "reports": [
     {
-      "ticker": "360.AX",
-      "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 01:11:09",
-      "progress_pct": 90.0,
-      "elapsed_seconds": 4269,
-      "phase": "Analyzing agents",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "ZIP.AX",
-      "date": "2026-03-31",
-      "decision": "FAILED",
-      "status": "failed",
-      "message": "Connection error.",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 499,
-      "phase": "Failed",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
       "decision": "BUY",
       "pricing": {
         "company_name": "Xiaomi Corporation",
-        "report_close": 33.0,
+        "report_close": 32.38,
         "current_price": 32.38,
-        "price_diff": -0.62,
-        "price_diff_pct": -1.8788
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
       },
       "files": [
         {
@@ -95,6 +61,70 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/1810.HK/2026-03-30/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "360.AX",
+      "company_name": "Life360, Inc.",
+      "date": "2026-03-31",
+      "decision": "SELL",
+      "pricing": {
+        "company_name": "Life360, Inc.",
+        "report_close": 18.08,
+        "current_price": 18.08,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/360.AX/2026-03-31/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/360.AX/2026-03-31/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/360.AX/2026-03-31/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/360.AX/2026-03-31/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/360.AX/2026-03-31/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/360.AX/2026-03-31/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/360.AX/2026-03-31/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/360.AX/2026-03-31/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -169,10 +199,10 @@
       "decision": "HOLD",
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
-        "report_close": 168.72,
-        "current_price": 168.72,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "report_close": 168.84,
+        "current_price": 168.84,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -234,9 +264,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 3.91,
-        "price_diff": 0.03,
-        "price_diff_pct": 0.7732
+        "current_price": 3.9,
+        "price_diff": 0.02,
+        "price_diff_pct": 0.5155
       },
       "files": [
         {
@@ -298,9 +328,9 @@
       "pricing": {
         "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 2.14,
-        "price_diff": 0.12,
-        "price_diff_pct": 5.9406
+        "current_price": 2.16,
+        "price_diff": 0.14,
+        "price_diff_pct": 6.9307
       },
       "files": [
         {
@@ -361,8 +391,8 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Microsoft Corporation",
-        "report_close": 359.56,
-        "current_price": 359.56,
+        "report_close": 358.96,
+        "current_price": 358.96,
         "price_diff": 0.0,
         "price_diff_pct": 0.0
       },
@@ -490,9 +520,9 @@
       "pricing": {
         "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.55,
-        "price_diff": 0.09,
-        "price_diff_pct": 0.7223
+        "current_price": 12.56,
+        "price_diff": 0.1,
+        "price_diff_pct": 0.8026
       },
       "files": [
         {
@@ -554,9 +584,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 15.88,
-        "current_price": 15.93,
-        "price_diff": 0.05,
-        "price_diff_pct": 0.3149
+        "current_price": 15.59,
+        "price_diff": -0.29,
+        "price_diff_pct": -1.8262
       },
       "files": [
         {
@@ -618,9 +648,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 21.18,
-        "price_diff": 0.65,
-        "price_diff_pct": 3.1661
+        "current_price": 21.06,
+        "price_diff": 0.53,
+        "price_diff_pct": 2.5816
       },
       "files": [
         {
@@ -681,10 +711,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Santos Limited",
-        "report_close": 8.05,
-        "current_price": 8.05,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "report_close": 8.12,
+        "current_price": 8.12,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -746,9 +776,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 357.97,
-        "price_diff": -9.99,
-        "price_diff_pct": -2.715
+        "current_price": 355.28,
+        "price_diff": -12.68,
+        "price_diff_pct": -3.446
       },
       "files": [
         {
@@ -810,9 +840,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 34.47,
-        "current_price": 35.22,
-        "price_diff": 0.75,
-        "price_diff_pct": 2.1758
+        "current_price": 35.56,
+        "price_diff": 1.09,
+        "price_diff_pct": 3.1622
       },
       "files": [
         {
@@ -874,9 +904,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 36.53,
-        "price_diff": -1.83,
-        "price_diff_pct": -4.7706
+        "current_price": 37.58,
+        "price_diff": -0.78,
+        "price_diff_pct": -2.0334
       },
       "files": [
         {
@@ -937,8 +967,8 @@
       "decision": "HOLD",
       "pricing": {
         "company_name": "Xero Limited",
-        "report_close": 70.5,
-        "current_price": 70.5,
+        "report_close": 72.09,
+        "current_price": 72.09,
         "price_diff": 0.0,
         "price_diff_pct": 0.0
       },
