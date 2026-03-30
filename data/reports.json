@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "BOQ.AX",
+      "ticker": "1810.HK",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "status": "generating",
+      "message": "Analyzing agents · elapsed 07:32",
+      "progress_pct": 40.0,
+      "elapsed_seconds": 452,
+      "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "1810.HK",
+      "ticker": "BOQ.AX",
       "date": "2026-03-30",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 06:28",
-      "progress_pct": 35.0,
-      "elapsed_seconds": 388,
-      "phase": "Analyzing agents",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
