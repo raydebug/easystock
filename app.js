@@ -184,6 +184,7 @@ function reportMatchesKeyword(item, keyword) {
   const decision = String(item.decision || "").toLowerCase();
   const haystack = [
     String(item.ticker || ""),
+    String(item.company_name || ""),
     String(item.date || ""),
     status,
     decision,
@@ -212,6 +213,7 @@ function renderStatusCard(item, t, status) {
         <span class="chip ${isFailed ? "sell" : "hold"}">${statusLabel}</span>
       </div>
       <h3>${item.ticker}</h3>
+      ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
       <p>${item.date}</p>
       <div class="price-block">
         <p>${statusDesc}</p>
@@ -289,6 +291,7 @@ async function renderHome() {
             <span class="chip ${cls}">${decision}</span>
           </div>
           <h3>${item.ticker}</h3>
+          ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
           <p>${item.date}</p>
           <div class="price-block">
             <p>${t.reportClose}：<strong>${fmtPrice(pricing.report_close)}</strong></p>
