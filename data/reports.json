@@ -3,12 +3,12 @@
     {
       "ticker": "NXT.AD",
       "date": "2026-03-30",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · elapsed 00:03",
-      "progress_pct": 10.0,
-      "elapsed_seconds": 3,
-      "phase": "Analyzing agents",
+      "decision": "FAILED",
+      "status": "failed",
+      "message": "module 'curl_cffi.requests' has no attribute 'exceptions'",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 50,
+      "phase": "Failed",
       "pricing": {
         "report_close": null,
         "current_price": null,
