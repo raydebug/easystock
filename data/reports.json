@@ -5,9 +5,9 @@
       "date": "2026-03-31",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · elapsed 03:54:26",
+      "message": "Analyzing agents · elapsed 03:55:29",
       "progress_pct": 90.0,
-      "elapsed_seconds": 14066,
+      "elapsed_seconds": 14129,
       "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
