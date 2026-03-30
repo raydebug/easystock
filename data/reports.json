@@ -18,23 +18,6 @@
       "files": []
     },
     {
-      "ticker": "NXT.AD",
-      "date": "2026-03-30",
-      "decision": "FAILED",
-      "status": "failed",
-      "message": "module 'curl_cffi.requests' has no attribute 'exceptions'",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 50,
-      "phase": "Failed",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "DRO.AX",
       "date": "2026-03-28",
       "decision": "BUY",
