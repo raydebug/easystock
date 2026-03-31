@@ -5,10 +5,10 @@
       "date": "2026-03-31",
       "decision": "PENDING",
       "status": "generating",
-      "message": "2/5 Analyzing agents · elapsed 07:30",
+      "message": "2/5 Analyzing: Final Decision · live",
       "progress_pct": 40.0,
-      "elapsed_seconds": 450,
-      "phase": "2/5 Analyzing agents",
+      "elapsed_seconds": 463,
+      "phase": "2/5 Analyzing: Final Decision",
       "pricing": {
         "report_close": null,
         "current_price": null,
