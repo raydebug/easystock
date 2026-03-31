@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "ALD.AX",
+      "ticker": "EIQ.AX",
       "date": "2026-03-31",
       "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "status": "generating",
+      "message": "2/5 Analyzing agents · elapsed 26:20",
+      "progress_pct": 90.0,
+      "elapsed_seconds": 1580,
+      "phase": "2/5 Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "EIQ.AX",
+      "ticker": "ALD.AX",
       "date": "2026-03-31",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "1/5 Starting · elapsed 00:04",
-      "progress_pct": 10.0,
-      "elapsed_seconds": 4,
-      "phase": "1/5 Starting",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
