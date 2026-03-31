@@ -5,9 +5,9 @@
       "date": "2026-03-31",
       "decision": "PENDING",
       "status": "generating",
-      "message": "2/5 Analyzing: Market Analyst · live",
-      "progress_pct": 20.0,
-      "elapsed_seconds": 150,
+      "message": "2/5 Analyzing: Market Analyst · elapsed 03:15",
+      "progress_pct": 23.0,
+      "elapsed_seconds": 195,
       "phase": "2/5 Analyzing: Market Analyst",
       "pricing": {
         "report_close": null,
