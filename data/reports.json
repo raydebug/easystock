@@ -1,6 +1,23 @@
 {
   "reports": [
     {
+      "ticker": "TLX.AX",
+      "date": "2026-03-31",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "2/5 Analyzing agents · elapsed 22:42",
+      "progress_pct": 90.0,
+      "elapsed_seconds": 1362,
+      "phase": "2/5 Analyzing agents",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
