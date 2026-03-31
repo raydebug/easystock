@@ -3,12 +3,12 @@
     {
       "ticker": "ALD.AX",
       "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "2/5 Analyzing: Market Analyst · elapsed 15:00",
-      "progress_pct": 70.0,
-      "elapsed_seconds": 0,
-      "phase": "2/5 Analyzing: Market Analyst",
+      "decision": "FAILED",
+      "status": "failed",
+      "message": "任务超时，已终止（>120 分钟）。\nTimed out and killed (>120 min).",
+      "progress_pct": 0.0,
+      "elapsed_seconds": null,
+      "phase": "Failed",
       "pricing": {
         "report_close": null,
         "current_price": null,
