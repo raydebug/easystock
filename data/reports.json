@@ -1,14 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "EIQ.AX",
+      "ticker": "ALD.AX",
       "date": "2026-03-31",
-      "decision": "FAILED",
-      "status": "failed",
-      "message": "'NoneType' object is not subscriptable",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1",
       "progress_pct": 0.0,
-      "elapsed_seconds": 407,
-      "phase": "Failed",
+      "elapsed_seconds": 0,
+      "phase": "Queued",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,14 +18,14 @@
       "files": []
     },
     {
-      "ticker": "ALD.AX",
+      "ticker": "EIQ.AX",
       "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
+      "decision": "FAILED",
+      "status": "failed",
+      "message": "'NoneType' object is not subscriptable",
       "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
+      "elapsed_seconds": 407,
+      "phase": "Failed",
       "pricing": {
         "report_close": null,
         "current_price": null,
