@@ -5,10 +5,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "2/5 Analyzing: Market Analyst · elapsed 29:00",
-      "progress_pct": 90.0,
+      "message": "Generating ...",
+      "progress_pct": 10.0,
       "elapsed_seconds": 0,
-      "phase": "2/5 Analyzing: Market Analyst",
+      "phase": "Generating",
       "pricing": {
         "report_close": null,
         "current_price": null,
