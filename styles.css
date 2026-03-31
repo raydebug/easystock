@@ -76,6 +76,20 @@ body {
   line-height: 1.45;
 }
 
+.summary-bar {
+  margin: 8px 0 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #f2fbf8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  color: var(--ink);
+  font-size: 14px;
+}
+
 .eyebrow {
   margin: 0;
   text-transform: uppercase;

@@ -23,6 +23,11 @@ const UI_TEXT = {
     filterOther: "其他地区",
     keywordLabel: "关键词",
     keywordPlaceholder: "输入代码/日期/状态",
+    pnlTitle: "报告盈亏指数",
+    pnlIndex: "指数",
+    pnlSamples: "样本",
+    pnlWins: "正确",
+    pnlLosses: "错误",
   },
   en: {
     title: "Easy Stock",
@@ -48,6 +53,11 @@ const UI_TEXT = {
     filterOther: "Other",
     keywordLabel: "Keyword",
     keywordPlaceholder: "ticker/date/status",
+    pnlTitle: "Report PnL Index",
+    pnlIndex: "Index",
+    pnlSamples: "Samples",
+    pnlWins: "Wins",
+    pnlLosses: "Losses",
   },
 };
 
@@ -106,6 +116,32 @@ function trendClass(v) {
     return "flat";
   }
   return v > 0 ? "up" : "down";
+}
+
+function fmtPct(v) {
+  if (typeof v !== "number") {
+    return "--";
+  }
+  const sign = v > 0 ? "+" : "";
+  return `${sign}${v.toFixed(2)}%`;
+}
+
+function renderPnlSummary(summary, t) {
+  const holder = document.getElementById("pnl-summary");
+  if (!holder) {
+    return;
+  }
+  const indexVal = fmtPct(summary && summary.pnl_index);
+  const count = (summary && typeof summary.valid_reports === "number") ? summary.valid_reports : 0;
+  const wins = (summary && typeof summary.wins === "number") ? summary.wins : 0;
+  const losses = (summary && typeof summary.losses === "number") ? summary.losses : 0;
+  holder.innerHTML = `
+    <strong>${t.pnlTitle}</strong>
+    <span>${t.pnlIndex}: <b>${indexVal}</b></span>
+    <span>${t.pnlSamples}: <b>${count}</b></span>
+    <span>${t.pnlWins}: <b>${wins}</b></span>
+    <span>${t.pnlLosses}: <b>${losses}</b></span>
+  `;
 }
 
 function formatElapsed(seconds) {
@@ -237,6 +273,7 @@ async function renderHome() {
   const resp = await fetch("./data/reports.json");
   const data = await resp.json();
   const reports = data.reports || [];
+  renderPnlSummary(data.summary || {}, t);
 
   bindLangSwitch(() => {
     renderHome().catch((err) => {
