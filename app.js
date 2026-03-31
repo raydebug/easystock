@@ -319,10 +319,6 @@ async function renderHome() {
   const resp = await fetch("./data/reports.json");
   const data = await resp.json();
   const reports = data.reports || [];
-  const summary = (data.summary && Object.keys(data.summary).length > 0)
-    ? data.summary
-    : computePnlSummaryFallback(reports);
-  renderPnlSummary(summary, t);
 
   bindLangSwitch(() => {
     renderHome().catch((err) => {
@@ -342,12 +338,14 @@ async function renderHome() {
 
   const selectedMarket = getMarketFilter();
   const keyword = getKeywordFilter();
-  const filtered = reports.filter((item) => {
+  const marketFiltered = reports.filter((item) => {
     if (selectedMarket !== "all" && classifyMarket(item.ticker) !== selectedMarket) {
       return false;
     }
-    return reportMatchesKeyword(item, keyword);
+    return true;
   });
+  const filtered = marketFiltered.filter((item) => reportMatchesKeyword(item, keyword));
+  renderPnlSummary(computePnlSummaryFallback(marketFiltered), t);
 
   if (filtered.length === 0) {
     root.innerHTML = `<p>${t.empty}</p>`;
