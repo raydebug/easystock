@@ -3,12 +3,12 @@
     {
       "ticker": "ALD.AX",
       "date": "2026-03-31",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "2/5 Analyzing: Market Analyst · elapsed 09:36",
-      "progress_pct": 48.0,
-      "elapsed_seconds": 576,
-      "phase": "2/5 Analyzing: Market Analyst",
+      "decision": "FAILED",
+      "status": "failed",
+      "message": "'charmap' codec can't encode character '\\U0001f4c8' in position 672: character maps to <undefined>",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 608,
+      "phase": "Failed",
       "pricing": {
         "report_close": null,
         "current_price": null,
