@@ -1,23 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "ALD.AX",
-      "date": "2026-04-01",
-      "decision": "FAILED",
-      "status": "failed",
-      "message": "Generation failed. Check log file.",
-      "progress_pct": 0.0,
-      "elapsed_seconds": null,
-      "phase": "Failed",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
