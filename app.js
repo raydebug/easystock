@@ -144,6 +144,52 @@ function renderPnlSummary(summary, t) {
   `;
 }
 
+function computePnlSummaryFallback(reports) {
+  const holdBand = 1.0;
+  const scores = [];
+  let wins = 0;
+  let losses = 0;
+
+  (reports || []).forEach((item) => {
+    const status = String(item.status || "").toLowerCase();
+    if (["queued", "generating", "failed"].includes(status)) {
+      return;
+    }
+    const decision = String(item.decision || "UNKNOWN").toUpperCase();
+    const pricing = item.pricing || {};
+    const pct = pricing.price_diff_pct;
+    if (typeof pct !== "number") {
+      return;
+    }
+
+    let score = null;
+    if (decision === "BUY") {
+      score = pct > 0 ? Math.abs(pct) : -Math.abs(pct);
+    } else if (decision === "SELL") {
+      score = pct < 0 ? Math.abs(pct) : -Math.abs(pct);
+    } else if (decision === "HOLD") {
+      const move = Math.abs(pct);
+      score = move <= holdBand ? (holdBand - move) : -move;
+    }
+
+    if (typeof score !== "number") {
+      return;
+    }
+    scores.push(score);
+    if (score > 0) wins += 1;
+    if (score < 0) losses += 1;
+  });
+
+  const count = scores.length;
+  const pnlIndex = count > 0 ? (scores.reduce((a, b) => a + b, 0) / count) : null;
+  return {
+    pnl_index: pnlIndex,
+    valid_reports: count,
+    wins,
+    losses,
+  };
+}
+
 function formatElapsed(seconds) {
   if (typeof seconds !== "number") {
     return "--";
@@ -273,7 +319,10 @@ async function renderHome() {
   const resp = await fetch("./data/reports.json");
   const data = await resp.json();
   const reports = data.reports || [];
-  renderPnlSummary(data.summary || {}, t);
+  const summary = (data.summary && Object.keys(data.summary).length > 0)
+    ? data.summary
+    : computePnlSummaryFallback(reports);
+  renderPnlSummary(summary, t);
 
   bindLangSwitch(() => {
     renderHome().catch((err) => {
