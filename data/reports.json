@@ -1,33 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "PDN.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "2/5 Analyzing: Market Analyst (1/7) · elapsed 09:09",
-      "progress_pct": 46.0,
-      "elapsed_seconds": 549,
-      "phase": "2/5 Analyzing: Market Analyst (1/7)",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 0,
-        "agents_total": 12,
-        "llm_calls": 4,
-        "tool_calls": 0,
-        "tokens_in_text": "22.3k",
-        "tokens_out_text": "1.8k",
-        "reports_done": 0,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "WHC.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
@@ -60,6 +33,33 @@
         "price_diff_pct": null
       },
       "files": []
+    },
+    {
+      "ticker": "PDN.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "2/5 Analyzing: Market Analyst (1/7) · elapsed 09:09",
+      "progress_pct": 46.0,
+      "elapsed_seconds": 549,
+      "phase": "2/5 Analyzing: Market Analyst (1/7)",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": [],
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 12,
+        "llm_calls": 4,
+        "tool_calls": 0,
+        "tokens_in_text": "22.3k",
+        "tokens_out_text": "1.8k",
+        "reports_done": 0,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "1810.HK",
