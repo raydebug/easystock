@@ -256,6 +256,15 @@ body {
   word-break: break-word;
 }
 
+.status-stats {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.status-stats p {
+  margin: 2px 0;
+}
+
 
 .progress-bar {
   margin-top: 6px;

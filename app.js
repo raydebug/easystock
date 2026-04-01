@@ -28,6 +28,11 @@ const UI_TEXT = {
     pnlSamples: "样本",
     pnlWins: "正确",
     pnlLosses: "错误",
+    agents: "代理",
+    llmCalls: "LLM调用",
+    toolCalls: "工具调用",
+    tokens: "Token",
+    reports: "报告",
   },
   en: {
     title: "Easy Stock",
@@ -58,6 +63,11 @@ const UI_TEXT = {
     pnlSamples: "Samples",
     pnlWins: "Wins",
     pnlLosses: "Losses",
+    agents: "Agents",
+    llmCalls: "LLM Calls",
+    toolCalls: "Tool Calls",
+    tokens: "Tokens",
+    reports: "Reports",
   },
 };
 
@@ -288,6 +298,18 @@ function renderStatusCard(item, t, status) {
   const progressBar = progress !== null
     ? `<div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>`
     : "";
+  const stats = (item && typeof item.stats === "object" && item.stats) ? item.stats : null;
+  const statsHtml = stats
+    ? `
+      <div class="status-stats">
+        <p><strong>${t.agents}:</strong> ${stats.agents_done ?? 0}/${stats.agents_total ?? 0}</p>
+        <p><strong>${t.llmCalls}:</strong> ${stats.llm_calls ?? 0}</p>
+        <p><strong>${t.toolCalls}:</strong> ${stats.tool_calls ?? 0}</p>
+        <p><strong>${t.tokens}:</strong> ${stats.tokens_in_text ?? "0"}↑ ${stats.tokens_out_text ?? "0"}↓</p>
+        <p><strong>${t.reports}:</strong> ${stats.reports_done ?? 0}/${stats.reports_total ?? 0}</p>
+      </div>
+    `
+    : "";
 
   return `
     <div class="card card-status ${status}">
@@ -301,6 +323,7 @@ function renderStatusCard(item, t, status) {
         <p>${statusDesc}</p>
         <p><strong>${t.progress}:</strong> ${progressText}</p>
         <p><strong>${t.elapsed}:</strong> ${elapsedText}</p>
+        ${statsHtml}
         ${progressBar}
         ${msg}
       </div>
