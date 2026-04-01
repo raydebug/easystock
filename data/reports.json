@@ -1,41 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "M7T.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "PDN.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · elapsed 01:59:54",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 7194,
-      "phase": "Writing reports",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {}
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
@@ -43,9 +8,9 @@
       "pricing": {
         "company_name": "Xiaomi Corporation",
         "report_close": 32.38,
-        "current_price": 31.94,
-        "price_diff": -0.44,
-        "price_diff_pct": -1.3589
+        "current_price": 31.86,
+        "price_diff": -0.52,
+        "price_diff_pct": -1.6059
       },
       "files": [
         {
@@ -106,10 +71,10 @@
       "decision": "SELL",
       "pricing": {
         "company_name": "Life360, Inc.",
-        "report_close": 18.73,
-        "current_price": 18.73,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "report_close": 18.77,
+        "current_price": 19.715,
+        "price_diff": 0.945,
+        "price_diff_pct": 5.0346
       },
       "files": [
         {
@@ -164,16 +129,80 @@
       ]
     },
     {
+      "ticker": "ALD.AX",
+      "company_name": "Ampol Limited",
+      "date": "2026-04-01",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Ampol Limited",
+        "report_close": 33.45,
+        "current_price": 33.45,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/ALD.AX/2026-04-01/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/ALD.AX/2026-04-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/ALD.AX/2026-04-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/ALD.AX/2026-04-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/ALD.AX/2026-04-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/ALD.AX/2026-04-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/ALD.AX/2026-04-01/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/ALD.AX/2026-04-01/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "BOQ.AX",
       "company_name": "Bank of Queensland Limited",
       "date": "2026-03-30",
       "decision": "SELL",
       "pricing": {
         "company_name": "Bank of Queensland Limited",
-        "report_close": 6.72,
-        "current_price": 6.78,
-        "price_diff": 0.06,
-        "price_diff_pct": 0.8929
+        "report_close": 6.69,
+        "current_price": 6.77,
+        "price_diff": 0.08,
+        "price_diff_pct": 1.1958
       },
       "files": [
         {
@@ -234,10 +263,10 @@
       "decision": "HOLD",
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
-        "report_close": 168.72,
-        "current_price": 170.485,
-        "price_diff": 1.765,
-        "price_diff_pct": 1.0461
+        "report_close": 167.7,
+        "current_price": 170.07,
+        "price_diff": 2.37,
+        "price_diff_pct": 1.4132
       },
       "files": [
         {
@@ -299,9 +328,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 4.045,
-        "price_diff": 0.165,
-        "price_diff_pct": 4.2526
+        "current_price": 3.96,
+        "price_diff": 0.08,
+        "price_diff_pct": 2.0619
       },
       "files": [
         {
@@ -363,9 +392,9 @@
       "pricing": {
         "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 2.065,
-        "price_diff": 0.045,
-        "price_diff_pct": 2.2277
+        "current_price": 1.985,
+        "price_diff": -0.035,
+        "price_diff_pct": -1.7327
       },
       "files": [
         {
@@ -427,9 +456,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 358.96,
-        "current_price": 358.96,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 370.17,
+        "price_diff": 11.21,
+        "price_diff_pct": 3.1229
       },
       "files": [
         {
@@ -490,10 +519,10 @@
       "decision": "SELL",
       "pricing": {
         "company_name": "NEXTDC Limited",
-        "report_close": 11.28,
-        "current_price": 11.43,
-        "price_diff": 0.15,
-        "price_diff_pct": 1.3298
+        "report_close": 11.32,
+        "current_price": 11.77,
+        "price_diff": 0.45,
+        "price_diff_pct": 3.9753
       },
       "files": [
         {
@@ -555,9 +584,9 @@
       "pricing": {
         "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.51,
-        "price_diff": 0.05,
-        "price_diff_pct": 0.4013
+        "current_price": 12.225,
+        "price_diff": -0.235,
+        "price_diff_pct": -1.886
       },
       "files": [
         {
@@ -612,6 +641,77 @@
       ]
     },
     {
+      "ticker": "PDN.AX",
+      "company_name": "Paladin Energy Ltd",
+      "date": "2026-04-01",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Paladin Energy Ltd",
+        "report_close": 11.825,
+        "current_price": 11.825,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/PDN.AX/2026-04-01/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/PDN.AX/2026-04-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/PDN.AX/2026-04-01/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/PDN.AX/2026-04-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/PDN.AX/2026-04-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/PDN.AX/2026-04-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/PDN.AX/2026-04-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/PDN.AX/2026-04-01/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/PDN.AX/2026-04-01/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "SFR.AX",
       "company_name": "Sandfire Resources Limited",
       "date": "2026-03-28",
@@ -619,9 +719,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 15.88,
-        "current_price": 15.985,
-        "price_diff": 0.105,
-        "price_diff_pct": 0.6612
+        "current_price": 16.98,
+        "price_diff": 1.1,
+        "price_diff_pct": 6.927
       },
       "files": [
         {
@@ -683,9 +783,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 21.06,
-        "price_diff": 0.53,
-        "price_diff_pct": 2.5816
+        "current_price": 22.77,
+        "price_diff": 2.24,
+        "price_diff_pct": 10.9109
       },
       "files": [
         {
@@ -746,10 +846,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Santos Limited",
-        "report_close": 8.05,
-        "current_price": 7.95,
-        "price_diff": -0.1,
-        "price_diff_pct": -1.2422
+        "report_close": 7.96,
+        "current_price": 7.995,
+        "price_diff": 0.035,
+        "price_diff_pct": 0.4397
       },
       "files": [
         {
@@ -811,9 +911,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 355.28,
-        "price_diff": -12.68,
-        "price_diff_pct": -3.446
+        "current_price": 371.75,
+        "price_diff": 3.79,
+        "price_diff_pct": 1.03
       },
       "files": [
         {
@@ -875,9 +975,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 34.47,
-        "current_price": 34.975,
-        "price_diff": 0.505,
-        "price_diff_pct": 1.465
+        "current_price": 34.885,
+        "price_diff": 0.415,
+        "price_diff_pct": 1.2039
       },
       "files": [
         {
@@ -939,9 +1039,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 38.505,
-        "price_diff": 0.145,
-        "price_diff_pct": 0.378
+        "current_price": 39.56,
+        "price_diff": 1.2,
+        "price_diff_pct": 3.1283
       },
       "files": [
         {
@@ -1002,10 +1102,10 @@
       "decision": "HOLD",
       "pricing": {
         "company_name": "Xero Limited",
-        "report_close": 76.015,
-        "current_price": 76.015,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "report_close": 75.12,
+        "current_price": 76.9,
+        "price_diff": 1.78,
+        "price_diff_pct": 2.3695
       },
       "files": [
         {
@@ -1061,9 +1161,9 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.266,
-    "valid_reports": 16,
-    "wins": 7,
-    "losses": 7
+    "pnl_index": -1.3529,
+    "valid_reports": 18,
+    "wins": 6,
+    "losses": 10
   }
 }
