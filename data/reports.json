@@ -5,10 +5,10 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Starting · elapsed 00:00",
-      "progress_pct": 10.0,
-      "elapsed_seconds": 0,
-      "phase": "Starting",
+      "message": "Analyzing agents · elapsed 01:00",
+      "progress_pct": 14.0,
+      "elapsed_seconds": 60,
+      "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -19,7 +19,7 @@
       "stats": {
         "agents_done": 0,
         "agents_total": 12,
-        "llm_calls": 0,
+        "llm_calls": 1,
         "tool_calls": 0,
         "tokens_in_text": "0",
         "tokens_out_text": "0",
