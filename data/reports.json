@@ -813,7 +813,7 @@
           "path": "reports/PDN.AX/2026-04-01/investment_plan.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
-          "translated_path": "reports/PDN.AX/2026-04-01/investment_plan.zh-CN.md"
+          "translated_path": null
         },
         {
           "name": "market_report",
@@ -847,15 +847,15 @@
       "status": "generating",
       "progress_pct": 95.0,
       "phase": "Analyzing: Research Manager (5/7)",
-      "message": "Analyzing: Research Manager (5/7) · elapsed 52:00",
-      "elapsed_seconds": 3120,
+      "message": "Analyzing: Research Manager (5/7) · elapsed 52:58",
+      "elapsed_seconds": 3178,
       "stats": {
         "agents_done": 5,
         "agents_total": 12,
         "llm_calls": 13,
         "tool_calls": 18,
-        "tokens_in_text": "65.6k",
-        "tokens_out_text": "20.1k",
+        "tokens_in_text": "78.8k",
+        "tokens_out_text": "22.6k",
         "reports_done": 5,
         "reports_total": 7
       }
@@ -886,7 +886,7 @@
           "path": "reports/RGTI/2026-04-02/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
-          "translated_path": "reports/RGTI/2026-04-02/fundamentals_report.zh-CN.md"
+          "translated_path": null
         },
         {
           "name": "hot_news_since_last_report",
