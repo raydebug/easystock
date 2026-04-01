@@ -1,6 +1,33 @@
 {
   "reports": [
     {
+      "ticker": "EOS.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Starting · elapsed 00:00",
+      "progress_pct": 5.0,
+      "elapsed_seconds": 0,
+      "phase": "Starting",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": [],
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 12,
+        "llm_calls": 0,
+        "tool_calls": 0,
+        "tokens_in_text": "0",
+        "tokens_out_text": "0",
+        "reports_done": 0,
+        "reports_total": 7
+      }
+    },
+    {
       "ticker": "RGTI",
       "date": "2026-04-02",
       "decision": "PENDING",
@@ -16,33 +43,6 @@
         "price_diff_pct": null
       },
       "files": []
-    },
-    {
-      "ticker": "EOS.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · elapsed 01:06:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 3960,
-      "phase": "Analyzing: Research Manager (5/7)",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 19,
-        "tool_calls": 22,
-        "tokens_in_text": "86.0k",
-        "tokens_out_text": "24.1k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
     },
     {
       "ticker": "1810.HK",
