@@ -846,16 +846,16 @@
       ],
       "status": "generating",
       "progress_pct": 95.0,
-      "phase": "Analyzing: Trader (6/7)",
-      "message": "Analyzing: Trader (6/7) · elapsed 01:31:01",
-      "elapsed_seconds": 5461,
+      "phase": "Analyzing: Research Manager (6/7)",
+      "message": "Analyzing: Research Manager (6/7) · elapsed 01:31:12",
+      "elapsed_seconds": 5472,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
         "llm_calls": 18,
         "tool_calls": 18,
-        "tokens_in_text": "118.7k",
-        "tokens_out_text": "32.6k",
+        "tokens_in_text": "127.1k",
+        "tokens_out_text": "37.1k",
         "reports_done": 6,
         "reports_total": 7
       }
