@@ -5,9 +5,9 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · elapsed 03:00",
-      "progress_pct": 22.0,
-      "elapsed_seconds": 180,
+      "message": "Analyzing agents · elapsed 04:00",
+      "progress_pct": 26.0,
+      "elapsed_seconds": 240,
       "phase": "Analyzing agents",
       "pricing": {
         "report_close": null,
@@ -19,10 +19,10 @@
       "stats": {
         "agents_done": 0,
         "agents_total": 12,
-        "llm_calls": 2,
-        "tool_calls": 1,
-        "tokens_in_text": "1.6k",
-        "tokens_out_text": "604",
+        "llm_calls": 3,
+        "tool_calls": 11,
+        "tokens_in_text": "12.5k",
+        "tokens_out_text": "1.4k",
         "reports_done": 0,
         "reports_total": 7
       }
