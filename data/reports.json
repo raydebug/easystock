@@ -1,6 +1,23 @@
 {
   "reports": [
     {
+      "ticker": "WHC.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ...",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "M7T.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
@@ -16,24 +33,6 @@
         "price_diff_pct": null
       },
       "files": []
-    },
-    {
-      "ticker": "WHC.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · elapsed 01:36:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 5760,
-      "phase": "Analyzing: Research Manager (6/7)",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {}
     },
     {
       "ticker": "1810.HK",
