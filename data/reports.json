@@ -5,10 +5,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Market Analyst (1/7) · elapsed 13:00",
+      "message": "Analyzing: Social Analyst (2/7) · elapsed 13:05",
       "progress_pct": 62.0,
-      "elapsed_seconds": 780,
-      "phase": "Analyzing: Market Analyst (1/7)",
+      "elapsed_seconds": 785,
+      "phase": "Analyzing: Social Analyst (2/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
