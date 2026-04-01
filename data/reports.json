@@ -1,33 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "RGTI",
-      "date": "2026-04-02",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · elapsed 02:47:24",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10044,
-      "phase": "Writing reports",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 32,
-        "tool_calls": 20,
-        "tokens_in_text": "272.8k",
-        "tokens_out_text": "64.1k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
@@ -412,6 +385,56 @@
       ]
     },
     {
+      "ticker": "EOS.AX",
+      "company_name": "Electro Optic Systems Holdings Limited",
+      "date": "2026-04-01",
+      "decision": "UNKNOWN",
+      "pricing": {
+        "company_name": "Electro Optic Systems Holdings Limited",
+        "report_close": 9.03,
+        "current_price": 9.03,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/EOS.AX/2026-04-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/EOS.AX/2026-04-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/EOS.AX/2026-04-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/EOS.AX/2026-04-01/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/EOS.AX/2026-04-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/EOS.AX/2026-04-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/EOS.AX/2026-04-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/EOS.AX/2026-04-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/EOS.AX/2026-04-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/EOS.AX/2026-04-01/sentiment_report.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "KAR.AX",
       "company_name": "Karoon Energy Ltd",
       "date": "2026-03-28",
@@ -554,9 +577,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 358.96,
-        "current_price": 371.94,
-        "price_diff": 12.98,
-        "price_diff_pct": 3.616
+        "current_price": 369.37,
+        "price_diff": 10.41,
+        "price_diff_pct": 2.9
       },
       "files": [
         {
@@ -810,6 +833,77 @@
       ]
     },
     {
+      "ticker": "RGTI",
+      "company_name": "Rigetti Computing, Inc.",
+      "date": "2026-04-02",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Rigetti Computing, Inc.",
+        "report_close": 13.5,
+        "current_price": 13.5,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/RGTI/2026-04-02/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/RGTI/2026-04-02/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": null
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/RGTI/2026-04-02/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/RGTI/2026-04-02/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/RGTI/2026-04-02/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/RGTI/2026-04-02/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/RGTI/2026-04-02/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/RGTI/2026-04-02/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-02/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "SFR.AX",
       "company_name": "Sandfire Resources Limited",
       "date": "2026-03-28",
@@ -881,9 +975,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 23.169,
-        "price_diff": 2.639,
-        "price_diff_pct": 12.8544
+        "current_price": 22.51,
+        "price_diff": 1.98,
+        "price_diff_pct": 9.6444
       },
       "files": [
         {
@@ -1009,9 +1103,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 376.11,
-        "price_diff": 8.15,
-        "price_diff_pct": 2.2149
+        "current_price": 381.26,
+        "price_diff": 13.3,
+        "price_diff_pct": 3.6145
       },
       "files": [
         {
@@ -1330,8 +1424,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.9052,
-    "valid_reports": 20,
+    "pnl_index": -0.81,
+    "valid_reports": 21,
     "wins": 8,
     "losses": 8
   }
