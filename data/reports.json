@@ -847,8 +847,8 @@
       "status": "generating",
       "progress_pct": 95.0,
       "phase": "Analyzing: Trader (6/7)",
-      "message": "Analyzing: Trader (6/7) · elapsed 01:23:00",
-      "elapsed_seconds": 4980,
+      "message": "Analyzing: Trader (6/7) · elapsed 01:24:00",
+      "elapsed_seconds": 5040,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
