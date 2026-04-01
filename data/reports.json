@@ -1,6 +1,23 @@
 {
   "reports": [
     {
+      "ticker": "PDN.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ...",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "WHC.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
@@ -26,23 +43,6 @@
       "progress_pct": 0.0,
       "elapsed_seconds": 0,
       "phase": "Queued",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "PDN.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Generating ...",
-      "progress_pct": 10.0,
-      "elapsed_seconds": 0,
-      "phase": "Generating",
       "pricing": {
         "report_close": null,
         "current_price": null,
