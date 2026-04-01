@@ -30,6 +30,7 @@ const UI_TEXT = {
 const REPORT_NAME_MAP = {
   final_trade_decision: { zh: "最终交易决策", en: "Final Trade Decision" },
   fundamentals_report: { zh: "基本面报告", en: "Fundamentals Report" },
+  hot_news_since_last_report: { zh: "自上次报告以来的热点新闻", en: "Hot News Since Last Report" },
   investment_plan: { zh: "研究计划", en: "Investment Plan" },
   market_report: { zh: "市场报告", en: "Market Report" },
   news_report: { zh: "新闻报告", en: "News Report" },
