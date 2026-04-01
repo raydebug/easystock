@@ -5,9 +5,9 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · elapsed 01:56:01",
+      "message": "Analyzing: Research Manager (6/7) · elapsed 01:57:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 6961,
+      "elapsed_seconds": 7021,
       "phase": "Analyzing: Research Manager (6/7)",
       "pricing": {
         "report_close": null,
