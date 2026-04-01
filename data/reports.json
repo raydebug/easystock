@@ -5,9 +5,9 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: News Analyst (3/7) · elapsed 12:07",
-      "progress_pct": 58.0,
-      "elapsed_seconds": 727,
+      "message": "Analyzing: News Analyst (3/7) · elapsed 13:00",
+      "progress_pct": 62.0,
+      "elapsed_seconds": 780,
       "phase": "Analyzing: News Analyst (3/7)",
       "pricing": {
         "report_close": null,
@@ -19,10 +19,10 @@
       "stats": {
         "agents_done": 3,
         "agents_total": 12,
-        "llm_calls": 9,
-        "tool_calls": 19,
-        "tokens_in_text": "30.5k",
-        "tokens_out_text": "5.9k",
+        "llm_calls": 11,
+        "tool_calls": 23,
+        "tokens_in_text": "31.6k",
+        "tokens_out_text": "6.2k",
         "reports_done": 3,
         "reports_total": 7
       }
