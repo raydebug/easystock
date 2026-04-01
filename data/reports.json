@@ -1,33 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "M7T.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · elapsed 03:38:55",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 13135,
-      "phase": "Writing reports",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 30,
-        "tool_calls": 18,
-        "tokens_in_text": "208.0k",
-        "tokens_out_text": "75.5k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
@@ -476,6 +449,77 @@
       ]
     },
     {
+      "ticker": "M7T.AX",
+      "company_name": "Mach7 Technologies Limited",
+      "date": "2026-04-01",
+      "decision": "SELL",
+      "pricing": {
+        "company_name": "Mach7 Technologies Limited",
+        "report_close": 0.33,
+        "current_price": 0.33,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/M7T.AX/2026-04-01/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/M7T.AX/2026-04-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/M7T.AX/2026-04-01/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/M7T.AX/2026-04-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": null
+        },
+        {
+          "name": "market_report",
+          "path": "reports/M7T.AX/2026-04-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/M7T.AX/2026-04-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/M7T.AX/2026-04-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/M7T.AX/2026-04-01/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/M7T.AX/2026-04-01/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
       "date": "2026-03-30",
@@ -483,9 +527,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 358.96,
-        "current_price": 370.17,
-        "price_diff": 11.21,
-        "price_diff_pct": 3.1229
+        "current_price": 371.94,
+        "price_diff": 12.98,
+        "price_diff_pct": 3.616
       },
       "files": [
         {
@@ -810,9 +854,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 22.77,
-        "price_diff": 2.24,
-        "price_diff_pct": 10.9109
+        "current_price": 23.169,
+        "price_diff": 2.639,
+        "price_diff_pct": 12.8544
       },
       "files": [
         {
@@ -938,9 +982,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 371.75,
-        "price_diff": 3.79,
-        "price_diff_pct": 1.03
+        "current_price": 376.11,
+        "price_diff": 8.15,
+        "price_diff_pct": 2.2149
       },
       "files": [
         {
@@ -1259,8 +1303,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.8141,
-    "valid_reports": 19,
+    "pnl_index": -0.9052,
+    "valid_reports": 20,
     "wins": 8,
     "losses": 8
   }
