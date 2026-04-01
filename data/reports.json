@@ -5,10 +5,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · elapsed 19:00",
-      "progress_pct": 86.0,
-      "elapsed_seconds": 1140,
-      "phase": "Analyzing: Fundamentals Analyst (4/7)",
+      "message": "Analyzing: Research Manager (5/7) · elapsed 19:47",
+      "progress_pct": 89.0,
+      "elapsed_seconds": 1187,
+      "phase": "Analyzing: Research Manager (5/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -17,13 +17,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 4,
+        "agents_done": 5,
         "agents_total": 12,
         "llm_calls": 12,
         "tool_calls": 23,
-        "tokens_in_text": "34.1k",
-        "tokens_out_text": "8.0k",
-        "reports_done": 4,
+        "tokens_in_text": "39.0k",
+        "tokens_out_text": "11.0k",
+        "reports_done": 5,
         "reports_total": 7
       }
     },
