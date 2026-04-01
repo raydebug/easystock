@@ -5,10 +5,10 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Market Analyst (1/7) · elapsed 13:00",
+      "message": "Analyzing: Social Analyst (2/7) · elapsed 13:11",
       "progress_pct": 62.0,
-      "elapsed_seconds": 780,
-      "phase": "Analyzing: Market Analyst (1/7)",
+      "elapsed_seconds": 791,
+      "phase": "Analyzing: Social Analyst (2/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -17,13 +17,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 1,
+        "agents_done": 2,
         "agents_total": 12,
         "llm_calls": 6,
         "tool_calls": 14,
-        "tokens_in_text": "22.2k",
-        "tokens_out_text": "3.7k",
-        "reports_done": 1,
+        "tokens_in_text": "26.5k",
+        "tokens_out_text": "6.6k",
+        "reports_done": 2,
         "reports_total": 7
       }
     },
