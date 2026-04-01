@@ -6,7 +6,7 @@
       "decision": "PENDING",
       "status": "generating",
       "message": "1/5 Starting · elapsed 00:00",
-      "progress_pct": 5.0,
+      "progress_pct": 10.0,
       "elapsed_seconds": 0,
       "phase": "1/5 Starting",
       "pricing": {
@@ -16,7 +16,16 @@
         "price_diff_pct": null
       },
       "files": [],
-      "stats": {}
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 0,
+        "llm_calls": 0,
+        "tool_calls": 0,
+        "tokens_in_text": "0",
+        "tokens_out_text": "0",
+        "reports_done": 0,
+        "reports_total": 0
+      }
     },
     {
       "ticker": "WHC.AX",
