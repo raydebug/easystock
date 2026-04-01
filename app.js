@@ -292,6 +292,7 @@ function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
   const isQueued = status === "queued";
   const statusLabel = isFailed ? t.failed : (isQueued ? t.queued : t.generating);
+  const level = String(item.level || "medium").toUpperCase();
   const progress = typeof item.progress_pct === "number" ? Math.max(0, Math.min(100, item.progress_pct)) : null;
   const elapsedText = formatElapsed(item.elapsed_seconds);
   const stats = (item && typeof item.stats === "object" && item.stats) ? item.stats : null;
@@ -311,6 +312,7 @@ function renderStatusCard(item, t, status) {
     <div class="card card-status ${status}">
       <div class="card-top">
         <span class="chip ${isFailed ? "sell" : "hold"}">${statusLabel}</span>
+        <span class="chip">${level}</span>
       </div>
       <h3>${item.ticker}</h3>
       ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
@@ -383,11 +385,13 @@ async function renderHome() {
       const diffCls = trendClass(pricing.price_diff);
       const originalIdx = reports.indexOf(item);
       const link = `./report.html?id=${originalIdx}&file=final_trade_decision`;
+      const level = String(item.level || "medium").toUpperCase();
 
       return `
         <a class="card" href="${link}">
           <div class="card-top">
             <span class="chip ${cls}">${decision}</span>
+            <span class="chip">${level}</span>
           </div>
           <h3>${item.ticker}</h3>
           ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
