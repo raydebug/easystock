@@ -5,10 +5,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: News Analyst (3/7) · elapsed 30:00",
+      "message": "Analyzing: Fundamentals Analyst (4/7) · elapsed 30:46",
       "progress_pct": 95.0,
-      "elapsed_seconds": 1800,
-      "phase": "Analyzing: News Analyst (3/7)",
+      "elapsed_seconds": 1846,
+      "phase": "Analyzing: Fundamentals Analyst (4/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
