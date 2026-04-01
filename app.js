@@ -70,6 +70,8 @@ const UI_TEXT = {
     reports: "Reports",
   },
 };
+const AUTO_REFRESH_MS = 30000;
+let autoRefreshStarted = false;
 
 function getUiLang() {
   const lang = localStorage.getItem("ui_lang") || "zh";
@@ -222,10 +224,10 @@ function bindLangSwitch(render) {
   buttons.forEach((btn) => {
     const isActive = btn.dataset.lang === lang;
     btn.classList.toggle("active", isActive);
-    btn.addEventListener("click", () => {
+    btn.onclick = () => {
       setUiLang(btn.dataset.lang);
       render();
-    });
+    };
   });
 }
 
@@ -329,7 +331,7 @@ async function renderHome() {
   document.getElementById("disclaimer-banner").textContent = t.disclaimer;
 
   const root = document.getElementById("report-list");
-  const resp = await fetch("./data/reports.json");
+  const resp = await fetch(`./data/reports.json?t=${Date.now()}`, { cache: "no-store" });
   const data = await resp.json();
   const reports = data.reports || [];
 
@@ -400,6 +402,13 @@ async function renderHome() {
       `;
     })
     .join("");
+
+  if (!autoRefreshStarted) {
+    autoRefreshStarted = true;
+    setInterval(() => {
+      renderHome().catch(() => {});
+    }, AUTO_REFRESH_MS);
+  }
 }
 
 renderHome().catch((err) => {
