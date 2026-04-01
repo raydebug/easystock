@@ -5,17 +5,18 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Generating ...",
-      "progress_pct": 10.0,
+      "message": "1/5 Starting · elapsed 00:00",
+      "progress_pct": 5.0,
       "elapsed_seconds": 0,
-      "phase": "Generating",
+      "phase": "1/5 Starting",
       "pricing": {
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": []
+      "files": [],
+      "stats": {}
     },
     {
       "ticker": "PDN.AX",
