@@ -1,46 +1,11 @@
 {
   "reports": [
     {
-      "ticker": "AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "1/5 Starting · elapsed 00:00",
-      "progress_pct": 5.0,
-      "elapsed_seconds": 0,
-      "phase": "1/5 Starting",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {}
-    },
-    {
-      "ticker": "PDN.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "WHC.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "queued",
-      "message": "排队中 第2位 / Queued #2",
+      "message": "排队中 第1位 / Queued #1",
       "progress_pct": 0.0,
       "elapsed_seconds": 0,
       "phase": "Queued",
