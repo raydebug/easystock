@@ -5,9 +5,9 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · elapsed 02:26:01",
+      "message": "Analyzing: Research Manager (6/7) · elapsed 02:26:58",
       "progress_pct": 95.0,
-      "elapsed_seconds": 8761,
+      "elapsed_seconds": 8818,
       "phase": "Analyzing: Research Manager (6/7)",
       "pricing": {
         "report_close": null,
@@ -21,8 +21,8 @@
         "agents_total": 12,
         "llm_calls": 28,
         "tool_calls": 20,
-        "tokens_in_text": "214.6k",
-        "tokens_out_text": "53.8k",
+        "tokens_in_text": "230.6k",
+        "tokens_out_text": "55.8k",
         "reports_done": 6,
         "reports_total": 7
       }
