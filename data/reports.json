@@ -1,24 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "PDN.AX",
-      "date": "2026-04-01",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · elapsed 01:59:54",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 7194,
-      "phase": "Writing reports",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {}
-    },
-    {
       "ticker": "WHC.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
@@ -51,6 +33,24 @@
         "price_diff_pct": null
       },
       "files": []
+    },
+    {
+      "ticker": "PDN.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Writing reports · elapsed 01:59:54",
+      "progress_pct": 95.0,
+      "elapsed_seconds": 7194,
+      "phase": "Writing reports",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": [],
+      "stats": {}
     },
     {
       "ticker": "1810.HK",
