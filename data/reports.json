@@ -5,10 +5,10 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Portfolio Manager (7/7) · elapsed 02:46:51",
+      "message": "Writing reports · elapsed 02:47:24",
       "progress_pct": 95.0,
-      "elapsed_seconds": 10011,
-      "phase": "Analyzing: Portfolio Manager (7/7)",
+      "elapsed_seconds": 10044,
+      "phase": "Writing reports",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -19,10 +19,10 @@
       "stats": {
         "agents_done": 10,
         "agents_total": 12,
-        "llm_calls": 31,
+        "llm_calls": 32,
         "tool_calls": 20,
-        "tokens_in_text": "271.5k",
-        "tokens_out_text": "63.5k",
+        "tokens_in_text": "272.8k",
+        "tokens_out_text": "64.1k",
         "reports_done": 7,
         "reports_total": 7
       }
