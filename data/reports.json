@@ -5,10 +5,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · elapsed 01:17:01",
+      "message": "Analyzing: Research Manager (6/7) · elapsed 01:17:12",
       "progress_pct": 95.0,
-      "elapsed_seconds": 4621,
-      "phase": "Analyzing: Trader (6/7)",
+      "elapsed_seconds": 4632,
+      "phase": "Analyzing: Research Manager (6/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
