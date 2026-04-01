@@ -290,14 +290,8 @@ function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
   const isQueued = status === "queued";
   const statusLabel = isFailed ? t.failed : (isQueued ? t.queued : t.generating);
-  const statusDesc = isFailed ? t.failedDesc : (isQueued ? t.queuedDesc : t.generatingDesc);
-  const msg = item.message ? `<p class="status-message">${item.message}</p>` : "";
   const progress = typeof item.progress_pct === "number" ? Math.max(0, Math.min(100, item.progress_pct)) : null;
-  const progressText = progress !== null ? `${progress.toFixed(1)}%` : "--";
   const elapsedText = formatElapsed(item.elapsed_seconds);
-  const progressBar = progress !== null
-    ? `<div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>`
-    : "";
   const stats = (item && typeof item.stats === "object" && item.stats) ? item.stats : null;
   const statsHtml = stats
     ? `
@@ -320,12 +314,8 @@ function renderStatusCard(item, t, status) {
       ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
       <p>${item.date}</p>
       <div class="price-block">
-        <p>${statusDesc}</p>
-        <p><strong>${t.progress}:</strong> ${progressText}</p>
         <p><strong>${t.elapsed}:</strong> ${elapsedText}</p>
         ${statsHtml}
-        ${progressBar}
-        ${msg}
       </div>
     </div>
   `;
