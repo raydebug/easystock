@@ -1,6 +1,23 @@
 {
   "reports": [
     {
+      "ticker": "WHC.AX",
+      "date": "2026-04-01",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ...",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
@@ -1239,78 +1256,6 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/WDS.AX/2026-03-28/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
-      "ticker": "WHC.AX",
-      "company_name": "Whitehaven Coal Limited",
-      "date": "2026-04-01",
-      "level": "medium",
-      "decision": "HOLD",
-      "pricing": {
-        "company_name": "Whitehaven Coal Limited",
-        "report_close": 9.24,
-        "current_price": 9.07,
-        "price_diff": -0.17,
-        "price_diff_pct": -1.8398
-      },
-      "files": [
-        {
-          "name": "final_trade_decision",
-          "path": "reports/WHC.AX/2026-04-01/final_trade_decision.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/final_trade_decision.zh-CN.md"
-        },
-        {
-          "name": "fundamentals_report",
-          "path": "reports/WHC.AX/2026-04-01/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "hot_news_since_last_report",
-          "path": "reports/WHC.AX/2026-04-01/hot_news_since_last_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/hot_news_since_last_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/WHC.AX/2026-04-01/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/WHC.AX/2026-04-01/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/WHC.AX/2026-04-01/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/WHC.AX/2026-04-01/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/sentiment_report.zh-CN.md"
-        },
-        {
-          "name": "trader_investment_plan",
-          "path": "reports/WHC.AX/2026-04-01/trader_investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/WHC.AX/2026-04-01/trader_investment_plan.zh-CN.md"
         }
       ]
     },
