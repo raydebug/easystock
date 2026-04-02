@@ -9,9 +9,9 @@
       "pricing": {
         "company_name": "Xiaomi Corporation",
         "report_close": 32.38,
-        "current_price": 32.02,
-        "price_diff": -0.36,
-        "price_diff_pct": -1.1118
+        "current_price": 31.38,
+        "price_diff": -1.0,
+        "price_diff_pct": -3.0883
       },
       "files": [
         {
@@ -74,9 +74,9 @@
       "pricing": {
         "company_name": "Life360, Inc.",
         "report_close": 19.87,
-        "current_price": 19.87,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 18.64,
+        "price_diff": -1.23,
+        "price_diff_pct": -6.1902
       },
       "files": [
         {
@@ -139,9 +139,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.6,
-        "current_price": 33.6,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 33.51,
+        "price_diff": -0.09,
+        "price_diff_pct": -0.2679
       },
       "files": [
         {
@@ -204,9 +204,9 @@
       "pricing": {
         "company_name": "Bank of Queensland Limited",
         "report_close": 6.69,
-        "current_price": 6.79,
-        "price_diff": 0.1,
-        "price_diff_pct": 1.4948
+        "current_price": 6.785,
+        "price_diff": 0.095,
+        "price_diff_pct": 1.42
       },
       "files": [
         {
@@ -269,9 +269,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 167.7,
-        "current_price": 171.9,
-        "price_diff": 4.2,
-        "price_diff_pct": 2.5045
+        "current_price": 173.08,
+        "price_diff": 5.38,
+        "price_diff_pct": 3.2081
       },
       "files": [
         {
@@ -334,9 +334,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 3.98,
-        "price_diff": 0.1,
-        "price_diff_pct": 2.5773
+        "current_price": 4.02,
+        "price_diff": 0.14,
+        "price_diff_pct": 3.6082
       },
       "files": [
         {
@@ -399,9 +399,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.03,
-        "current_price": 9.03,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 9.63,
+        "price_diff": 0.6,
+        "price_diff_pct": 6.6445
       },
       "files": [
         {
@@ -450,9 +450,9 @@
       "pricing": {
         "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 1.99,
-        "price_diff": -0.03,
-        "price_diff_pct": -1.4851
+        "current_price": 2.045,
+        "price_diff": 0.025,
+        "price_diff_pct": 1.2376
       },
       "files": [
         {
@@ -652,9 +652,9 @@
       "pricing": {
         "company_name": "NEXTDC Limited",
         "report_close": 11.32,
-        "current_price": 11.71,
-        "price_diff": 0.39,
-        "price_diff_pct": 3.4452
+        "current_price": 11.33,
+        "price_diff": 0.01,
+        "price_diff_pct": 0.0883
       },
       "files": [
         {
@@ -717,9 +717,9 @@
       "pricing": {
         "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.42,
-        "price_diff": -0.04,
-        "price_diff_pct": -0.321
+        "current_price": 12.435,
+        "price_diff": -0.025,
+        "price_diff_pct": -0.2006
       },
       "files": [
         {
@@ -777,14 +777,14 @@
       "ticker": "PDN.AX",
       "company_name": "Paladin Energy Ltd",
       "date": "2026-04-01",
-      "level": "medium",
-      "decision": "PENDING",
+      "level": "deep",
+      "decision": "SELL",
       "pricing": {
         "company_name": "Paladin Energy Ltd",
         "report_close": 11.81,
-        "current_price": 11.81,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 11.64,
+        "price_diff": -0.17,
+        "price_diff_pct": -1.4395
       },
       "files": [
         {
@@ -813,7 +813,7 @@
           "path": "reports/PDN.AX/2026-04-01/investment_plan.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
-          "translated_path": null
+          "translated_path": "reports/PDN.AX/2026-04-01/investment_plan.zh-CN.md"
         },
         {
           "name": "market_report",
@@ -843,22 +843,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/PDN.AX/2026-04-01/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "status": "generating",
-      "progress_pct": 95.0,
-      "phase": "Writing reports",
-      "message": "Writing reports · elapsed 03:30:19",
-      "elapsed_seconds": 12619,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 28,
-        "tool_calls": 18,
-        "tokens_in_text": "235.1k",
-        "tokens_out_text": "76.2k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "RGTI",
@@ -886,7 +871,7 @@
           "path": "reports/RGTI/2026-04-02/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
-          "translated_path": null
+          "translated_path": "reports/RGTI/2026-04-02/fundamentals_report.zh-CN.md"
         },
         {
           "name": "hot_news_since_last_report",
@@ -941,9 +926,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 15.88,
-        "current_price": 16.93,
-        "price_diff": 1.05,
-        "price_diff_pct": 6.6121
+        "current_price": 16.72,
+        "price_diff": 0.84,
+        "price_diff_pct": 5.2897
       },
       "files": [
         {
@@ -1071,9 +1056,9 @@
       "pricing": {
         "company_name": "Santos Limited",
         "report_close": 7.96,
-        "current_price": 7.97,
-        "price_diff": 0.01,
-        "price_diff_pct": 0.1256
+        "current_price": 7.925,
+        "price_diff": -0.035,
+        "price_diff_pct": -0.4397
       },
       "files": [
         {
@@ -1201,9 +1186,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 34.47,
-        "current_price": 35.09,
-        "price_diff": 0.62,
-        "price_diff_pct": 1.7987
+        "current_price": 34.73,
+        "price_diff": 0.26,
+        "price_diff_pct": 0.7543
       },
       "files": [
         {
@@ -1266,9 +1251,9 @@
       "pricing": {
         "company_name": "Whitehaven Coal Limited",
         "report_close": 9.24,
-        "current_price": 9.24,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 9.07,
+        "price_diff": -0.17,
+        "price_diff_pct": -1.8398
       },
       "files": [
         {
@@ -1338,9 +1323,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 39.58,
-        "price_diff": 1.22,
-        "price_diff_pct": 3.1804
+        "current_price": 38.085,
+        "price_diff": -0.275,
+        "price_diff_pct": -0.7169
       },
       "files": [
         {
@@ -1403,9 +1388,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 76.99,
-        "current_price": 76.99,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 74.91,
+        "price_diff": -2.08,
+        "price_diff_pct": -2.7016
       },
       "files": [
         {
@@ -1461,9 +1446,9 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.81,
+    "pnl_index": -0.7614,
     "valid_reports": 21,
-    "wins": 8,
-    "losses": 8
+    "wins": 7,
+    "losses": 12
   }
 }
