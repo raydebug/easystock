@@ -5,9 +5,9 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Social Analyst (2/7) · elapsed 03:00",
-      "progress_pct": 22.0,
-      "elapsed_seconds": 180,
+      "message": "Analyzing: Social Analyst (2/7) · elapsed 04:00",
+      "progress_pct": 26.0,
+      "elapsed_seconds": 240,
       "phase": "Analyzing: Social Analyst (2/7)",
       "pricing": {
         "report_close": null,
