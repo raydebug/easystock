@@ -217,6 +217,45 @@ function computePnlSummaryFallback(reports) {
   };
 }
 
+function getReportPnlScore(item) {
+  const status = String(item.status || "").toLowerCase();
+  if (["queued", "generating", "failed"].includes(status)) {
+    return null;
+  }
+  const decision = String(item.decision || "UNKNOWN").toUpperCase();
+  const pricing = item.pricing || {};
+  const pct = pricing.price_diff_pct;
+  if (typeof pct !== "number") {
+    return null;
+  }
+
+  if (decision === "BUY") {
+    return pct > 0 ? Math.abs(pct) : -Math.abs(pct);
+  }
+  if (decision === "SELL") {
+    return pct < 0 ? Math.abs(pct) : -Math.abs(pct);
+  }
+  if (decision === "HOLD") {
+    const move = Math.abs(pct);
+    return move <= 1.0 ? (1.0 - move) : -move;
+  }
+  return null;
+}
+
+function getPriceBlockClass(item) {
+  const score = getReportPnlScore(item);
+  if (typeof score !== "number") {
+    return "";
+  }
+  if (score > 0) {
+    return " pnl-win";
+  }
+  if (score < 0) {
+    return " pnl-loss";
+  }
+  return "";
+}
+
 function formatElapsed(seconds) {
   if (typeof seconds !== "number") {
     return "--";
@@ -476,6 +515,7 @@ async function renderHome() {
 
       const pricing = item.pricing || {};
       const diffCls = trendClass(pricing.price_diff);
+      const priceBlockCls = getPriceBlockClass(item);
       const originalIdx = reports.indexOf(item);
       const link = `./report.html?id=${originalIdx}&file=final_trade_decision`;
       const level = String(item.level || "medium").toUpperCase();
@@ -489,7 +529,7 @@ async function renderHome() {
           <h3>${item.ticker}</h3>
           ${item.company_name ? `<p class="company-name">${item.company_name}</p>` : ""}
           <p>${item.date}</p>
-          <div class="price-block">
+          <div class="price-block${priceBlockCls}">
             <p>${t.reportClose}：<strong>${fmtPrice(pricing.report_close)}</strong></p>
             <p>${t.currentPrice}：<strong>${fmtPrice(pricing.current_price)}</strong></p>
             <p class="price-diff ${diffCls}">${t.priceDiff}：<strong>${fmtDiff(pricing.price_diff, pricing.price_diff_pct)}</strong></p>
