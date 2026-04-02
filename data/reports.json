@@ -24,9 +24,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 02:27:01",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 02:28:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 8821,
+      "elapsed_seconds": 8881,
       "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
       "stats": {
         "agents_done": 5,
