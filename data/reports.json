@@ -2,30 +2,75 @@
   "reports": [
     {
       "ticker": "00100.HK",
+      "company_name": null,
       "date": "2026-04-02",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · elapsed 02:10:24",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 7824,
-      "phase": "Writing reports",
+      "level": "deep",
+      "decision": "SELL",
       "pricing": {
+        "company_name": null,
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 32,
-        "tool_calls": 15,
-        "tokens_in_text": "149.3k",
-        "tokens_out_text": "61.0k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/00100.HK/2026-04-02/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/00100.HK/2026-04-02/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/00100.HK/2026-04-02/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/00100.HK/2026-04-02/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/00100.HK/2026-04-02/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/00100.HK/2026-04-02/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/00100.HK/2026-04-02/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/00100.HK/2026-04-02/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/00100.HK/2026-04-02/trader_investment_plan.zh-CN.md"
+        }
+      ]
     },
     {
       "ticker": "1810.HK",
@@ -36,9 +81,9 @@
       "pricing": {
         "company_name": "Xiaomi Corporation",
         "report_close": 32.38,
-        "current_price": 30.7,
-        "price_diff": -1.68,
-        "price_diff_pct": -5.1884
+        "current_price": 30.58,
+        "price_diff": -1.8,
+        "price_diff_pct": -5.559
       },
       "files": [
         {
@@ -101,9 +146,9 @@
       "pricing": {
         "company_name": "Life360, Inc.",
         "report_close": 19.87,
-        "current_price": 18.77,
-        "price_diff": -1.1,
-        "price_diff_pct": -5.536
+        "current_price": 18.7,
+        "price_diff": -1.17,
+        "price_diff_pct": -5.8883
       },
       "files": [
         {
@@ -166,9 +211,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.6,
-        "current_price": 33.44,
-        "price_diff": -0.16,
-        "price_diff_pct": -0.4762
+        "current_price": 33.27,
+        "price_diff": -0.33,
+        "price_diff_pct": -0.9821
       },
       "files": [
         {
@@ -231,9 +276,9 @@
       "pricing": {
         "company_name": "Bank of Queensland Limited",
         "report_close": 6.69,
-        "current_price": 6.785,
-        "price_diff": 0.095,
-        "price_diff_pct": 1.42
+        "current_price": 6.8,
+        "price_diff": 0.11,
+        "price_diff_pct": 1.6442
       },
       "files": [
         {
@@ -296,9 +341,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 167.7,
-        "current_price": 172.54,
-        "price_diff": 4.84,
-        "price_diff_pct": 2.8861
+        "current_price": 172.8,
+        "price_diff": 5.1,
+        "price_diff_pct": 3.0411
       },
       "files": [
         {
@@ -361,9 +406,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.88,
-        "current_price": 3.915,
-        "price_diff": 0.035,
-        "price_diff_pct": 0.9021
+        "current_price": 3.93,
+        "price_diff": 0.05,
+        "price_diff_pct": 1.2887
       },
       "files": [
         {
@@ -426,9 +471,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.03,
-        "current_price": 9.24,
-        "price_diff": 0.21,
-        "price_diff_pct": 2.3256
+        "current_price": 9.0,
+        "price_diff": -0.03,
+        "price_diff_pct": -0.3322
       },
       "files": [
         {
@@ -477,9 +522,9 @@
       "pricing": {
         "company_name": "Karoon Energy Ltd",
         "report_close": 2.02,
-        "current_price": 2.095,
-        "price_diff": 0.075,
-        "price_diff_pct": 3.7129
+        "current_price": 2.12,
+        "price_diff": 0.1,
+        "price_diff_pct": 4.9505
       },
       "files": [
         {
@@ -542,9 +587,9 @@
       "pricing": {
         "company_name": "Mach7 Technologies Limited",
         "report_close": 0.33,
-        "current_price": 0.33,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 0.315,
+        "price_diff": -0.015,
+        "price_diff_pct": -4.5455
       },
       "files": [
         {
@@ -679,9 +724,9 @@
       "pricing": {
         "company_name": "NEXTDC Limited",
         "report_close": 11.32,
-        "current_price": 11.3,
-        "price_diff": -0.02,
-        "price_diff_pct": -0.1767
+        "current_price": 11.26,
+        "price_diff": -0.06,
+        "price_diff_pct": -0.53
       },
       "files": [
         {
@@ -744,9 +789,9 @@
       "pricing": {
         "company_name": "Origin Energy Limited",
         "report_close": 12.46,
-        "current_price": 12.485,
-        "price_diff": 0.025,
-        "price_diff_pct": 0.2006
+        "current_price": 12.59,
+        "price_diff": 0.13,
+        "price_diff_pct": 1.0433
       },
       "files": [
         {
@@ -809,9 +854,9 @@
       "pricing": {
         "company_name": "Paladin Energy Ltd",
         "report_close": 11.81,
-        "current_price": 11.56,
-        "price_diff": -0.25,
-        "price_diff_pct": -2.1169
+        "current_price": 11.38,
+        "price_diff": -0.43,
+        "price_diff_pct": -3.641
       },
       "files": [
         {
@@ -1083,9 +1128,9 @@
       "pricing": {
         "company_name": "Santos Limited",
         "report_close": 7.96,
-        "current_price": 8.005,
-        "price_diff": 0.045,
-        "price_diff_pct": 0.5653
+        "current_price": 8.08,
+        "price_diff": 0.12,
+        "price_diff_pct": 1.5075
       },
       "files": [
         {
@@ -1213,9 +1258,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 34.47,
-        "current_price": 34.79,
-        "price_diff": 0.32,
-        "price_diff_pct": 0.9283
+        "current_price": 34.93,
+        "price_diff": 0.46,
+        "price_diff_pct": 1.3345
       },
       "files": [
         {
@@ -1278,9 +1323,9 @@
       "pricing": {
         "company_name": "Whitehaven Coal Limited",
         "report_close": 9.24,
-        "current_price": 9.025,
-        "price_diff": -0.215,
-        "price_diff_pct": -2.3268
+        "current_price": 9.08,
+        "price_diff": -0.16,
+        "price_diff_pct": -1.7316
       },
       "files": [
         {
@@ -1350,9 +1395,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 38.36,
-        "current_price": 37.75,
-        "price_diff": -0.61,
-        "price_diff_pct": -1.5902
+        "current_price": 37.88,
+        "price_diff": -0.48,
+        "price_diff_pct": -1.2513
       },
       "files": [
         {
@@ -1415,9 +1460,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 76.99,
-        "current_price": 73.98,
-        "price_diff": -3.01,
-        "price_diff_pct": -3.9096
+        "current_price": 74.06,
+        "price_diff": -2.93,
+        "price_diff_pct": -3.8057
       },
       "files": [
         {
@@ -1473,9 +1518,9 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.8335,
+    "pnl_index": -0.4198,
     "valid_reports": 21,
-    "wins": 8,
+    "wins": 9,
     "losses": 11
   }
 }
