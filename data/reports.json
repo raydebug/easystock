@@ -5,9 +5,9 @@
       "date": "2026-04-02",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · elapsed 01:08:00",
+      "message": "Analyzing: Trader (6/7) · elapsed 01:09:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 4080,
+      "elapsed_seconds": 4140,
       "phase": "Analyzing: Trader (6/7)",
       "pricing": {
         "report_close": null,
