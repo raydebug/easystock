@@ -847,8 +847,8 @@
       "status": "generating",
       "progress_pct": 95.0,
       "phase": "Analyzing: Research Manager (6/7)",
-      "message": "Analyzing: Research Manager (6/7) · elapsed 01:56:01",
-      "elapsed_seconds": 6961,
+      "message": "Analyzing: Research Manager (6/7) · elapsed 01:57:01",
+      "elapsed_seconds": 7021,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
