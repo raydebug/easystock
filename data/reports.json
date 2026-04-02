@@ -22,10 +22,10 @@
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · elapsed 01:05:00",
+      "message": "Analyzing: Research Manager (6/7) · elapsed 01:05:39",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3900,
-      "phase": "Analyzing: Trader (6/7)",
+      "elapsed_seconds": 3939,
+      "phase": "Analyzing: Research Manager (6/7)",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -38,8 +38,8 @@
         "agents_total": 12,
         "llm_calls": 18,
         "tool_calls": 14,
-        "tokens_in_text": "87.5k",
-        "tokens_out_text": "28.5k",
+        "tokens_in_text": "92.0k",
+        "tokens_out_text": "31.6k",
         "reports_done": 6,
         "reports_total": 7
       }
