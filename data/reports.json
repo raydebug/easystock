@@ -847,15 +847,15 @@
       "status": "generating",
       "progress_pct": 95.0,
       "phase": "Analyzing: Research Manager (6/7)",
-      "message": "Analyzing: Research Manager (6/7) · elapsed 02:45:02",
-      "elapsed_seconds": 9902,
+      "message": "Analyzing: Research Manager (6/7) · elapsed 02:46:02",
+      "elapsed_seconds": 9962,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
-        "llm_calls": 23,
+        "llm_calls": 24,
         "tool_calls": 18,
-        "tokens_in_text": "172.7k",
-        "tokens_out_text": "57.6k",
+        "tokens_in_text": "185.5k",
+        "tokens_out_text": "60.4k",
         "reports_done": 6,
         "reports_total": 7
       }
