@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "ALD.AX",
+      "date": "2026-04-01",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "00100.HK",
       "company_name": null,
       "date": "2026-04-02",
@@ -271,71 +289,6 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/9992.HK/2026-04-02/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
-      "ticker": "ALD.AX",
-      "company_name": "Ampol Limited",
-      "date": "2026-04-01",
-      "level": "medium",
-      "decision": "BUY",
-      "pricing": {
-        "company_name": "Ampol Limited",
-        "report_close": 33.27,
-        "current_price": 33.27,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
-      },
-      "files": [
-        {
-          "name": "final_trade_decision",
-          "path": "reports/ALD.AX/2026-04-01/final_trade_decision.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/final_trade_decision.zh-CN.md"
-        },
-        {
-          "name": "fundamentals_report",
-          "path": "reports/ALD.AX/2026-04-01/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/ALD.AX/2026-04-01/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/ALD.AX/2026-04-01/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/ALD.AX/2026-04-01/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/ALD.AX/2026-04-01/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/sentiment_report.zh-CN.md"
-        },
-        {
-          "name": "trader_investment_plan",
-          "path": "reports/ALD.AX/2026-04-01/trader_investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/ALD.AX/2026-04-01/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -731,9 +684,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 358.96,
-        "current_price": 369.37,
-        "price_diff": 10.41,
-        "price_diff_pct": 2.9
+        "current_price": 373.46,
+        "price_diff": 14.5,
+        "price_diff_pct": 4.0394
       },
       "files": [
         {
@@ -997,8 +950,8 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
-        "report_close": 13.5,
-        "current_price": 13.5,
+        "report_close": 14.19,
+        "current_price": 14.19,
         "price_diff": 0.0,
         "price_diff_pct": 0.0
       },
@@ -1135,9 +1088,9 @@
       "pricing": {
         "company_name": "Super Micro Computer, Inc.",
         "report_close": 20.53,
-        "current_price": 22.51,
-        "price_diff": 1.98,
-        "price_diff_pct": 9.6444
+        "current_price": 23.22,
+        "price_diff": 2.69,
+        "price_diff_pct": 13.1028
       },
       "files": [
         {
@@ -1265,9 +1218,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 367.96,
-        "current_price": 381.26,
-        "price_diff": 13.3,
-        "price_diff_pct": 3.6145
+        "current_price": 360.59,
+        "price_diff": -7.37,
+        "price_diff_pct": -2.0029
       },
       "files": [
         {
@@ -1590,9 +1543,9 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.6074,
+    "pnl_index": -0.4575,
     "valid_reports": 22,
-    "wins": 7,
-    "losses": 9
+    "wins": 8,
+    "losses": 8
   }
 }
