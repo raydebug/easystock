@@ -33,6 +33,9 @@ const UI_TEXT = {
     toolCalls: "工具调用",
     tokens: "Token",
     reports: "报告",
+    sortLabel: "排序",
+    sortTime: "生成时间",
+    sortTicker: "代码名",
   },
   en: {
     title: "Easy Stock",
@@ -68,6 +71,9 @@ const UI_TEXT = {
     toolCalls: "Tool Calls",
     tokens: "Tokens",
     reports: "Reports",
+    sortLabel: "Sort",
+    sortTime: "Generated Time",
+    sortTicker: "Ticker",
   },
 };
 const AUTO_REFRESH_MS = 30000;
@@ -97,6 +103,15 @@ function getKeywordFilter() {
 
 function setKeywordFilter(keyword) {
   localStorage.setItem("keyword_filter", keyword);
+}
+
+function getSortOrder() {
+  const sort = localStorage.getItem("sort_order") || "time_desc";
+  return ["time_desc", "ticker_asc"].includes(sort) ? sort : "time_desc";
+}
+
+function setSortOrder(sort) {
+  localStorage.setItem("sort_order", sort);
 }
 
 function classifyMarket(ticker) {
@@ -269,6 +284,75 @@ function bindKeywordFilter(render, t) {
   };
 }
 
+function bindSortOrder(render, t) {
+  const select = document.getElementById("sort-order");
+  const label = document.getElementById("sort-order-label");
+  label.textContent = t.sortLabel;
+
+  const options = {
+    time_desc: t.sortTime,
+    ticker_asc: t.sortTicker,
+  };
+
+  select.querySelectorAll("option").forEach((opt) => {
+    const key = opt.value;
+    if (options[key]) {
+      opt.textContent = options[key];
+    }
+  });
+
+  select.value = getSortOrder();
+  select.onchange = () => {
+    setSortOrder(select.value);
+    render();
+  };
+}
+
+function reportSortTimestamp(item) {
+  const generatedAt = String(item.generated_at || "").trim();
+  if (generatedAt) {
+    const parsed = Date.parse(generatedAt);
+    if (!Number.isNaN(parsed)) {
+      return parsed;
+    }
+  }
+  const dateText = String(item.date || "").trim();
+  if (dateText) {
+    const parsed = Date.parse(`${dateText}T00:00:00Z`);
+    if (!Number.isNaN(parsed)) {
+      return parsed;
+    }
+  }
+  return 0;
+}
+
+function sortReports(reports, sortOrder) {
+  const items = [...(reports || [])];
+  if (sortOrder === "ticker_asc") {
+    items.sort((a, b) => {
+      const tickerCmp = String(a.ticker || "").localeCompare(String(b.ticker || ""), "en", { sensitivity: "base" });
+      if (tickerCmp !== 0) {
+        return tickerCmp;
+      }
+      return String(b.date || "").localeCompare(String(a.date || ""), "en", { sensitivity: "base" });
+    });
+    return items;
+  }
+
+  items.sort((a, b) => {
+    const timeDiff = reportSortTimestamp(b) - reportSortTimestamp(a);
+    if (timeDiff !== 0) {
+      return timeDiff;
+    }
+    const dateCmp = String(b.date || "").localeCompare(String(a.date || ""), "en", { sensitivity: "base" });
+    if (dateCmp !== 0) {
+      return dateCmp;
+    }
+    return String(a.ticker || "").localeCompare(String(b.ticker || ""), "en", { sensitivity: "base" });
+  });
+  return items;
+}
+
 function reportMatchesKeyword(item, keyword) {
   if (!keyword) {
     return true;
@@ -352,16 +436,25 @@ async function renderHome() {
       root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
     });
   }, t);
+  bindSortOrder(() => {
+    renderHome().catch((err) => {
+      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
+    });
+  }, t);
 
   const selectedMarket = getMarketFilter();
   const keyword = getKeywordFilter();
+  const sortOrder = getSortOrder();
   const marketFiltered = reports.filter((item) => {
     if (selectedMarket !== "all" && classifyMarket(item.ticker) !== selectedMarket) {
       return false;
     }
     return true;
   });
-  const filtered = marketFiltered.filter((item) => reportMatchesKeyword(item, keyword));
+  const filtered = sortReports(
+    marketFiltered.filter((item) => reportMatchesKeyword(item, keyword)),
+    sortOrder,
+  );
   renderPnlSummary(computePnlSummaryFallback(marketFiltered), t);
 
   if (filtered.length === 0) {

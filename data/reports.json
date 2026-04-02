@@ -6,32 +6,33 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · Level DEEP · elapsed 12:00",
-      "progress_pct": 58.0,
-      "elapsed_seconds": 720,
+      "message": "Analyzing agents · Level DEEP · elapsed 13:00",
+      "progress_pct": 62.0,
+      "elapsed_seconds": 780,
       "phase": "Analyzing agents · Level DEEP",
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 12,
+        "llm_calls": 3,
+        "tool_calls": 9,
+        "tokens_in_text": "7.8k",
+        "tokens_out_text": "1.3k",
+        "reports_done": 0,
+        "reports_total": 7
+      },
       "pricing": {
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": [],
-      "stats": {
-        "agents_done": 0,
-        "agents_total": 12,
-        "llm_calls": 2,
-        "tool_calls": 1,
-        "tokens_in_text": "1.6k",
-        "tokens_out_text": "295",
-        "reports_done": 0,
-        "reports_total": 7
-      }
+      "files": []
     },
     {
       "ticker": "00100.HK",
       "company_name": null,
       "date": "2026-04-02",
+      "generated_at": "2026-04-02T06:26:26.084592+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -104,6 +105,7 @@
       "ticker": "1810.HK",
       "company_name": "Xiaomi Corporation",
       "date": "2026-03-30",
+      "generated_at": "2026-03-30T08:27:51.818934+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -169,6 +171,7 @@
       "ticker": "360.AX",
       "company_name": "Life360, Inc.",
       "date": "2026-03-31",
+      "generated_at": "2026-03-30T23:27:22.651951+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -234,6 +237,7 @@
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-02",
+      "generated_at": "2026-04-02T12:35:25.876002+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -306,6 +310,7 @@
       "ticker": "BOQ.AX",
       "company_name": "Bank of Queensland Limited",
       "date": "2026-03-30",
+      "generated_at": "2026-03-30T10:16:21.302977+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -371,6 +376,7 @@
       "ticker": "CBA.AX",
       "company_name": "Commonwealth Bank of Australia",
       "date": "2026-03-30",
+      "generated_at": "2026-03-30T06:31:09.284183+00:00",
       "level": "deep",
       "decision": "HOLD",
       "pricing": {
@@ -436,6 +442,7 @@
       "ticker": "DRO.AX",
       "company_name": "DroneShield Limited",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T00:40:02.856309+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -501,6 +508,7 @@
       "ticker": "EOS.AX",
       "company_name": "Electro Optic Systems Holdings Limited",
       "date": "2026-04-01",
+      "generated_at": "2026-04-01T14:36:35.605567+00:00",
       "level": "medium",
       "decision": "UNKNOWN",
       "pricing": {
@@ -552,6 +560,7 @@
       "ticker": "KAR.AX",
       "company_name": "Karoon Energy Ltd",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T10:18:01.933779+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -617,6 +626,7 @@
       "ticker": "M7T.AX",
       "company_name": "Mach7 Technologies Limited",
       "date": "2026-04-01",
+      "generated_at": "2026-04-01T13:34:42.678632+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -689,6 +699,7 @@
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
       "date": "2026-03-30",
+      "generated_at": "2026-03-29T23:29:01.707892+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -754,6 +765,7 @@
       "ticker": "NXT.AX",
       "company_name": "NEXTDC Limited",
       "date": "2026-03-30",
+      "generated_at": "2026-03-30T04:20:55.713912+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -819,6 +831,7 @@
       "ticker": "ORG.AX",
       "company_name": "Origin Energy Limited",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T08:30:19.926228+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -884,6 +897,7 @@
       "ticker": "PDN.AX",
       "company_name": "Paladin Energy Ltd",
       "date": "2026-04-01",
+      "generated_at": "2026-04-02T01:57:53.471859+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -956,6 +970,7 @@
       "ticker": "RGTI",
       "company_name": "Rigetti Computing, Inc.",
       "date": "2026-04-02",
+      "generated_at": "2026-04-01T22:27:25.783415+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -1028,6 +1043,7 @@
       "ticker": "SFR.AX",
       "company_name": "Sandfire Resources Limited",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T06:52:39.615389+00:00",
       "level": "deep",
       "decision": "HOLD",
       "pricing": {
@@ -1093,6 +1109,7 @@
       "ticker": "SMCI",
       "company_name": "Super Micro Computer, Inc.",
       "date": "2026-03-22",
+      "generated_at": "2026-03-22T08:08:44.650856+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -1158,6 +1175,7 @@
       "ticker": "STO.AX",
       "company_name": "Santos Limited",
       "date": "2026-03-30",
+      "generated_at": "2026-03-29T21:13:59.607547+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -1223,6 +1241,7 @@
       "ticker": "TSLA",
       "company_name": "Tesla, Inc.",
       "date": "2026-03-22",
+      "generated_at": "2026-03-22T13:45:13.456682+00:00",
       "level": "deep",
       "decision": "SELL",
       "pricing": {
@@ -1288,6 +1307,7 @@
       "ticker": "WDS.AX",
       "company_name": "Woodside Energy Group Ltd",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T05:18:41.668464+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -1353,6 +1373,7 @@
       "ticker": "WHC.AX",
       "company_name": "Whitehaven Coal Limited",
       "date": "2026-04-01",
+      "generated_at": "2026-04-02T04:15:57.252720+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -1425,6 +1446,7 @@
       "ticker": "WTC.AX",
       "company_name": "WiseTech Global Limited",
       "date": "2026-03-28",
+      "generated_at": "2026-03-29T02:05:48.891257+00:00",
       "level": "deep",
       "decision": "BUY",
       "pricing": {
@@ -1490,6 +1512,7 @@
       "ticker": "XRO.AX",
       "company_name": "Xero Limited",
       "date": "2026-03-31",
+      "generated_at": "2026-03-30T17:26:28.359878+00:00",
       "level": "deep",
       "decision": "HOLD",
       "pricing": {
@@ -1553,8 +1576,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.4575,
-    "valid_reports": 22,
+    "pnl_index": -0.4793,
+    "valid_reports": 21,
     "wins": 8,
     "losses": 8
   }

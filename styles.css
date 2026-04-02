@@ -293,7 +293,8 @@ body {
   color: var(--muted);
 }
 
-#market-filter {
+#market-filter,
+#sort-order {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fff;
