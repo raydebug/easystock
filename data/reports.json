@@ -1,31 +1,14 @@
 {
   "reports": [
     {
-      "ticker": "00100.HK",
-      "date": "2026-04-02",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "WHC.AX",
       "date": "2026-04-01",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Portfolio Manager (7/7) · elapsed 02:17:27",
+      "message": "Writing reports · elapsed 02:17:57",
       "progress_pct": 95.0,
-      "elapsed_seconds": 8247,
-      "phase": "Analyzing: Portfolio Manager (7/7)",
+      "elapsed_seconds": 8277,
+      "phase": "Writing reports",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -36,10 +19,10 @@
       "stats": {
         "agents_done": 10,
         "agents_total": 12,
-        "llm_calls": 27,
+        "llm_calls": 28,
         "tool_calls": 14,
-        "tokens_in_text": "175.2k",
-        "tokens_out_text": "58.9k",
+        "tokens_in_text": "176.3k",
+        "tokens_out_text": "59.3k",
         "reports_done": 7,
         "reports_total": 7
       }
