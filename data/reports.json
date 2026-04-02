@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Social Analyst (2/7) · Level DEEP · elapsed 01:16:01",
+      "message": "Analyzing: Social Analyst (2/7) · Level DEEP · elapsed 01:17:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 4561,
+      "elapsed_seconds": 4621,
       "phase": "Analyzing: Social Analyst (2/7) · Level DEEP",
       "stats": {
         "agents_done": 2,
