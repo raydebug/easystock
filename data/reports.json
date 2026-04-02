@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "9992.HK",
+      "date": "2026-04-02",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ... · Level DEEP",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "00100.HK",
       "company_name": null,
       "date": "2026-04-02",
