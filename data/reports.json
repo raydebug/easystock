@@ -24,9 +24,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 06:43:04",
+      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 06:44:04",
       "progress_pct": 95.0,
-      "elapsed_seconds": 24184,
+      "elapsed_seconds": 24244,
       "phase": "Analyzing: Trader (6/7) · Level DEEP",
       "stats": {
         "agents_done": 6,
