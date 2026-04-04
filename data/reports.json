@@ -1,15 +1,15 @@
 {
   "reports": [
     {
-      "ticker": "DNL.AX",
-      "date": "2026-04-03",
-      "level": "medium",
+      "ticker": "EOS.AX",
+      "date": "2026-04-01",
+      "level": "deep",
       "decision": "PENDING",
       "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level MEDIUM",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
       "progress_pct": 0.0,
       "elapsed_seconds": 0,
-      "phase": "Queued · Level MEDIUM",
+      "phase": "Queued · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -491,58 +491,6 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/DRO.AX/2026-03-28/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
-      "ticker": "EOS.AX",
-      "company_name": "Electro Optic Systems Holdings Limited",
-      "date": "2026-04-01",
-      "generated_at": "2026-04-01T14:36:35.605567+00:00",
-      "level": "medium",
-      "decision": "UNKNOWN",
-      "pricing": {
-        "company_name": "Electro Optic Systems Holdings Limited",
-        "report_close": 9.0,
-        "current_price": 9.0,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
-      },
-      "files": [
-        {
-          "name": "fundamentals_report",
-          "path": "reports/EOS.AX/2026-04-01/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/EOS.AX/2026-04-01/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/EOS.AX/2026-04-01/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/EOS.AX/2026-04-01/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/EOS.AX/2026-04-01/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/EOS.AX/2026-04-01/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/EOS.AX/2026-04-01/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/EOS.AX/2026-04-01/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/EOS.AX/2026-04-01/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/EOS.AX/2026-04-01/sentiment_report.zh-CN.md"
         }
       ]
     },
