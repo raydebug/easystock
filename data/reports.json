@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · Level DEEP · elapsed 01:00",
-      "progress_pct": 14.0,
-      "elapsed_seconds": 60,
+      "message": "Analyzing agents · Level DEEP · elapsed 01:03:55",
+      "progress_pct": 18.0,
+      "elapsed_seconds": 3835,
       "phase": "Analyzing agents · Level DEEP",
       "pricing": {
         "report_close": null,
@@ -22,8 +22,8 @@
         "agents_total": 12,
         "llm_calls": 2,
         "tool_calls": 1,
-        "tokens_in_text": "1.6k",
-        "tokens_out_text": "264",
+        "tokens_in_text": "12.5k",
+        "tokens_out_text": "1.1k",
         "reports_done": 0,
         "reports_total": 7
       }
