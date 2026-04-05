@@ -2,31 +2,76 @@
   "reports": [
     {
       "ticker": "9992.HK",
+      "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
+      "generated_at": "2026-04-05T07:09:26.237197+00:00",
       "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:28:05",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 8885,
-      "phase": "Writing reports · Level DEEP",
+      "decision": "BUY",
       "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
+        "company_name": "Pop Mart International Group Limited",
+        "report_close": 141.8,
+        "current_price": 141.8,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
       },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 29,
-        "tool_calls": 17,
-        "tokens_in_text": "219.3k",
-        "tokens_out_text": "61.5k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/9992.HK/2026-04-05/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/9992.HK/2026-04-05/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/9992.HK/2026-04-05/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/9992.HK/2026-04-05/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/9992.HK/2026-04-05/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/9992.HK/2026-04-05/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/9992.HK/2026-04-05/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/9992.HK/2026-04-05/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/9992.HK/2026-04-05/trader_investment_plan.zh-CN.md"
+        }
+      ]
     },
     {
       "ticker": "EOS.AX",
@@ -104,7 +149,7 @@
   ],
   "summary": {
     "pnl_index": 0.0,
-    "valid_reports": 1,
+    "valid_reports": 2,
     "wins": 0,
     "losses": 0
   }
