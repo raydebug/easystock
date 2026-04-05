@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "SYI.AX",
-      "date": "2026-04-05",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:39:50",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 9590,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 36,
-        "tool_calls": 23,
-        "tokens_in_text": "267.0k",
-        "tokens_out_text": "64.4k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -246,12 +218,85 @@
           "translated_path": "reports/S/2026-04-05/trader_investment_plan.zh-CN.md"
         }
       ]
+    },
+    {
+      "ticker": "SYI.AX",
+      "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
+      "date": "2026-04-05",
+      "generated_at": "2026-04-05T12:17:41.831594+00:00",
+      "level": "deep",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
+        "report_close": 30.52,
+        "current_price": 30.52,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/SYI.AX/2026-04-05/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/SYI.AX/2026-04-05/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/SYI.AX/2026-04-05/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/SYI.AX/2026-04-05/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/SYI.AX/2026-04-05/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/SYI.AX/2026-04-05/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/SYI.AX/2026-04-05/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/SYI.AX/2026-04-05/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SYI.AX/2026-04-05/trader_investment_plan.zh-CN.md"
+        }
+      ]
     }
   ],
   "summary": {
-    "pnl_index": 0.0,
-    "valid_reports": 3,
-    "wins": 0,
+    "pnl_index": 0.25,
+    "valid_reports": 4,
+    "wins": 1,
     "losses": 0
   }
 }
