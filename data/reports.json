@@ -1,24 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "DRO.AX",
-      "date": "2026-04-06",
-      "level": "medium",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level MEDIUM",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level MEDIUM",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
