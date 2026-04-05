@@ -1,6 +1,34 @@
 {
   "reports": [
     {
+      "ticker": "9992.HK",
+      "date": "2026-04-05",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 16:00",
+      "progress_pct": 74.0,
+      "elapsed_seconds": 960,
+      "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": [],
+      "stats": {
+        "agents_done": 4,
+        "agents_total": 12,
+        "llm_calls": 11,
+        "tool_calls": 17,
+        "tokens_in_text": "39.3k",
+        "tokens_out_text": "8.7k",
+        "reports_done": 4,
+        "reports_total": 7
+      }
+    },
+    {
       "ticker": "EOS.AX",
       "company_name": "Electro Optic Systems Holdings Limited",
       "date": "2026-04-01",
