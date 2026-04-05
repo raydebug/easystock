@@ -6,10 +6,10 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 01:29:01",
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 01:29:49",
       "progress_pct": 95.0,
-      "elapsed_seconds": 5341,
-      "phase": "Analyzing: Trader (6/7) · Level DEEP",
+      "elapsed_seconds": 5389,
+      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -22,8 +22,8 @@
         "agents_total": 12,
         "llm_calls": 18,
         "tool_calls": 16,
-        "tokens_in_text": "120.3k",
-        "tokens_out_text": "36.4k",
+        "tokens_in_text": "129.2k",
+        "tokens_out_text": "38.9k",
         "reports_done": 6,
         "reports_total": 7
       }
