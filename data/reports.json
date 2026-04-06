@@ -293,79 +293,6 @@
       ]
     },
     {
-      "ticker": "S",
-      "company_name": "SentinelOne, Inc.",
-      "date": "2026-04-05",
-      "generated_at": "2026-04-05T09:37:45.879170+00:00",
-      "level": "deep",
-      "decision": "BUY",
-      "pricing": {
-        "company_name": "SentinelOne, Inc.",
-        "report_close": 13.33,
-        "current_price": 13.33,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
-      },
-      "files": [
-        {
-          "name": "final_trade_decision",
-          "path": "reports/S/2026-04-05/final_trade_decision.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/final_trade_decision.zh-CN.md"
-        },
-        {
-          "name": "fundamentals_report",
-          "path": "reports/S/2026-04-05/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "hot_news_since_last_report",
-          "path": "reports/S/2026-04-05/hot_news_since_last_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/hot_news_since_last_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/S/2026-04-05/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/S/2026-04-05/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/S/2026-04-05/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/S/2026-04-05/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/sentiment_report.zh-CN.md"
-        },
-        {
-          "name": "trader_investment_plan",
-          "path": "reports/S/2026-04-05/trader_investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/S/2026-04-05/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
       "ticker": "SYI.AX",
       "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
       "date": "2026-04-05",
@@ -440,8 +367,8 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.1667,
-    "valid_reports": 6,
+    "pnl_index": 0.2,
+    "valid_reports": 5,
     "wins": 1,
     "losses": 0
   }
