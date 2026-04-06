@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "CBA.AX",
-      "date": "2026-04-06",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 04:01:10",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 14470,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 29,
-        "tool_calls": 20,
-        "tokens_in_text": "247.5k",
-        "tokens_out_text": "91.2k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -98,6 +70,79 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/9992.HK/2026-04-05/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "CBA.AX",
+      "company_name": "Commonwealth Bank of Australia",
+      "date": "2026-04-06",
+      "generated_at": "2026-04-06T06:09:36.463980+00:00",
+      "level": "deep",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "Commonwealth Bank of Australia",
+        "report_close": 172.8,
+        "current_price": 172.8,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/CBA.AX/2026-04-06/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/CBA.AX/2026-04-06/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/CBA.AX/2026-04-06/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/CBA.AX/2026-04-06/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/CBA.AX/2026-04-06/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/CBA.AX/2026-04-06/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/CBA.AX/2026-04-06/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/CBA.AX/2026-04-06/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CBA.AX/2026-04-06/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -395,9 +440,9 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.2,
-    "valid_reports": 5,
-    "wins": 1,
+    "pnl_index": 0.3333,
+    "valid_reports": 6,
+    "wins": 2,
     "losses": 0
   }
 }
