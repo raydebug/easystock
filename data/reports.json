@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "DRO.AX",
-      "date": "2026-04-06",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:59:03",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10743,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 22,
-        "tokens_in_text": "238.0k",
-        "tokens_out_text": "64.0k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -98,6 +70,79 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/9992.HK/2026-04-05/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "DRO.AX",
+      "company_name": "DroneShield Limited",
+      "date": "2026-04-06",
+      "generated_at": "2026-04-06T00:09:27.709997+00:00",
+      "level": "deep",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "DroneShield Limited",
+        "report_close": 3.93,
+        "current_price": 3.93,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/DRO.AX/2026-04-06/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/DRO.AX/2026-04-06/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/DRO.AX/2026-04-06/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/DRO.AX/2026-04-06/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/DRO.AX/2026-04-06/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/DRO.AX/2026-04-06/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/DRO.AX/2026-04-06/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/DRO.AX/2026-04-06/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DRO.AX/2026-04-06/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -395,8 +440,8 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.2,
-    "valid_reports": 5,
+    "pnl_index": 0.1667,
+    "valid_reports": 6,
     "wins": 1,
     "losses": 0
   }
