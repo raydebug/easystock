@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: News Analyst (3/7) · Level DEEP · elapsed 14:13",
-      "progress_pct": 66.0,
-      "elapsed_seconds": 853,
+      "message": "Analyzing: News Analyst (3/7) · Level DEEP · elapsed 15:00",
+      "progress_pct": 70.0,
+      "elapsed_seconds": 900,
       "phase": "Analyzing: News Analyst (3/7) · Level DEEP",
       "pricing": {
         "report_close": null,
@@ -20,10 +20,10 @@
       "stats": {
         "agents_done": 3,
         "agents_total": 12,
-        "llm_calls": 8,
-        "tool_calls": 13,
-        "tokens_in_text": "37.2k",
-        "tokens_out_text": "7.1k",
+        "llm_calls": 10,
+        "tool_calls": 20,
+        "tokens_in_text": "38.3k",
+        "tokens_out_text": "7.5k",
         "reports_done": 3,
         "reports_total": 7
       }
