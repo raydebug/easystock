@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "DXB.AX",
-      "date": "2026-04-06",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:38:01",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 9481,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 30,
-        "tool_calls": 19,
-        "tokens_in_text": "226.8k",
-        "tokens_out_text": "61.9k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -244,6 +216,79 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/DRO.AX/2026-04-06/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "DXB.AX",
+      "company_name": "Dimerix Limited",
+      "date": "2026-04-06",
+      "generated_at": "2026-04-06T10:27:39.705058+00:00",
+      "level": "deep",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "Dimerix Limited",
+        "report_close": 0.32,
+        "current_price": 0.32,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/DXB.AX/2026-04-06/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/DXB.AX/2026-04-06/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/DXB.AX/2026-04-06/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/DXB.AX/2026-04-06/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/DXB.AX/2026-04-06/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/DXB.AX/2026-04-06/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/DXB.AX/2026-04-06/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/DXB.AX/2026-04-06/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/DXB.AX/2026-04-06/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -468,9 +513,9 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.3333,
-    "valid_reports": 6,
-    "wins": 2,
+    "pnl_index": 0.4286,
+    "valid_reports": 7,
+    "wins": 3,
     "losses": 0
   }
 }
