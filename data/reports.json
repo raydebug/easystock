@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "UNH",
-      "date": "2026-04-08",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 03:01:56",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10916,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 18,
-        "tokens_in_text": "262.6k",
-        "tokens_out_text": "62.3k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -38,9 +10,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 141.8,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 151.6,
+        "price_diff": 9.8,
+        "price_diff_pct": 6.9111
       },
       "files": [
         {
@@ -111,9 +83,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 176.94,
-        "price_diff": 4.14,
-        "price_diff_pct": 2.3958
+        "current_price": 180.63,
+        "price_diff": 7.83,
+        "price_diff_pct": 4.5312
       },
       "files": [
         {
@@ -184,9 +156,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.99,
-        "price_diff": 0.06,
-        "price_diff_pct": 1.5267
+        "current_price": 3.445,
+        "price_diff": -0.485,
+        "price_diff_pct": -12.341
       },
       "files": [
         {
@@ -257,9 +229,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.32,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 0.355,
+        "price_diff": 0.035,
+        "price_diff_pct": 10.9375
       },
       "files": [
         {
@@ -330,9 +302,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.44,
-        "price_diff": 0.44,
-        "price_diff_pct": 4.8889
+        "current_price": 9.37,
+        "price_diff": 0.37,
+        "price_diff_pct": 4.1111
       },
       "files": [
         {
@@ -403,9 +375,9 @@
       "pricing": {
         "company_name": "Fastly, Inc.",
         "report_close": 33.5,
-        "current_price": 31.54,
-        "price_diff": -1.96,
-        "price_diff_pct": -5.8507
+        "current_price": 31.6,
+        "price_diff": -1.9,
+        "price_diff_pct": -5.6716
       },
       "files": [
         {
@@ -476,9 +448,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 31.0,
-        "price_diff": 0.48,
-        "price_diff_pct": 1.5727
+        "current_price": 31.36,
+        "price_diff": 0.84,
+        "price_diff_pct": 2.7523
       },
       "files": [
         {
@@ -540,6 +512,79 @@
       ]
     },
     {
+      "ticker": "UNH",
+      "company_name": "UnitedHealth Group Incorporated",
+      "date": "2026-04-08",
+      "generated_at": "2026-04-08T01:55:38.898632+00:00",
+      "level": "deep",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "UnitedHealth Group Incorporated",
+        "report_close": 307.73,
+        "current_price": 307.73,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/UNH/2026-04-08/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/UNH/2026-04-08/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/UNH/2026-04-08/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/UNH/2026-04-08/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/UNH/2026-04-08/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/UNH/2026-04-08/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/UNH/2026-04-08/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/UNH/2026-04-08/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/UNH/2026-04-08/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "WDS.AX",
       "company_name": "Woodside Energy Group Ltd",
       "date": "2026-04-07",
@@ -549,9 +594,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 35.8,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 32.065,
+        "price_diff": -3.735,
+        "price_diff_pct": -10.433
       },
       "files": [
         {
@@ -622,9 +667,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 39.16,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 42.59,
+        "price_diff": 3.43,
+        "price_diff_pct": 8.7589
       },
       "files": [
         {
@@ -687,9 +732,9 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.2671,
-    "valid_reports": 9,
+    "pnl_index": -2.6885,
+    "valid_reports": 10,
     "wins": 3,
-    "losses": 3
+    "losses": 6
   }
 }
