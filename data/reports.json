@@ -24,10 +24,10 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Portfolio Manager (7/7) · Level DEEP · elapsed 03:01:30",
+      "message": "Writing reports · Level DEEP · elapsed 03:01:56",
       "progress_pct": 95.0,
-      "elapsed_seconds": 10890,
-      "phase": "Analyzing: Portfolio Manager (7/7) · Level DEEP",
+      "elapsed_seconds": 10916,
+      "phase": "Writing reports · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -38,10 +38,10 @@
       "stats": {
         "agents_done": 10,
         "agents_total": 12,
-        "llm_calls": 30,
+        "llm_calls": 31,
         "tool_calls": 18,
-        "tokens_in_text": "261.4k",
-        "tokens_out_text": "61.9k",
+        "tokens_in_text": "262.6k",
+        "tokens_out_text": "62.3k",
         "reports_done": 7,
         "reports_total": 7
       }
