@@ -28,6 +28,11 @@ const UI_TEXT = {
     pnlSamples: "样本",
     pnlWins: "正确",
     pnlLosses: "错误",
+    holdTitle: "HOLD 走势",
+    holdSamples: "HOLD 样本",
+    holdUp: "后续上涨",
+    holdDown: "后续下跌",
+    holdFlat: "走平",
     agents: "代理",
     llmCalls: "LLM调用",
     toolCalls: "工具调用",
@@ -66,6 +71,11 @@ const UI_TEXT = {
     pnlSamples: "Samples",
     pnlWins: "Wins",
     pnlLosses: "Losses",
+    holdTitle: "HOLD Breakdown",
+    holdSamples: "HOLD Samples",
+    holdUp: "Moved Up",
+    holdDown: "Moved Down",
+    holdFlat: "Flat",
     agents: "Agents",
     llmCalls: "LLM Calls",
     toolCalls: "Tool Calls",
@@ -162,20 +172,32 @@ function renderPnlSummary(summary, t) {
   const count = (summary && typeof summary.valid_reports === "number") ? summary.valid_reports : 0;
   const wins = (summary && typeof summary.wins === "number") ? summary.wins : 0;
   const losses = (summary && typeof summary.losses === "number") ? summary.losses : 0;
+  const holdReports = (summary && typeof summary.hold_reports === "number") ? summary.hold_reports : 0;
+  const holdUp = (summary && typeof summary.hold_up === "number") ? summary.hold_up : 0;
+  const holdDown = (summary && typeof summary.hold_down === "number") ? summary.hold_down : 0;
+  const holdFlat = (summary && typeof summary.hold_flat === "number") ? summary.hold_flat : 0;
   holder.innerHTML = `
     <strong>${t.pnlTitle}</strong>
     <span>${t.pnlIndex}: <b>${indexVal}</b></span>
     <span>${t.pnlSamples}: <b>${count}</b></span>
     <span>${t.pnlWins}: <b>${wins}</b></span>
     <span>${t.pnlLosses}: <b>${losses}</b></span>
+    <strong>${t.holdTitle}</strong>
+    <span>${t.holdSamples}: <b>${holdReports}</b></span>
+    <span>${t.holdUp}: <b>${holdUp}</b></span>
+    <span>${t.holdDown}: <b>${holdDown}</b></span>
+    <span>${t.holdFlat}: <b>${holdFlat}</b></span>
   `;
 }
 
 function computePnlSummaryFallback(reports) {
-  const holdBand = 1.0;
   const scores = [];
   let wins = 0;
   let losses = 0;
+  let holdReports = 0;
+  let holdUp = 0;
+  let holdDown = 0;
+  let holdFlat = 0;
 
   (reports || []).forEach((item) => {
     const status = String(item.status || "").toLowerCase();
@@ -195,8 +217,14 @@ function computePnlSummaryFallback(reports) {
     } else if (decision === "SELL") {
       score = pct < 0 ? Math.abs(pct) : -Math.abs(pct);
     } else if (decision === "HOLD") {
-      const move = Math.abs(pct);
-      score = move <= holdBand ? (holdBand - move) : -move;
+      holdReports += 1;
+      if (pct > 0) {
+        holdUp += 1;
+      } else if (pct < 0) {
+        holdDown += 1;
+      } else {
+        holdFlat += 1;
+      }
     }
 
     if (typeof score !== "number") {
@@ -214,6 +242,10 @@ function computePnlSummaryFallback(reports) {
     valid_reports: count,
     wins,
     losses,
+    hold_reports: holdReports,
+    hold_up: holdUp,
+    hold_down: holdDown,
+    hold_flat: holdFlat,
   };
 }
 
@@ -236,8 +268,7 @@ function getReportPnlScore(item) {
     return pct < 0 ? Math.abs(pct) : -Math.abs(pct);
   }
   if (decision === "HOLD") {
-    const move = Math.abs(pct);
-    return move <= 1.0 ? (1.0 - move) : -move;
+    return null;
   }
   return null;
 }
