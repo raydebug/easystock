@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "INTC",
-      "date": "2026-04-09",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:58:22",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10702,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 30,
-        "tool_calls": 22,
-        "tokens_in_text": "241.2k",
-        "tokens_out_text": "63.8k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -111,9 +83,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 180.21,
-        "price_diff": 7.41,
-        "price_diff_pct": 4.2882
+        "current_price": 181.67,
+        "price_diff": 8.87,
+        "price_diff_pct": 5.1331
       },
       "files": [
         {
@@ -184,9 +156,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.45,
-        "price_diff": -0.48,
-        "price_diff_pct": -12.2137
+        "current_price": 3.575,
+        "price_diff": -0.355,
+        "price_diff_pct": -9.0331
       },
       "files": [
         {
@@ -257,9 +229,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.35,
-        "price_diff": 0.03,
-        "price_diff_pct": 9.375
+        "current_price": 0.345,
+        "price_diff": 0.025,
+        "price_diff_pct": 7.8125
       },
       "files": [
         {
@@ -330,9 +302,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.9,
-        "price_diff": 0.9,
-        "price_diff_pct": 10.0
+        "current_price": 9.86,
+        "price_diff": 0.86,
+        "price_diff_pct": 9.5556
       },
       "files": [
         {
@@ -467,6 +439,79 @@
       ]
     },
     {
+      "ticker": "INTC",
+      "company_name": "Intel Corporation",
+      "date": "2026-04-09",
+      "generated_at": "2026-04-09T01:05:28.508996+00:00",
+      "level": "deep",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Intel Corporation",
+        "report_close": 58.95,
+        "current_price": 58.95,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/INTC/2026-04-09/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/INTC/2026-04-09/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/INTC/2026-04-09/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/INTC/2026-04-09/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/INTC/2026-04-09/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/INTC/2026-04-09/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/INTC/2026-04-09/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/INTC/2026-04-09/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/INTC/2026-04-09/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "SYI.AX",
       "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
       "date": "2026-04-05",
@@ -476,9 +521,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 31.34,
-        "price_diff": 0.82,
-        "price_diff_pct": 2.6868
+        "current_price": 31.66,
+        "price_diff": 1.14,
+        "price_diff_pct": 3.7353
       },
       "files": [
         {
@@ -549,9 +594,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 13.95,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 13.69,
+        "price_diff": -0.26,
+        "price_diff_pct": -1.8638
       },
       "files": [
         {
@@ -768,9 +813,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 32.06,
-        "price_diff": -3.74,
-        "price_diff_pct": -10.4469
+        "current_price": 33.38,
+        "price_diff": -2.42,
+        "price_diff_pct": -6.7598
       },
       "files": [
         {
@@ -841,9 +886,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.35,
-        "price_diff": 4.19,
-        "price_diff_pct": 10.6997
+        "current_price": 39.92,
+        "price_diff": 0.76,
+        "price_diff_pct": 1.9408
       },
       "files": [
         {
@@ -906,13 +951,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.4271,
-    "valid_reports": 8,
+    "pnl_index": 0.1201,
+    "valid_reports": 9,
     "wins": 3,
     "losses": 3,
     "hold_reports": 4,
     "hold_up": 3,
-    "hold_down": 0,
-    "hold_flat": 1
+    "hold_down": 1,
+    "hold_flat": 0
   }
 }
