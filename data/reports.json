@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "NVDA",
-      "date": "2026-04-09",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:51:46",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10306,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 18,
-        "tokens_in_text": "291.7k",
-        "tokens_out_text": "65.9k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -111,9 +83,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 181.67,
-        "price_diff": 8.87,
-        "price_diff_pct": 5.1331
+        "current_price": 182.53,
+        "price_diff": 9.73,
+        "price_diff_pct": 5.6308
       },
       "files": [
         {
@@ -184,9 +156,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.575,
-        "price_diff": -0.355,
-        "price_diff_pct": -9.0331
+        "current_price": 3.5,
+        "price_diff": -0.43,
+        "price_diff_pct": -10.9415
       },
       "files": [
         {
@@ -257,9 +229,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.345,
-        "price_diff": 0.025,
-        "price_diff_pct": 7.8125
+        "current_price": 0.36,
+        "price_diff": 0.04,
+        "price_diff_pct": 12.5
       },
       "files": [
         {
@@ -330,9 +302,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.86,
-        "price_diff": 0.86,
-        "price_diff_pct": 9.5556
+        "current_price": 9.42,
+        "price_diff": 0.42,
+        "price_diff_pct": 4.6667
       },
       "files": [
         {
@@ -475,10 +447,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Intel Corporation",
-        "report_close": 58.95,
+        "report_close": 52.91,
         "current_price": 58.95,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "price_diff": 6.04,
+        "price_diff_pct": 11.4156
       },
       "files": [
         {
@@ -536,6 +508,79 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/INTC/2026-04-09/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "date": "2026-04-09",
+      "generated_at": "2026-04-09T07:53:18.488310+00:00",
+      "level": "deep",
+      "decision": "SELL",
+      "pricing": {
+        "company_name": "NVIDIA Corporation",
+        "report_close": 178.1,
+        "current_price": 182.08,
+        "price_diff": 3.98,
+        "price_diff_pct": 2.2347
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/NVDA/2026-04-09/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/NVDA/2026-04-09/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/NVDA/2026-04-09/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/NVDA/2026-04-09/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/NVDA/2026-04-09/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/NVDA/2026-04-09/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/NVDA/2026-04-09/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/NVDA/2026-04-09/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NVDA/2026-04-09/trader_investment_plan.zh-CN.md"
         }
       ]
     },
@@ -622,9 +667,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 13.69,
-        "price_diff": -0.26,
-        "price_diff_pct": -1.8638
+        "current_price": 13.64,
+        "price_diff": -0.31,
+        "price_diff_pct": -2.2222
       },
       "files": [
         {
@@ -694,10 +739,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Tesla, Inc.",
-        "report_close": 343.25,
+        "report_close": 346.65,
         "current_price": 343.25,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "price_diff": -3.4,
+        "price_diff_pct": -0.9808
       },
       "files": [
         {
@@ -767,10 +812,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "UnitedHealth Group Incorporated",
-        "report_close": 305.98,
+        "report_close": 307.73,
         "current_price": 305.98,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "price_diff": -1.75,
+        "price_diff_pct": -0.5687
       },
       "files": [
         {
@@ -841,9 +886,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.38,
-        "price_diff": -2.42,
-        "price_diff_pct": -6.7598
+        "current_price": 33.33,
+        "price_diff": -2.47,
+        "price_diff_pct": -6.8994
       },
       "files": [
         {
@@ -914,9 +959,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 39.92,
-        "price_diff": 0.76,
-        "price_diff_pct": 1.9408
+        "current_price": 38.62,
+        "price_diff": -0.54,
+        "price_diff_pct": -1.379
       },
       "files": [
         {
@@ -979,10 +1024,10 @@
     }
   ],
   "summary": {
-    "pnl_index": 0.1201,
-    "valid_reports": 9,
+    "pnl_index": -0.1544,
+    "valid_reports": 10,
     "wins": 3,
-    "losses": 3,
+    "losses": 7,
     "hold_reports": 4,
     "hold_up": 3,
     "hold_down": 1,
