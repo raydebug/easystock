@@ -6,10 +6,10 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level MEDIUM · elapsed 27:00",
+      "message": "Analyzing: Research Manager (5/7) · Level MEDIUM · elapsed 27:39",
       "progress_pct": 95.0,
-      "elapsed_seconds": 1620,
-      "phase": "Analyzing: Fundamentals Analyst (4/7) · Level MEDIUM",
+      "elapsed_seconds": 1659,
+      "phase": "Analyzing: Research Manager (5/7) · Level MEDIUM",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,13 +18,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 4,
+        "agents_done": 5,
         "agents_total": 12,
         "llm_calls": 12,
         "tool_calls": 19,
-        "tokens_in_text": "51.8k",
-        "tokens_out_text": "10.9k",
-        "reports_done": 4,
+        "tokens_in_text": "59.1k",
+        "tokens_out_text": "13.9k",
+        "reports_done": 5,
         "reports_total": 7
       }
     },
