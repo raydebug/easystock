@@ -6,10 +6,10 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level MEDIUM · elapsed 01:05:00",
+      "message": "Analyzing: Research Manager (6/7) · Level MEDIUM · elapsed 01:05:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3900,
-      "phase": "Analyzing: Trader (6/7) · Level MEDIUM",
+      "elapsed_seconds": 3901,
+      "phase": "Analyzing: Research Manager (6/7) · Level MEDIUM",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -22,8 +22,8 @@
         "agents_total": 12,
         "llm_calls": 18,
         "tool_calls": 19,
-        "tokens_in_text": "98.7k",
-        "tokens_out_text": "27.0k",
+        "tokens_in_text": "106.4k",
+        "tokens_out_text": "29.6k",
         "reports_done": 6,
         "reports_total": 7
       }
