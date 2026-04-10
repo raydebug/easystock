@@ -6,9 +6,9 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level MEDIUM · elapsed 01:03:00",
+      "message": "Analyzing: Trader (6/7) · Level MEDIUM · elapsed 01:04:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3780,
+      "elapsed_seconds": 3840,
       "phase": "Analyzing: Trader (6/7) · Level MEDIUM",
       "pricing": {
         "report_close": null,
