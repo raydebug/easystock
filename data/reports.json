@@ -6,10 +6,10 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:54:02",
+      "message": "Writing reports · Level DEEP · elapsed 02:54:43",
       "progress_pct": 95.0,
-      "elapsed_seconds": 10442,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
+      "elapsed_seconds": 10483,
+      "phase": "Writing reports · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -22,9 +22,9 @@
         "agents_total": 12,
         "llm_calls": 29,
         "tool_calls": 18,
-        "tokens_in_text": "259.3k",
-        "tokens_out_text": "62.8k",
-        "reports_done": 6,
+        "tokens_in_text": "259.4k",
+        "tokens_out_text": "64.8k",
+        "reports_done": 7,
         "reports_total": 7
       }
     },
