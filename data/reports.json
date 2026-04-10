@@ -6,9 +6,9 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level MEDIUM · elapsed 57:57",
+      "message": "Analyzing: Research Manager (5/7) · Level MEDIUM · elapsed 59:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3477,
+      "elapsed_seconds": 3540,
       "phase": "Analyzing: Research Manager (5/7) · Level MEDIUM",
       "pricing": {
         "report_close": null,
@@ -20,7 +20,7 @@
       "stats": {
         "agents_done": 5,
         "agents_total": 12,
-        "llm_calls": 16,
+        "llm_calls": 17,
         "tool_calls": 19,
         "tokens_in_text": "97.6k",
         "tokens_out_text": "25.6k",
