@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "NFLX",
+      "date": "2026-04-11",
+      "level": "medium",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ... · Level MEDIUM",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating · Level MEDIUM",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "GRAB",
       "date": "2026-04-11",
       "level": "medium",
