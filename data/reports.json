@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "MSFT",
-      "date": "2026-04-10",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:54:43",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10483,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 29,
-        "tool_calls": 18,
-        "tokens_in_text": "259.4k",
-        "tokens_out_text": "64.8k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -113,9 +85,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 182.75,
-        "price_diff": 9.95,
-        "price_diff_pct": 5.7581
+        "current_price": 183.38,
+        "price_diff": 10.58,
+        "price_diff_pct": 6.1227
       },
       "files": [
         {
@@ -261,9 +233,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.335,
-        "price_diff": 0.015,
-        "price_diff_pct": 4.6875
+        "current_price": 0.34,
+        "price_diff": 0.02,
+        "price_diff_pct": 6.25
       },
       "files": [
         {
@@ -621,6 +593,73 @@
       ]
     },
     {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "date": "2026-04-10",
+      "generated_at": "2026-04-10T10:30:22.304172+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "UNKNOWN",
+      "pricing": {
+        "company_name": "Microsoft Corporation",
+        "report_close": 373.07,
+        "current_price": 373.07,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/MSFT/2026-04-10/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/MSFT/2026-04-10/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/MSFT/2026-04-10/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/MSFT/2026-04-10/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/MSFT/2026-04-10/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/MSFT/2026-04-10/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/MSFT/2026-04-10/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/MSFT/2026-04-10/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "company_name": "NVIDIA Corporation",
       "date": "2026-04-09",
@@ -779,9 +818,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 31.7,
-        "price_diff": 1.18,
-        "price_diff_pct": 3.8663
+        "current_price": 31.75,
+        "price_diff": 1.23,
+        "price_diff_pct": 4.0301
       },
       "files": [
         {
@@ -853,9 +892,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 14.38,
-        "price_diff": 0.43,
-        "price_diff_pct": 3.0824
+        "current_price": 14.64,
+        "price_diff": 0.69,
+        "price_diff_pct": 4.9462
       },
       "files": [
         {
@@ -1075,9 +1114,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.14,
-        "price_diff": -2.66,
-        "price_diff_pct": -7.4302
+        "current_price": 33.28,
+        "price_diff": -2.52,
+        "price_diff_pct": -7.0391
       },
       "files": [
         {
@@ -1149,9 +1188,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 37.83,
-        "price_diff": -1.33,
-        "price_diff_pct": -3.3963
+        "current_price": 37.63,
+        "price_diff": -1.53,
+        "price_diff_pct": -3.907
       },
       "files": [
         {
@@ -1214,7 +1253,7 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.0632,
+    "pnl_index": -2.0732,
     "valid_reports": 12,
     "wins": 3,
     "losses": 4,
