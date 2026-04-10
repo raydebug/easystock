@@ -381,9 +381,9 @@
       "pricing": {
         "company_name": "Fastly, Inc.",
         "report_close": 33.5,
-        "current_price": 29.46,
-        "price_diff": -4.04,
-        "price_diff_pct": -12.0597
+        "current_price": 23.07,
+        "price_diff": -10.43,
+        "price_diff_pct": -31.1343
       },
       "files": [
         {
@@ -455,9 +455,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 61.72,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 62.38,
+        "price_diff": 0.66,
+        "price_diff_pct": 1.0693
       },
       "files": [
         {
@@ -529,9 +529,9 @@
       "pricing": {
         "company_name": "McDonald's Corporation",
         "report_close": 309.55,
-        "current_price": 309.55,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 305.68,
+        "price_diff": -3.87,
+        "price_diff_pct": -1.2502
       },
       "files": [
         {
@@ -599,13 +599,13 @@
       "generated_at": "2026-04-10T10:30:22.304172+00:00",
       "level": "deep",
       "status": "completed",
-      "decision": "UNKNOWN",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Microsoft Corporation",
-        "report_close": 373.07,
-        "current_price": 373.07,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "report_close": 370.87,
+        "current_price": 370.87,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -670,9 +670,9 @@
       "pricing": {
         "company_name": "NVIDIA Corporation",
         "report_close": 183.91,
-        "current_price": 183.91,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 188.63,
+        "price_diff": 4.72,
+        "price_diff_pct": 2.5665
       },
       "files": [
         {
@@ -743,10 +743,10 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Palantir Technologies Inc.",
-        "report_close": 130.49,
-        "current_price": 130.49,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "report_close": 128.06,
+        "current_price": 128.06,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
       "files": [
         {
@@ -966,9 +966,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 345.62,
-        "current_price": 345.62,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 348.95,
+        "price_diff": 3.33,
+        "price_diff_pct": 0.9635
       },
       "files": [
         {
@@ -1040,9 +1040,9 @@
       "pricing": {
         "company_name": "UnitedHealth Group Incorporated",
         "report_close": 305.98,
-        "current_price": 306.91,
-        "price_diff": 0.93,
-        "price_diff_pct": 0.3039
+        "current_price": 304.33,
+        "price_diff": -1.65,
+        "price_diff_pct": -0.5393
       },
       "files": [
         {
@@ -1253,10 +1253,10 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.0732,
-    "valid_reports": 12,
-    "wins": 3,
-    "losses": 4,
+    "pnl_index": -3.5831,
+    "valid_reports": 13,
+    "wins": 4,
+    "losses": 7,
     "hold_reports": 4,
     "hold_up": 4,
     "hold_down": 0,
