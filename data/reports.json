@@ -6,17 +6,27 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Generating ... · Level DEEP",
+      "message": "Starting · Level DEEP · elapsed 00:00",
       "progress_pct": 10.0,
       "elapsed_seconds": 0,
-      "phase": "Generating · Level DEEP",
+      "phase": "Starting · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": []
+      "files": [],
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 12,
+        "llm_calls": 0,
+        "tool_calls": 0,
+        "tokens_in_text": "0",
+        "tokens_out_text": "0",
+        "reports_done": 0,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "9992.HK",
