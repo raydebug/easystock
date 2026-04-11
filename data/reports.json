@@ -6,10 +6,10 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Market Analyst (1/7) · Level SHALLOW · elapsed 13:00",
-      "progress_pct": 62.0,
-      "elapsed_seconds": 780,
-      "phase": "Analyzing: Market Analyst (1/7) · Level SHALLOW",
+      "message": "Analyzing: Social Analyst (2/7) · Level SHALLOW · elapsed 13:30",
+      "progress_pct": 64.0,
+      "elapsed_seconds": 810,
+      "phase": "Analyzing: Social Analyst (2/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,13 +18,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 1,
+        "agents_done": 2,
         "agents_total": 12,
         "llm_calls": 6,
         "tool_calls": 12,
-        "tokens_in_text": "27.1k",
-        "tokens_out_text": "3.2k",
-        "reports_done": 1,
+        "tokens_in_text": "32.0k",
+        "tokens_out_text": "5.2k",
+        "reports_done": 2,
         "reports_total": 7
       }
     },
