@@ -24,10 +24,10 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Portfolio Manager (7/7) · Level MEDIUM · elapsed 01:58:01",
+      "message": "Writing reports · Level MEDIUM · elapsed 01:58:18",
       "progress_pct": 95.0,
-      "elapsed_seconds": 7081,
-      "phase": "Analyzing: Portfolio Manager (7/7) · Level MEDIUM",
+      "elapsed_seconds": 7098,
+      "phase": "Writing reports · Level MEDIUM",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -38,10 +38,10 @@
       "stats": {
         "agents_done": 10,
         "agents_total": 12,
-        "llm_calls": 24,
+        "llm_calls": 25,
         "tool_calls": 19,
-        "tokens_in_text": "166.4k",
-        "tokens_out_text": "48.1k",
+        "tokens_in_text": "167.4k",
+        "tokens_out_text": "48.3k",
         "reports_done": 7,
         "reports_total": 7
       }
