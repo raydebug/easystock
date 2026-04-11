@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: News Analyst (3/7) · Level SHALLOW · elapsed 18:00",
-      "progress_pct": 82.0,
-      "elapsed_seconds": 1080,
+      "message": "Analyzing: News Analyst (3/7) · Level SHALLOW · elapsed 19:00",
+      "progress_pct": 86.0,
+      "elapsed_seconds": 1140,
       "phase": "Analyzing: News Analyst (3/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
@@ -20,10 +20,10 @@
       "stats": {
         "agents_done": 3,
         "agents_total": 12,
-        "llm_calls": 12,
-        "tool_calls": 17,
-        "tokens_in_text": "42.9k",
-        "tokens_out_text": "8.0k",
+        "llm_calls": 13,
+        "tool_calls": 18,
+        "tokens_in_text": "51.5k",
+        "tokens_out_text": "8.1k",
         "reports_done": 3,
         "reports_total": 7
       }
