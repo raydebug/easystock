@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "TSM",
-      "date": "2026-04-11",
-      "level": "shallow",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level SHALLOW · elapsed 01:23:46",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 5026,
-      "phase": "Writing reports · Level SHALLOW",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 22,
-        "tool_calls": 18,
-        "tokens_in_text": "125.0k",
-        "tokens_out_text": "33.0k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -762,6 +734,59 @@
       ]
     },
     {
+      "ticker": "NFLX",
+      "company_name": "Netflix, Inc.",
+      "date": "2026-04-11",
+      "generated_at": "2026-04-11T05:14:39.565405+00:00",
+      "level": "medium",
+      "status": "completed",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Netflix, Inc.",
+        "report_close": 103.01,
+        "current_price": 103.01,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/NFLX/2026-04-11/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NFLX/2026-04-11/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/NFLX/2026-04-11/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NFLX/2026-04-11/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/NFLX/2026-04-11/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NFLX/2026-04-11/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/NFLX/2026-04-11/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NFLX/2026-04-11/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/NFLX/2026-04-11/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/NFLX/2026-04-11/sentiment_report.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "company_name": "NVIDIA Corporation",
       "date": "2026-04-09",
@@ -1132,6 +1157,80 @@
       ]
     },
     {
+      "ticker": "TSM",
+      "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "date": "2026-04-11",
+      "generated_at": "2026-04-11T08:29:51.810862+00:00",
+      "level": "shallow",
+      "status": "completed",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+        "report_close": 370.6,
+        "current_price": 370.6,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/TSM/2026-04-11/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/TSM/2026-04-11/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/TSM/2026-04-11/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/TSM/2026-04-11/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/TSM/2026-04-11/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/TSM/2026-04-11/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/TSM/2026-04-11/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/TSM/2026-04-11/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TSM/2026-04-11/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "UNH",
       "company_name": "UnitedHealth Group Incorporated",
       "date": "2026-04-08",
@@ -1355,8 +1454,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -3.3271,
-    "valid_reports": 14,
+    "pnl_index": -2.9112,
+    "valid_reports": 16,
     "wins": 4,
     "losses": 7,
     "hold_reports": 4,
