@@ -6,9 +6,9 @@
       "level": "medium",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · Level MEDIUM · elapsed 01:43:00",
+      "message": "Analyzing: Research Manager (6/7) · Level MEDIUM · elapsed 01:44:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 6180,
+      "elapsed_seconds": 6240,
       "phase": "Analyzing: Research Manager (6/7) · Level MEDIUM",
       "pricing": {
         "report_close": null,
