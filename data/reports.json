@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level SHALLOW · elapsed 49:53",
+      "message": "Analyzing: Trader (6/7) · Level SHALLOW · elapsed 51:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 2993,
+      "elapsed_seconds": 3060,
       "phase": "Analyzing: Trader (6/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
@@ -20,7 +20,7 @@
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
-        "llm_calls": 17,
+        "llm_calls": 18,
         "tool_calls": 18,
         "tokens_in_text": "88.1k",
         "tokens_out_text": "20.2k",
