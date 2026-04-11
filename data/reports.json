@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "GRAB",
+      "date": "2026-04-11",
+      "level": "medium",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level MEDIUM",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level MEDIUM",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "NFLX",
       "date": "2026-04-11",
       "level": "medium",
@@ -27,24 +45,6 @@
         "reports_done": 7,
         "reports_total": 7
       }
-    },
-    {
-      "ticker": "GRAB",
-      "date": "2026-04-11",
-      "level": "medium",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level MEDIUM",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level MEDIUM",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
     },
     {
       "ticker": "9992.HK",
