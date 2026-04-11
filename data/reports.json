@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 44:01",
+      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 45:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 2641,
+      "elapsed_seconds": 2701,
       "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
       "pricing": {
         "report_close": null,
