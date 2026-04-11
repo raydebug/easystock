@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (6/7) · Level SHALLOW · elapsed 01:16:00",
+      "message": "Analyzing: Research Manager (6/7) · Level SHALLOW · elapsed 01:17:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 4560,
+      "elapsed_seconds": 4620,
       "phase": "Analyzing: Research Manager (6/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
@@ -20,10 +20,10 @@
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
-        "llm_calls": 20,
+        "llm_calls": 21,
         "tool_calls": 18,
-        "tokens_in_text": "107.4k",
-        "tokens_out_text": "25.7k",
+        "tokens_in_text": "119.4k",
+        "tokens_out_text": "28.4k",
         "reports_done": 6,
         "reports_total": 7
       }
