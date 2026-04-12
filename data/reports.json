@@ -3,30 +3,20 @@
     {
       "ticker": "SFR.AX",
       "date": "2026-04-12",
-      "level": "shallow",
+      "level": "deep",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level SHALLOW · elapsed 01:29:10",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 5350,
-      "phase": "Writing reports · Level SHALLOW",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 21,
-        "tool_calls": 22,
-        "tokens_in_text": "123.5k",
-        "tokens_out_text": "40.7k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      "files": []
     },
     {
       "ticker": "9992.HK",
@@ -1556,8 +1546,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.74,
-    "valid_reports": 17,
+    "pnl_index": -2.5878,
+    "valid_reports": 18,
     "wins": 4,
     "losses": 7,
     "hold_reports": 4,
