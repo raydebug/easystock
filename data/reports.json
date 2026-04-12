@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: News Analyst (3/7) · Level SHALLOW · elapsed 29:00",
+      "message": "Analyzing: News Analyst (3/7) · Level SHALLOW · elapsed 30:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 1740,
+      "elapsed_seconds": 1800,
       "phase": "Analyzing: News Analyst (3/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
