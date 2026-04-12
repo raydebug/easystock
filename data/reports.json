@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "TEM",
-      "date": "2026-04-13",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:38:20",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 9500,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 28,
-        "tool_calls": 16,
-        "tokens_in_text": "258.4k",
-        "tokens_out_text": "60.6k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -1181,6 +1153,80 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/SYI.AX/2026-04-05/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "TEM",
+      "company_name": "Tempus AI, Inc.",
+      "date": "2026-04-13",
+      "generated_at": "2026-04-12T21:01:44.983974+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Tempus AI, Inc.",
+        "report_close": 42.94,
+        "current_price": 42.94,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/TEM/2026-04-13/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/TEM/2026-04-13/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/TEM/2026-04-13/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/TEM/2026-04-13/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/TEM/2026-04-13/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/TEM/2026-04-13/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/TEM/2026-04-13/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/TEM/2026-04-13/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/TEM/2026-04-13/trader_investment_plan.zh-CN.md"
         }
       ]
     },
