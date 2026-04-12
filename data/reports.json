@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "SFR.AX",
-      "date": "2026-04-12",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level DEEP · elapsed 02:51:20",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 10280,
-      "phase": "Writing reports · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 33,
-        "tool_calls": 24,
-        "tokens_in_text": "222.1k",
-        "tokens_out_text": "60.9k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -1033,6 +1005,80 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/QS/2026-04-12/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "SFR.AX",
+      "company_name": "Sandfire Resources Limited",
+      "date": "2026-04-12",
+      "generated_at": "2026-04-12T11:04:33.887104+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Sandfire Resources Limited",
+        "report_close": 17.37,
+        "current_price": 17.37,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/SFR.AX/2026-04-12/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/SFR.AX/2026-04-12/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/SFR.AX/2026-04-12/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/SFR.AX/2026-04-12/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/SFR.AX/2026-04-12/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/SFR.AX/2026-04-12/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/SFR.AX/2026-04-12/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/SFR.AX/2026-04-12/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SFR.AX/2026-04-12/trader_investment_plan.zh-CN.md"
         }
       ]
     },
