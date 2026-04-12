@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "QS",
-      "date": "2026-04-12",
-      "level": "shallow",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level SHALLOW · elapsed 01:25:15",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 5115,
-      "phase": "Writing reports · Level SHALLOW",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 20,
-        "tool_calls": 18,
-        "tokens_in_text": "114.4k",
-        "tokens_out_text": "37.1k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -1482,8 +1454,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.9112,
-    "valid_reports": 16,
+    "pnl_index": -2.74,
+    "valid_reports": 17,
     "wins": 4,
     "losses": 7,
     "hold_reports": 4,
