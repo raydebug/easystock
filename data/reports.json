@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level SHALLOW · elapsed 40:31",
+      "message": "Analyzing: Fundamentals Analyst (4/7) · Level SHALLOW · elapsed 41:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 2431,
+      "elapsed_seconds": 2460,
       "phase": "Analyzing: Fundamentals Analyst (4/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
@@ -20,7 +20,7 @@
       "stats": {
         "agents_done": 4,
         "agents_total": 12,
-        "llm_calls": 12,
+        "llm_calls": 13,
         "tool_calls": 22,
         "tokens_in_text": "34.6k",
         "tokens_out_text": "19.6k",
