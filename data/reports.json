@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 37:15",
+      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 38:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 2235,
+      "elapsed_seconds": 2280,
       "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
       "pricing": {
         "report_close": null,
@@ -20,7 +20,7 @@
       "stats": {
         "agents_done": 4,
         "agents_total": 12,
-        "llm_calls": 12,
+        "llm_calls": 13,
         "tool_calls": 20,
         "tokens_in_text": "45.7k",
         "tokens_out_text": "17.6k",
