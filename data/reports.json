@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Trader (6/7) · Level SHALLOW · elapsed 56:00",
+      "message": "Analyzing: Trader (6/7) · Level SHALLOW · elapsed 57:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3360,
+      "elapsed_seconds": 3420,
       "phase": "Analyzing: Trader (6/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
