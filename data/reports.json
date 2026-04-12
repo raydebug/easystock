@@ -1,33 +1,15 @@
 {
   "reports": [
     {
-      "ticker": "SFR.AX",
-      "date": "2026-04-12",
-      "level": "medium",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level MEDIUM",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level MEDIUM",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "QS",
       "date": "2026-04-12",
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Portfolio Manager (7/7) · Level DEEP · elapsed 02:53:55",
+      "message": "Writing reports · Level DEEP · elapsed 02:54:19",
       "progress_pct": 95.0,
-      "elapsed_seconds": 10435,
-      "phase": "Analyzing: Portfolio Manager (7/7) · Level DEEP",
+      "elapsed_seconds": 10459,
+      "phase": "Writing reports · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -38,10 +20,10 @@
       "stats": {
         "agents_done": 10,
         "agents_total": 12,
-        "llm_calls": 30,
+        "llm_calls": 31,
         "tool_calls": 20,
-        "tokens_in_text": "298.1k",
-        "tokens_out_text": "66.5k",
+        "tokens_in_text": "299.4k",
+        "tokens_out_text": "66.9k",
         "reports_done": 7,
         "reports_total": 7
       }
