@@ -6,10 +6,10 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Market Analyst (1/7) · Level DEEP · elapsed 12:00",
-      "progress_pct": 58.0,
-      "elapsed_seconds": 720,
-      "phase": "Analyzing: Market Analyst (1/7) · Level DEEP",
+      "message": "Analyzing: Social Analyst (2/7) · Level DEEP · elapsed 12:58",
+      "progress_pct": 61.0,
+      "elapsed_seconds": 778,
+      "phase": "Analyzing: Social Analyst (2/7) · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,13 +18,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 1,
+        "agents_done": 2,
         "agents_total": 12,
         "llm_calls": 5,
         "tool_calls": 10,
-        "tokens_in_text": "21.7k",
-        "tokens_out_text": "4.4k",
-        "reports_done": 1,
+        "tokens_in_text": "22.8k",
+        "tokens_out_text": "6.3k",
+        "reports_done": 2,
         "reports_total": 7
       }
     },
