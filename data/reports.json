@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Social Analyst (2/7) · Level SHALLOW · elapsed 23:00",
+      "message": "Analyzing: Social Analyst (2/7) · Level SHALLOW · elapsed 24:00",
       "progress_pct": 95.0,
-      "elapsed_seconds": 1380,
+      "elapsed_seconds": 1440,
       "phase": "Analyzing: Social Analyst (2/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
