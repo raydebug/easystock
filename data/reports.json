@@ -6,10 +6,10 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level SHALLOW · elapsed 01:01:00",
+      "message": "Analyzing: Trader (6/7) · Level SHALLOW · elapsed 01:01:07",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3660,
-      "phase": "Analyzing: Research Manager (5/7) · Level SHALLOW",
+      "elapsed_seconds": 3667,
+      "phase": "Analyzing: Trader (6/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,13 +18,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 5,
+        "agents_done": 6,
         "agents_total": 12,
         "llm_calls": 16,
         "tool_calls": 22,
-        "tokens_in_text": "69.5k",
-        "tokens_out_text": "28.0k",
-        "reports_done": 5,
+        "tokens_in_text": "70.6k",
+        "tokens_out_text": "29.5k",
+        "reports_done": 6,
         "reports_total": 7
       }
     },
