@@ -3,30 +3,20 @@
     {
       "ticker": "TEM",
       "date": "2026-04-13",
-      "level": "shallow",
+      "level": "deep",
       "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level SHALLOW · elapsed 01:36:56",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 5816,
-      "phase": "Writing reports · Level SHALLOW",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level DEEP",
       "pricing": {
         "report_close": null,
         "current_price": null,
         "price_diff": null,
         "price_diff_pct": null
       },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 18,
-        "tool_calls": 19,
-        "tokens_in_text": "119.6k",
-        "tokens_out_text": "42.3k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      "files": []
     },
     {
       "ticker": "9992.HK",
@@ -1630,8 +1620,8 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.5878,
-    "valid_reports": 18,
+    "pnl_index": -2.4516,
+    "valid_reports": 19,
     "wins": 4,
     "losses": 7,
     "hold_reports": 4,
