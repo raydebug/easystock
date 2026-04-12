@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level SHALLOW · elapsed 57:01",
+      "message": "Analyzing: Research Manager (5/7) · Level SHALLOW · elapsed 58:01",
       "progress_pct": 95.0,
-      "elapsed_seconds": 3421,
+      "elapsed_seconds": 3481,
       "phase": "Analyzing: Research Manager (5/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
