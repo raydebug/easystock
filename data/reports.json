@@ -6,9 +6,9 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · Level SHALLOW · elapsed 05:00",
-      "progress_pct": 30.0,
-      "elapsed_seconds": 300,
+      "message": "Analyzing agents · Level SHALLOW · elapsed 06:00",
+      "progress_pct": 34.0,
+      "elapsed_seconds": 360,
       "phase": "Analyzing agents · Level SHALLOW",
       "pricing": {
         "report_close": null,
