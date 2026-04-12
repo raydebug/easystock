@@ -6,10 +6,10 @@
       "level": "shallow",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing: Social Analyst (2/7) · Level SHALLOW · elapsed 12:00",
+      "message": "Analyzing: News Analyst (3/7) · Level SHALLOW · elapsed 12:01",
       "progress_pct": 58.0,
-      "elapsed_seconds": 720,
-      "phase": "Analyzing: Social Analyst (2/7) · Level SHALLOW",
+      "elapsed_seconds": 721,
+      "phase": "Analyzing: News Analyst (3/7) · Level SHALLOW",
       "pricing": {
         "report_close": null,
         "current_price": null,
@@ -18,13 +18,13 @@
       },
       "files": [],
       "stats": {
-        "agents_done": 2,
+        "agents_done": 3,
         "agents_total": 12,
         "llm_calls": 7,
         "tool_calls": 12,
-        "tokens_in_text": "24.7k",
-        "tokens_out_text": "5.9k",
-        "reports_done": 2,
+        "tokens_in_text": "26.5k",
+        "tokens_out_text": "7.7k",
+        "reports_done": 3,
         "reports_total": 7
       }
     },
