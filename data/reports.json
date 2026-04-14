@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "SNAP",
+      "date": "2026-04-14",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -1079,80 +1097,6 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/SFR.AX/2026-04-12/trader_investment_plan.zh-CN.md"
-        }
-      ]
-    },
-    {
-      "ticker": "SNAP",
-      "company_name": "Snap Inc.",
-      "date": "2026-04-14",
-      "generated_at": "2026-04-14T12:44:58.758563+00:00",
-      "level": "shallow",
-      "status": "completed",
-      "decision": "BUY",
-      "pricing": {
-        "company_name": "Snap Inc.",
-        "report_close": 5.15,
-        "current_price": 5.15,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
-      },
-      "files": [
-        {
-          "name": "final_trade_decision",
-          "path": "reports/SNAP/2026-04-14/final_trade_decision.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/final_trade_decision.zh-CN.md"
-        },
-        {
-          "name": "fundamentals_report",
-          "path": "reports/SNAP/2026-04-14/fundamentals_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/fundamentals_report.zh-CN.md"
-        },
-        {
-          "name": "hot_news_since_last_report",
-          "path": "reports/SNAP/2026-04-14/hot_news_since_last_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/hot_news_since_last_report.zh-CN.md"
-        },
-        {
-          "name": "investment_plan",
-          "path": "reports/SNAP/2026-04-14/investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/investment_plan.zh-CN.md"
-        },
-        {
-          "name": "market_report",
-          "path": "reports/SNAP/2026-04-14/market_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/market_report.zh-CN.md"
-        },
-        {
-          "name": "news_report",
-          "path": "reports/SNAP/2026-04-14/news_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/news_report.zh-CN.md"
-        },
-        {
-          "name": "sentiment_report",
-          "path": "reports/SNAP/2026-04-14/sentiment_report.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/sentiment_report.zh-CN.md"
-        },
-        {
-          "name": "trader_investment_plan",
-          "path": "reports/SNAP/2026-04-14/trader_investment_plan.md",
-          "source_lang": "en",
-          "translated_lang": "zh-CN",
-          "translated_path": "reports/SNAP/2026-04-14/trader_investment_plan.zh-CN.md"
         }
       ]
     },
