@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "SNAP",
-      "date": "2026-04-14",
-      "level": "shallow",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Writing reports · Level SHALLOW · elapsed 01:42:29",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 6149,
-      "phase": "Writing reports · Level SHALLOW",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 19,
-        "tool_calls": 18,
-        "tokens_in_text": "123.8k",
-        "tokens_out_text": "41.9k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -39,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 150.9,
-        "price_diff": 9.1,
-        "price_diff_pct": 6.4175
+        "current_price": 161.4,
+        "price_diff": 19.6,
+        "price_diff_pct": 13.8223
       },
       "files": [
         {
@@ -113,9 +85,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 183.38,
-        "price_diff": 10.58,
-        "price_diff_pct": 6.1227
+        "current_price": 183.52,
+        "price_diff": 10.72,
+        "price_diff_pct": 6.2037
       },
       "files": [
         {
@@ -187,9 +159,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.47,
-        "price_diff": -0.46,
-        "price_diff_pct": -11.7048
+        "current_price": 3.41,
+        "price_diff": -0.52,
+        "price_diff_pct": -13.2316
       },
       "files": [
         {
@@ -261,9 +233,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.34,
-        "price_diff": 0.02,
-        "price_diff_pct": 6.25
+        "current_price": 0.38,
+        "price_diff": 0.06,
+        "price_diff_pct": 18.75
       },
       "files": [
         {
@@ -335,9 +307,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.28,
-        "price_diff": 0.28,
-        "price_diff_pct": 3.1111
+        "current_price": 9.72,
+        "price_diff": 0.72,
+        "price_diff_pct": 8.0
       },
       "files": [
         {
@@ -409,9 +381,9 @@
       "pricing": {
         "company_name": "Fastly, Inc.",
         "report_close": 33.5,
-        "current_price": 23.07,
-        "price_diff": -10.43,
-        "price_diff_pct": -31.1343
+        "current_price": 24.37,
+        "price_diff": -9.13,
+        "price_diff_pct": -27.2537
       },
       "files": [
         {
@@ -483,9 +455,9 @@
       "pricing": {
         "company_name": "Grab Holdings Limited",
         "report_close": 3.68,
-        "current_price": 3.68,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 3.73,
+        "price_diff": 0.05,
+        "price_diff_pct": 1.3587
       },
       "files": [
         {
@@ -557,9 +529,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 62.38,
-        "price_diff": 0.66,
-        "price_diff_pct": 1.0693
+        "current_price": 65.18,
+        "price_diff": 3.46,
+        "price_diff_pct": 5.606
       },
       "files": [
         {
@@ -631,9 +603,9 @@
       "pricing": {
         "company_name": "McDonald's Corporation",
         "report_close": 309.55,
-        "current_price": 305.68,
-        "price_diff": -3.87,
-        "price_diff_pct": -1.2502
+        "current_price": 304.51,
+        "price_diff": -5.04,
+        "price_diff_pct": -1.6282
       },
       "files": [
         {
@@ -705,9 +677,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 370.87,
-        "current_price": 370.87,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 384.37,
+        "price_diff": 13.5,
+        "price_diff_pct": 3.6401
       },
       "files": [
         {
@@ -772,9 +744,9 @@
       "pricing": {
         "company_name": "Netflix, Inc.",
         "report_close": 103.01,
-        "current_price": 103.01,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 103.16,
+        "price_diff": 0.15,
+        "price_diff_pct": 0.1456
       },
       "files": [
         {
@@ -825,9 +797,9 @@
       "pricing": {
         "company_name": "NVIDIA Corporation",
         "report_close": 183.91,
-        "current_price": 188.63,
-        "price_diff": 4.72,
-        "price_diff_pct": 2.5665
+        "current_price": 189.31,
+        "price_diff": 5.4,
+        "price_diff_pct": 2.9362
       },
       "files": [
         {
@@ -899,9 +871,9 @@
       "pricing": {
         "company_name": "Palantir Technologies Inc.",
         "report_close": 128.06,
-        "current_price": 128.06,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 132.37,
+        "price_diff": 4.31,
+        "price_diff_pct": 3.3656
       },
       "files": [
         {
@@ -973,9 +945,9 @@
       "pricing": {
         "company_name": "QuantumScape Corporation",
         "report_close": 6.36,
-        "current_price": 6.36,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 6.44,
+        "price_diff": 0.08,
+        "price_diff_pct": 1.2579
       },
       "files": [
         {
@@ -1047,9 +1019,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 17.37,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 17.55,
+        "price_diff": 0.18,
+        "price_diff_pct": 1.0363
       },
       "files": [
         {
@@ -1111,6 +1083,80 @@
       ]
     },
     {
+      "ticker": "SNAP",
+      "company_name": "Snap Inc.",
+      "date": "2026-04-14",
+      "generated_at": "2026-04-14T12:44:58.758563+00:00",
+      "level": "shallow",
+      "status": "completed",
+      "decision": "BUY",
+      "pricing": {
+        "company_name": "Snap Inc.",
+        "report_close": 5.15,
+        "current_price": 5.15,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "final_trade_decision",
+          "path": "reports/SNAP/2026-04-14/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/final_trade_decision.zh-CN.md"
+        },
+        {
+          "name": "fundamentals_report",
+          "path": "reports/SNAP/2026-04-14/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/SNAP/2026-04-14/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/hot_news_since_last_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/SNAP/2026-04-14/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/SNAP/2026-04-14/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/SNAP/2026-04-14/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/SNAP/2026-04-14/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/SNAP/2026-04-14/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/SNAP/2026-04-14/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "SYI.AX",
       "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
       "date": "2026-04-05",
@@ -1121,9 +1167,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 31.75,
-        "price_diff": 1.23,
-        "price_diff_pct": 4.0301
+        "current_price": 31.81,
+        "price_diff": 1.29,
+        "price_diff_pct": 4.2267
       },
       "files": [
         {
@@ -1194,8 +1240,8 @@
       "decision": "BUY",
       "pricing": {
         "company_name": "Tempus AI, Inc.",
-        "report_close": 42.94,
-        "current_price": 42.94,
+        "report_close": 45.98,
+        "current_price": 45.98,
         "price_diff": 0.0,
         "price_diff_pct": 0.0
       },
@@ -1269,9 +1315,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 14.64,
-        "price_diff": 0.69,
-        "price_diff_pct": 4.9462
+        "current_price": 15.45,
+        "price_diff": 1.5,
+        "price_diff_pct": 10.7527
       },
       "files": [
         {
@@ -1343,9 +1389,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 345.62,
-        "current_price": 348.95,
-        "price_diff": 3.33,
-        "price_diff_pct": 0.9635
+        "current_price": 352.42,
+        "price_diff": 6.8,
+        "price_diff_pct": 1.9675
       },
       "files": [
         {
@@ -1417,9 +1463,9 @@
       "pricing": {
         "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
         "report_close": 370.6,
-        "current_price": 370.6,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 369.57,
+        "price_diff": -1.03,
+        "price_diff_pct": -0.2779
       },
       "files": [
         {
@@ -1491,9 +1537,9 @@
       "pricing": {
         "company_name": "UnitedHealth Group Incorporated",
         "report_close": 305.98,
-        "current_price": 304.33,
-        "price_diff": -1.65,
-        "price_diff_pct": -0.5393
+        "current_price": 313.0,
+        "price_diff": 7.02,
+        "price_diff_pct": 2.2943
       },
       "files": [
         {
@@ -1565,9 +1611,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.28,
-        "price_diff": -2.52,
-        "price_diff_pct": -7.0391
+        "current_price": 33.96,
+        "price_diff": -1.84,
+        "price_diff_pct": -5.1397
       },
       "files": [
         {
@@ -1639,9 +1685,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 37.63,
-        "price_diff": -1.53,
-        "price_diff_pct": -3.907
+        "current_price": 38.56,
+        "price_diff": -0.6,
+        "price_diff_pct": -1.5322
       },
       "files": [
         {
@@ -1704,9 +1750,9 @@
     }
   ],
   "summary": {
-    "pnl_index": -2.4516,
-    "valid_reports": 19,
-    "wins": 4,
+    "pnl_index": -0.4753,
+    "valid_reports": 20,
+    "wins": 11,
     "losses": 7,
     "hold_reports": 4,
     "hold_up": 4,
