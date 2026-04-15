@@ -25,7 +25,7 @@
       "decision": "PENDING",
       "status": "generating",
       "message": "Starting · Level SHALLOW · elapsed 00:00",
-      "progress_pct": 5.0,
+      "progress_pct": 10.0,
       "elapsed_seconds": 0,
       "phase": "Starting · Level SHALLOW",
       "pricing": {
