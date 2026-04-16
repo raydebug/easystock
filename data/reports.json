@@ -725,8 +725,8 @@
       "date": "2026-04-16",
       "generated_at": "2026-04-16T09:38:28.916373+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "SELL",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Invion Limited",
         "report_close": 0.06,
@@ -770,7 +770,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/IVX.AX/2026-04-16/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:02:00",
+      "elapsed_seconds": 3720,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 16,
+        "tool_calls": 17,
+        "tokens_in_text": "70.1k",
+        "tokens_out_text": "21.7k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "MCD",
