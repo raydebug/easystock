@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 167.0,
-        "price_diff": 25.2,
-        "price_diff_pct": 17.7715
+        "current_price": 166.8,
+        "price_diff": 25.0,
+        "price_diff_pct": 17.6305
       },
       "files": [
         {
@@ -212,9 +212,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 178.0,
-        "price_diff": 5.2,
-        "price_diff_pct": 3.0093
+        "current_price": 177.44,
+        "price_diff": 4.64,
+        "price_diff_pct": 2.6852
       },
       "files": [
         {
@@ -286,9 +286,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.68,
-        "price_diff": -0.25,
-        "price_diff_pct": -6.3613
+        "current_price": 3.675,
+        "price_diff": -0.255,
+        "price_diff_pct": -6.4886
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 10.87,
-        "price_diff": 1.87,
-        "price_diff_pct": 20.7778
+        "current_price": 10.86,
+        "price_diff": 1.86,
+        "price_diff_pct": 20.6667
       },
       "files": [
         {
@@ -1146,9 +1146,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 17.99,
-        "price_diff": 0.62,
-        "price_diff_pct": 3.5694
+        "current_price": 17.98,
+        "price_diff": 0.61,
+        "price_diff_pct": 3.5118
       },
       "files": [
         {
@@ -1435,9 +1435,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 14.95,
-        "price_diff": 1.0,
-        "price_diff_pct": 7.1685
+        "current_price": 14.94,
+        "price_diff": 0.99,
+        "price_diff_pct": 7.0968
       },
       "files": [
         {
@@ -1731,9 +1731,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 32.67,
-        "price_diff": -3.13,
-        "price_diff_pct": -8.743
+        "current_price": 32.68,
+        "price_diff": -3.12,
+        "price_diff_pct": -8.7151
       },
       "files": [
         {
@@ -1805,9 +1805,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 44.08,
-        "price_diff": 4.92,
-        "price_diff_pct": 12.5638
+        "current_price": 44.41,
+        "price_diff": 5.25,
+        "price_diff_pct": 13.4065
       },
       "files": [
         {
@@ -1870,7 +1870,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 4.6979,
+    "pnl_index": 4.7185,
     "valid_reports": 21,
     "wins": 15,
     "losses": 6,
