@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 163.3,
-        "price_diff": 21.5,
-        "price_diff_pct": 15.1622
+        "current_price": 168.0,
+        "price_diff": 26.2,
+        "price_diff_pct": 18.4767
       },
       "files": [
         {
@@ -85,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 33.13,
-        "price_diff": -0.0,
-        "price_diff_pct": -0.0
+        "current_price": 33.32,
+        "price_diff": 0.19,
+        "price_diff_pct": 0.5735
       },
       "files": [
         {
@@ -138,9 +138,9 @@
       "pricing": {
         "company_name": "Atlas Arteria Limited",
         "report_close": 4.27,
-        "current_price": 4.27,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 4.275,
+        "price_diff": 0.005,
+        "price_diff_pct": 0.1171
       },
       "files": [
         {
@@ -212,9 +212,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 183.19,
-        "price_diff": 10.39,
-        "price_diff_pct": 6.0127
+        "current_price": 182.7,
+        "price_diff": 9.9,
+        "price_diff_pct": 5.7292
       },
       "files": [
         {
@@ -360,9 +360,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.41,
-        "price_diff": 0.09,
-        "price_diff_pct": 28.125
+        "current_price": 0.395,
+        "price_diff": 0.075,
+        "price_diff_pct": 23.4375
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 10.28,
-        "price_diff": 1.28,
-        "price_diff_pct": 14.2222
+        "current_price": 10.605,
+        "price_diff": 1.605,
+        "price_diff_pct": 17.8333
       },
       "files": [
         {
@@ -508,9 +508,9 @@
       "pricing": {
         "company_name": "Fastly, Inc.",
         "report_close": 33.5,
-        "current_price": 20.95,
-        "price_diff": -12.55,
-        "price_diff_pct": -37.4627
+        "current_price": 23.38,
+        "price_diff": -10.12,
+        "price_diff_pct": -30.209
       },
       "files": [
         {
@@ -582,9 +582,9 @@
       "pricing": {
         "company_name": "Grab Holdings Limited",
         "report_close": 3.68,
-        "current_price": 3.82,
-        "price_diff": 0.14,
-        "price_diff_pct": 3.8043
+        "current_price": 3.92,
+        "price_diff": 0.24,
+        "price_diff_pct": 6.5217
       },
       "files": [
         {
@@ -656,9 +656,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 63.81,
-        "price_diff": 2.09,
-        "price_diff_pct": 3.3863
+        "current_price": 64.94,
+        "price_diff": 3.22,
+        "price_diff_pct": 5.2171
       },
       "files": [
         {
@@ -730,9 +730,9 @@
       "pricing": {
         "company_name": "McDonald's Corporation",
         "report_close": 309.55,
-        "current_price": 303.22,
-        "price_diff": -6.33,
-        "price_diff_pct": -2.0449
+        "current_price": 306.26,
+        "price_diff": -3.29,
+        "price_diff_pct": -1.0628
       },
       "files": [
         {
@@ -804,9 +804,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 370.87,
-        "current_price": 393.11,
-        "price_diff": 22.24,
-        "price_diff_pct": 5.9967
+        "current_price": 411.22,
+        "price_diff": 40.35,
+        "price_diff_pct": 10.8798
       },
       "files": [
         {
@@ -871,9 +871,9 @@
       "pricing": {
         "company_name": "Netflix, Inc.",
         "report_close": 103.01,
-        "current_price": 106.28,
-        "price_diff": 3.27,
-        "price_diff_pct": 3.1744
+        "current_price": 107.71,
+        "price_diff": 4.7,
+        "price_diff_pct": 4.5627
       },
       "files": [
         {
@@ -924,9 +924,9 @@
       "pricing": {
         "company_name": "NVIDIA Corporation",
         "report_close": 183.91,
-        "current_price": 196.51,
-        "price_diff": 12.6,
-        "price_diff_pct": 6.8512
+        "current_price": 198.87,
+        "price_diff": 14.96,
+        "price_diff_pct": 8.1344
       },
       "files": [
         {
@@ -998,9 +998,9 @@
       "pricing": {
         "company_name": "Palantir Technologies Inc.",
         "report_close": 128.06,
-        "current_price": 135.7,
-        "price_diff": 7.64,
-        "price_diff_pct": 5.966
+        "current_price": 142.15,
+        "price_diff": 14.09,
+        "price_diff_pct": 11.0027
       },
       "files": [
         {
@@ -1072,9 +1072,9 @@
       "pricing": {
         "company_name": "QuantumScape Corporation",
         "report_close": 6.36,
-        "current_price": 6.86,
-        "price_diff": 0.5,
-        "price_diff_pct": 7.8616
+        "current_price": 7.17,
+        "price_diff": 0.81,
+        "price_diff_pct": 12.7358
       },
       "files": [
         {
@@ -1146,9 +1146,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 18.11,
-        "price_diff": 0.74,
-        "price_diff_pct": 4.2602
+        "current_price": 17.85,
+        "price_diff": 0.48,
+        "price_diff_pct": 2.7634
       },
       "files": [
         {
@@ -1220,9 +1220,9 @@
       "pricing": {
         "company_name": "Snap Inc.",
         "report_close": 5.6,
-        "current_price": 5.6,
-        "price_diff": 0.0,
-        "price_diff_pct": 0.0
+        "current_price": 6.04,
+        "price_diff": 0.44,
+        "price_diff_pct": 7.8571
       },
       "files": [
         {
@@ -1287,9 +1287,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 31.69,
-        "price_diff": 1.17,
-        "price_diff_pct": 3.8336
+        "current_price": 31.6,
+        "price_diff": 1.08,
+        "price_diff_pct": 3.5387
       },
       "files": [
         {
@@ -1361,9 +1361,9 @@
       "pricing": {
         "company_name": "Tempus AI, Inc.",
         "report_close": 45.98,
-        "current_price": 49.53,
-        "price_diff": 3.55,
-        "price_diff_pct": 7.7207
+        "current_price": 56.41,
+        "price_diff": 10.43,
+        "price_diff_pct": 22.6838
       },
       "files": [
         {
@@ -1435,9 +1435,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 14.8,
-        "price_diff": 0.85,
-        "price_diff_pct": 6.0932
+        "current_price": 15.21,
+        "price_diff": 1.26,
+        "price_diff_pct": 9.0323
       },
       "files": [
         {
@@ -1509,9 +1509,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 345.62,
-        "current_price": 364.2,
-        "price_diff": 18.58,
-        "price_diff_pct": 5.3758
+        "current_price": 391.95,
+        "price_diff": 46.33,
+        "price_diff_pct": 13.4049
       },
       "files": [
         {
@@ -1583,9 +1583,9 @@
       "pricing": {
         "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
         "report_close": 370.6,
-        "current_price": 379.89,
-        "price_diff": 9.29,
-        "price_diff_pct": 2.5067
+        "current_price": 375.1,
+        "price_diff": 4.5,
+        "price_diff_pct": 1.2142
       },
       "files": [
         {
@@ -1657,9 +1657,9 @@
       "pricing": {
         "company_name": "UnitedHealth Group Incorporated",
         "report_close": 305.98,
-        "current_price": 314.19,
-        "price_diff": 8.21,
-        "price_diff_pct": 2.6832
+        "current_price": 314.05,
+        "price_diff": 8.07,
+        "price_diff_pct": 2.6374
       },
       "files": [
         {
@@ -1731,9 +1731,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.16,
-        "price_diff": -2.64,
-        "price_diff_pct": -7.3743
+        "current_price": 32.845,
+        "price_diff": -2.955,
+        "price_diff_pct": -8.2542
       },
       "files": [
         {
@@ -1805,9 +1805,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 39.96,
-        "price_diff": 0.8,
-        "price_diff_pct": 2.0429
+        "current_price": 42.9,
+        "price_diff": 3.74,
+        "price_diff_pct": 9.5506
       },
       "files": [
         {
@@ -1870,13 +1870,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.1946,
+    "pnl_index": 4.4978,
     "valid_reports": 21,
-    "wins": 14,
+    "wins": 16,
     "losses": 5,
     "hold_reports": 5,
-    "hold_up": 4,
+    "hold_up": 5,
     "hold_down": 0,
-    "hold_flat": 1
+    "hold_flat": 0
   }
 }
