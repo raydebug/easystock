@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "RGTI",
-      "date": "2026-04-16",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Starting · Level DEEP · elapsed 00:00",
-      "progress_pct": 5.0,
-      "elapsed_seconds": 0,
-      "phase": "Starting · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 0,
-        "agents_total": 12,
-        "llm_calls": 0,
-        "tool_calls": 0,
-        "tokens_in_text": "0",
-        "tokens_out_text": "0",
-        "reports_done": 0,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -39,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 166.8,
-        "price_diff": 25.0,
-        "price_diff_pct": 17.6305
+        "current_price": 166.9,
+        "price_diff": 25.1,
+        "price_diff_pct": 17.701
       },
       "files": [
         {
@@ -113,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 33.27,
-        "price_diff": 0.14,
-        "price_diff_pct": 0.4226
+        "current_price": 33.26,
+        "price_diff": 0.13,
+        "price_diff_pct": 0.3924
       },
       "files": [
         {
@@ -240,9 +212,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 177.44,
-        "price_diff": 4.64,
-        "price_diff_pct": 2.6852
+        "current_price": 177.95,
+        "price_diff": 5.15,
+        "price_diff_pct": 2.9803
       },
       "files": [
         {
@@ -462,9 +434,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 10.86,
-        "price_diff": 1.86,
-        "price_diff_pct": 20.6667
+        "current_price": 10.85,
+        "price_diff": 1.85,
+        "price_diff_pct": 20.5556
       },
       "files": [
         {
@@ -1174,9 +1146,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 17.98,
-        "price_diff": 0.61,
-        "price_diff_pct": 3.5118
+        "current_price": 17.995,
+        "price_diff": 0.625,
+        "price_diff_pct": 3.5982
       },
       "files": [
         {
@@ -1463,9 +1435,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 14.94,
-        "price_diff": 0.99,
-        "price_diff_pct": 7.0968
+        "current_price": 14.935,
+        "price_diff": 0.985,
+        "price_diff_pct": 7.0609
       },
       "files": [
         {
@@ -1833,9 +1805,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 44.41,
-        "price_diff": 5.25,
-        "price_diff_pct": 13.4065
+        "current_price": 44.44,
+        "price_diff": 5.28,
+        "price_diff_pct": 13.4831
       },
       "files": [
         {
@@ -1898,7 +1870,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 4.7185,
+    "pnl_index": 4.7243,
     "valid_reports": 21,
     "wins": 15,
     "losses": 6,
