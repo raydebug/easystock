@@ -41,6 +41,12 @@ const UI_TEXT = {
     sortLabel: "排序",
     sortTime: "生成时间",
     sortTicker: "代码名",
+    picksTitle: "模拟选股赛",
+    picksWindow: "周期",
+    picksLeaders: "排行榜",
+    picksActive: "进行中",
+    picksEmpty: "暂无模拟选股记录",
+    picksSettled: "已结算",
   },
   en: {
     title: "Easy Stock",
@@ -84,6 +90,12 @@ const UI_TEXT = {
     sortLabel: "Sort",
     sortTime: "Generated Time",
     sortTicker: "Ticker",
+    picksTitle: "Pick Game",
+    picksWindow: "Window",
+    picksLeaders: "Leaders",
+    picksActive: "Active",
+    picksEmpty: "No pick-game records yet",
+    picksSettled: "Settled",
   },
 };
 const AUTO_REFRESH_MS = 30000;
@@ -161,6 +173,46 @@ function fmtPct(v) {
   }
   const sign = v > 0 ? "+" : "";
   return `${sign}${v.toFixed(2)}%`;
+}
+
+function renderPickGamePanel(payload, t) {
+  const summaryHolder = document.getElementById("pick-summary");
+  const boardHolder = document.getElementById("pick-board");
+  if (!summaryHolder || !boardHolder) {
+    return;
+  }
+  const top = Array.isArray(payload && payload.top) ? payload.top : [];
+  const active = Array.isArray(payload && payload.active) ? payload.active : [];
+  const settled = Array.isArray(payload && payload.settled) ? payload.settled : [];
+  const durationDays = payload && payload.duration_days;
+  summaryHolder.innerHTML = `
+    <strong>${t.picksTitle}</strong>
+    <span>${t.picksWindow}: <b>${typeof durationDays === "number" ? durationDays : 7}d</b></span>
+    <span>${t.picksLeaders}: <b>${top.length}</b></span>
+    <span>${t.picksActive}: <b>${active.length}</b></span>
+    <span>${t.picksSettled}: <b>${settled.length}</b></span>
+  `;
+  if (!top.length) {
+    boardHolder.innerHTML = `<p>${t.picksEmpty}</p>`;
+    return;
+  }
+  boardHolder.innerHTML = top.map((item) => {
+    const avg = typeof item.avg_return_pct === "number" ? item.avg_return_pct : null;
+    const avgCls = trendClass(avg);
+    const statusLabel = String(item.status || "").toLowerCase() === "settled" ? t.picksSettled : t.picksActive;
+    const picks = Array.isArray(item.picks) ? item.picks.map((pick) => {
+      const ret = typeof pick.return_pct === "number" ? `${pick.return_pct > 0 ? "+" : ""}${pick.return_pct.toFixed(2)}%` : "--";
+      return `<span class="${trendClass(pick.return_pct)}">${pick.ticker}: ${ret}</span>`;
+    }).join("<br>") : "";
+    return `
+      <article class="pick-card">
+        <h3>#${item.rank || "?"} ${item.display_name || "Unknown"}</h3>
+        <p>${statusLabel} · ${item.entry_date || "--"}</p>
+        <p class="${avgCls}"><strong>${avg === null ? "--" : fmtPct(avg)}</strong></p>
+        <p>${picks}</p>
+      </article>
+    `;
+  }).join("");
 }
 
 function renderPnlSummary(summary, t) {
@@ -490,6 +542,15 @@ async function renderHome() {
   const resp = await fetch(`./data/reports.json?t=${Date.now()}`, { cache: "no-store" });
   const data = await resp.json();
   const reports = data.reports || [];
+  let picksData = { top: [], active: [], settled: [], duration_days: 7 };
+  try {
+    const picksResp = await fetch(`./data/picks.json?t=${Date.now()}`, { cache: "no-store" });
+    if (picksResp.ok) {
+      picksData = await picksResp.json();
+    }
+  } catch (err) {
+    console.warn("pick-game load failed", err);
+  }
 
   bindLangSwitch(() => {
     renderHome().catch((err) => {
@@ -526,6 +587,7 @@ async function renderHome() {
     sortOrder,
   );
   renderPnlSummary(computePnlSummaryFallback(marketFiltered), t);
+  renderPickGamePanel(picksData, t);
 
   if (filtered.length === 0) {
     root.innerHTML = `<p>${t.empty}</p>`;

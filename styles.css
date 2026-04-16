@@ -337,3 +337,44 @@ body {
   }
 }
 
+
+
+.pick-section {
+  margin-top: 10px;
+}
+
+.pick-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 10px 0 6px;
+}
+
+.pick-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.pick-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.pick-card p {
+  margin: 6px 0;
+  color: var(--muted);
+}
+
+.pick-card .up {
+  color: #0b7f3e;
+}
+
+.pick-card .down {
+  color: #b1261f;
+}
+
+.pick-card .flat {
+  color: var(--muted);
+}
