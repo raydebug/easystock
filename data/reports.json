@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 165.3,
-        "price_diff": 23.5,
-        "price_diff_pct": 16.5726
+        "current_price": 164.8,
+        "price_diff": 23.0,
+        "price_diff_pct": 16.22
       },
       "files": [
         {
@@ -1139,10 +1139,10 @@
       "ticker": "RGTI",
       "company_name": "Rigetti Computing, Inc.",
       "date": "2026-04-16",
-      "generated_at": "2026-04-16T07:43:18.771700+00:00",
+      "generated_at": "2026-04-16T08:43:37.945580+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.11,
@@ -1152,11 +1152,25 @@
       },
       "files": [
         {
+          "name": "final_trade_decision",
+          "path": "reports/RGTI/2026-04-16/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-16/final_trade_decision.zh-CN.md"
+        },
+        {
           "name": "fundamentals_report",
           "path": "reports/RGTI/2026-04-16/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/RGTI/2026-04-16/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/RGTI/2026-04-16/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-16/hot_news_since_last_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
@@ -1193,21 +1207,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/RGTI/2026-04-16/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Writing reports · Level DEEP",
-      "message": "Writing reports · Level DEEP · elapsed 03:00:36",
-      "elapsed_seconds": 10836,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 28,
-        "tool_calls": 17,
-        "tokens_in_text": "230.4k",
-        "tokens_out_text": "63.4k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "SFR.AX",
@@ -1944,7 +1944,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 4.4464,
+    "pnl_index": 4.4303,
     "valid_reports": 22,
     "wins": 15,
     "losses": 5,
