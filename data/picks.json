@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T19:47:26.022050+00:00",
+  "generated_at": "2026-04-16T20:47:36.167713+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -16,29 +16,29 @@
       "picks": [
         {
           "ticker": "TEM",
-          "entry_price": 54.13,
-          "latest_price": 54.13,
-          "settle_price": 54.13,
-          "score_price": 54.13,
-          "return_pct": -0.0,
+          "entry_price": 54.42,
+          "latest_price": 54.42,
+          "settle_price": 54.42,
+          "score_price": 54.42,
+          "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "RGTI",
-          "entry_price": 19.51,
-          "latest_price": 19.51,
-          "settle_price": 19.51,
-          "score_price": 19.51,
+          "entry_price": 19.45,
+          "latest_price": 19.45,
+          "settle_price": 19.45,
+          "score_price": 19.45,
           "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "PLTR",
-          "entry_price": 142.175,
-          "latest_price": 142.175,
-          "settle_price": 142.175,
-          "score_price": 142.175,
-          "return_pct": -0.0,
+          "entry_price": 142.76,
+          "latest_price": 142.76,
+          "settle_price": 142.76,
+          "score_price": 142.76,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -58,29 +58,29 @@
       "picks": [
         {
           "ticker": "AAPL",
-          "entry_price": 263.84,
-          "latest_price": 263.84,
-          "settle_price": 263.84,
-          "score_price": 263.84,
+          "entry_price": 263.4,
+          "latest_price": 263.4,
+          "settle_price": 263.4,
+          "score_price": 263.4,
           "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "NVDA",
-          "entry_price": 198.34,
-          "latest_price": 198.34,
-          "settle_price": 198.34,
-          "score_price": 198.34,
-          "return_pct": 0.0,
+          "entry_price": 198.35,
+          "latest_price": 198.35,
+          "settle_price": 198.35,
+          "score_price": 198.35,
+          "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "TSLA",
-          "entry_price": 389.51,
-          "latest_price": 389.51,
-          "settle_price": 389.51,
-          "score_price": 389.51,
-          "return_pct": -0.0,
+          "entry_price": 388.9,
+          "latest_price": 388.9,
+          "settle_price": 388.9,
+          "score_price": 388.9,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -102,29 +102,29 @@
       "picks": [
         {
           "ticker": "TEM",
-          "entry_price": 54.13,
-          "latest_price": 54.13,
-          "settle_price": 54.13,
-          "score_price": 54.13,
-          "return_pct": -0.0,
+          "entry_price": 54.42,
+          "latest_price": 54.42,
+          "settle_price": 54.42,
+          "score_price": 54.42,
+          "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "RGTI",
-          "entry_price": 19.51,
-          "latest_price": 19.51,
-          "settle_price": 19.51,
-          "score_price": 19.51,
+          "entry_price": 19.45,
+          "latest_price": 19.45,
+          "settle_price": 19.45,
+          "score_price": 19.45,
           "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "PLTR",
-          "entry_price": 142.175,
-          "latest_price": 142.175,
-          "settle_price": 142.175,
-          "score_price": 142.175,
-          "return_pct": -0.0,
+          "entry_price": 142.76,
+          "latest_price": 142.76,
+          "settle_price": 142.76,
+          "score_price": 142.76,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -144,29 +144,29 @@
       "picks": [
         {
           "ticker": "AAPL",
-          "entry_price": 263.84,
-          "latest_price": 263.84,
-          "settle_price": 263.84,
-          "score_price": 263.84,
+          "entry_price": 263.4,
+          "latest_price": 263.4,
+          "settle_price": 263.4,
+          "score_price": 263.4,
           "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "NVDA",
-          "entry_price": 198.34,
-          "latest_price": 198.34,
-          "settle_price": 198.34,
-          "score_price": 198.34,
-          "return_pct": 0.0,
+          "entry_price": 198.35,
+          "latest_price": 198.35,
+          "settle_price": 198.35,
+          "score_price": 198.35,
+          "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "TSLA",
-          "entry_price": 389.51,
-          "latest_price": 389.51,
-          "settle_price": 389.51,
-          "score_price": 389.51,
-          "return_pct": -0.0,
+          "entry_price": 388.9,
+          "latest_price": 388.9,
+          "settle_price": 388.9,
+          "score_price": 388.9,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -188,29 +188,29 @@
       "picks": [
         {
           "ticker": "TEM",
-          "entry_price": 54.13,
-          "latest_price": 54.13,
-          "settle_price": 54.13,
-          "score_price": 54.13,
-          "return_pct": -0.0,
+          "entry_price": 54.42,
+          "latest_price": 54.42,
+          "settle_price": 54.42,
+          "score_price": 54.42,
+          "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "RGTI",
-          "entry_price": 19.51,
-          "latest_price": 19.51,
-          "settle_price": 19.51,
-          "score_price": 19.51,
+          "entry_price": 19.45,
+          "latest_price": 19.45,
+          "settle_price": 19.45,
+          "score_price": 19.45,
           "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "PLTR",
-          "entry_price": 142.175,
-          "latest_price": 142.175,
-          "settle_price": 142.175,
-          "score_price": 142.175,
-          "return_pct": -0.0,
+          "entry_price": 142.76,
+          "latest_price": 142.76,
+          "settle_price": 142.76,
+          "score_price": 142.76,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -230,29 +230,29 @@
       "picks": [
         {
           "ticker": "AAPL",
-          "entry_price": 263.84,
-          "latest_price": 263.84,
-          "settle_price": 263.84,
-          "score_price": 263.84,
+          "entry_price": 263.4,
+          "latest_price": 263.4,
+          "settle_price": 263.4,
+          "score_price": 263.4,
           "return_pct": 0.0,
           "status": "active"
         },
         {
           "ticker": "NVDA",
-          "entry_price": 198.34,
-          "latest_price": 198.34,
-          "settle_price": 198.34,
-          "score_price": 198.34,
-          "return_pct": 0.0,
+          "entry_price": 198.35,
+          "latest_price": 198.35,
+          "settle_price": 198.35,
+          "score_price": 198.35,
+          "return_pct": -0.0,
           "status": "active"
         },
         {
           "ticker": "TSLA",
-          "entry_price": 389.51,
-          "latest_price": 389.51,
-          "settle_price": 389.51,
-          "score_price": 389.51,
-          "return_pct": -0.0,
+          "entry_price": 388.9,
+          "latest_price": 388.9,
+          "settle_price": 388.9,
+          "score_price": 388.9,
+          "return_pct": 0.0,
           "status": "active"
         }
       ],
