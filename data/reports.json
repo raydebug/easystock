@@ -1141,8 +1141,8 @@
       "date": "2026-04-16",
       "generated_at": "2026-04-16T07:43:18.771700+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "BUY",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.11,
@@ -1193,7 +1193,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/RGTI/2026-04-16/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:01:01",
+      "elapsed_seconds": 7261,
+      "stats": {
+        "agents_done": 6,
+        "agents_total": 12,
+        "llm_calls": 22,
+        "tool_calls": 17,
+        "tokens_in_text": "149.9k",
+        "tokens_out_text": "44.6k",
+        "reports_done": 6,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "SFR.AX",
