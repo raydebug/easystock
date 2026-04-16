@@ -1,24 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "IVX.AX",
-      "date": "2026-04-16",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level DEEP",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -29,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 165.7,
-        "price_diff": 23.9,
-        "price_diff_pct": 16.8547
+        "current_price": 165.3,
+        "price_diff": 23.5,
+        "price_diff_pct": 16.5726
       },
       "files": [
         {
@@ -1157,10 +1139,10 @@
       "ticker": "RGTI",
       "company_name": "Rigetti Computing, Inc.",
       "date": "2026-04-16",
-      "generated_at": "2026-04-16T06:41:04.385843+00:00",
+      "generated_at": "2026-04-16T07:43:18.771700+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.11,
@@ -1203,22 +1185,15 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/RGTI/2026-04-16/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/RGTI/2026-04-16/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/RGTI/2026-04-16/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:00:01",
-      "elapsed_seconds": 7201,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 21,
-        "tool_calls": 17,
-        "tokens_in_text": "137.9k",
-        "tokens_out_text": "42.2k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "SFR.AX",
@@ -1955,13 +1930,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 4.6715,
-    "valid_reports": 21,
+    "pnl_index": 4.4464,
+    "valid_reports": 22,
     "wins": 15,
     "losses": 5,
-    "hold_reports": 6,
+    "hold_reports": 5,
     "hold_up": 5,
     "hold_down": 0,
-    "hold_flat": 1
+    "hold_flat": 0
   }
 }
