@@ -1,6 +1,34 @@
 {
   "reports": [
     {
+      "ticker": "RGTI",
+      "date": "2026-04-16",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Starting · Level DEEP · elapsed 00:00",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Starting · Level DEEP",
+      "stats": {
+        "agents_done": 0,
+        "agents_total": 12,
+        "llm_calls": 0,
+        "tool_calls": 0,
+        "tokens_in_text": "0",
+        "tokens_out_text": "0",
+        "reports_done": 0,
+        "reports_total": 7
+      },
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
