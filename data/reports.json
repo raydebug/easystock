@@ -723,10 +723,10 @@
       "ticker": "IVX.AX",
       "company_name": "Invion Limited",
       "date": "2026-04-16",
-      "generated_at": "2026-04-16T10:39:47.833736+00:00",
+      "generated_at": "2026-04-16T11:45:51.252975+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "SELL",
       "pricing": {
         "company_name": "Invion Limited",
         "report_close": 0.06,
@@ -777,21 +777,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/IVX.AX/2026-04-16/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Portfolio Manager (7/7) · Level DEEP",
-      "message": "Analyzing: Portfolio Manager (7/7) · Level DEEP · elapsed 03:02:08",
-      "elapsed_seconds": 10928,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 29,
-        "tool_calls": 17,
-        "tokens_in_text": "202.0k",
-        "tokens_out_text": "63.6k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "MCD",
