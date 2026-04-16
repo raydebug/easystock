@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "IVX.AX",
-      "date": "2026-04-16",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:01:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 3660,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 16,
-        "tool_calls": 17,
-        "tokens_in_text": "70.1k",
-        "tokens_out_text": "21.7k",
-        "reports_done": 5,
-        "reports_total": 7
-      },
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -744,6 +716,59 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/INTC/2026-04-09/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "IVX.AX",
+      "company_name": "Invion Limited",
+      "date": "2026-04-16",
+      "generated_at": "2026-04-16T09:38:28.916373+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "SELL",
+      "pricing": {
+        "company_name": "Invion Limited",
+        "report_close": 0.06,
+        "current_price": 0.06,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/IVX.AX/2026-04-16/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IVX.AX/2026-04-16/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/IVX.AX/2026-04-16/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IVX.AX/2026-04-16/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/IVX.AX/2026-04-16/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IVX.AX/2026-04-16/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/IVX.AX/2026-04-16/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IVX.AX/2026-04-16/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/IVX.AX/2026-04-16/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IVX.AX/2026-04-16/sentiment_report.zh-CN.md"
         }
       ]
     },
@@ -1972,8 +1997,8 @@
     }
   ],
   "summary": {
-    "pnl_index": 4.4303,
-    "valid_reports": 22,
+    "pnl_index": 4.2377,
+    "valid_reports": 23,
     "wins": 15,
     "losses": 5,
     "hold_reports": 5,
