@@ -1,8 +1,137 @@
 {
-  "generated_at": "2026-04-16T05:29:26.008943+00:00",
+  "generated_at": "2026-04-16T05:32:04.787371+00:00",
   "duration_days": 7,
-  "leaderboard": [],
-  "top": [],
-  "active": [],
+  "leaderboard": [
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 266.43,
+          "latest_price": 266.43,
+          "settle_price": 266.43,
+          "score_price": 266.43,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.87,
+          "latest_price": 198.87,
+          "settle_price": 198.87,
+          "score_price": 198.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 391.95,
+          "latest_price": 391.95,
+          "settle_price": 391.95,
+          "score_price": 391.95,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    }
+  ],
+  "top": [
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 266.43,
+          "latest_price": 266.43,
+          "settle_price": 266.43,
+          "score_price": 266.43,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.87,
+          "latest_price": 198.87,
+          "settle_price": 198.87,
+          "score_price": 198.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 391.95,
+          "latest_price": 391.95,
+          "settle_price": 391.95,
+          "score_price": 391.95,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    }
+  ],
+  "active": [
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 266.43,
+          "latest_price": 266.43,
+          "settle_price": 266.43,
+          "score_price": 266.43,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.87,
+          "latest_price": 198.87,
+          "settle_price": 198.87,
+          "score_price": 198.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 391.95,
+          "latest_price": 391.95,
+          "settle_price": 391.95,
+          "score_price": 391.95,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    }
+  ],
   "settled": []
 }
