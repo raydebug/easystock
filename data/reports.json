@@ -2020,10 +2020,10 @@
       "ticker": "ZIP.AX",
       "company_name": "Zip Co Limited",
       "date": "2026-04-17",
-      "generated_at": "2026-04-17T08:35:48.023494+00:00",
+      "generated_at": "2026-04-17T09:12:46.676149+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Zip Co Limited",
         "report_close": 2.33,
@@ -2074,21 +2074,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/ZIP.AX/2026-04-17/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 08:47:08",
-      "elapsed_seconds": 31628,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 24,
-        "tool_calls": 11,
-        "tokens_in_text": "132.3k",
-        "tokens_out_text": "43.3k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     }
   ],
   "summary": {
