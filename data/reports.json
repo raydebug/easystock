@@ -281,8 +281,8 @@
       "date": "2026-04-17",
       "generated_at": "2026-04-17T18:54:05.268362+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "BUY",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
@@ -326,7 +326,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/CSL.AX/2026-04-17/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 05:39:05",
+      "elapsed_seconds": 20345,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 16,
+        "tool_calls": 18,
+        "tokens_in_text": "92.4k",
+        "tokens_out_text": "22.5k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "DRO.AX",
