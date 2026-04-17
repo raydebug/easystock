@@ -2070,8 +2070,8 @@
       ],
       "progress_pct": 95.0,
       "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 04:02:03",
-      "elapsed_seconds": 14523,
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 04:03:03",
+      "elapsed_seconds": 14583,
       "stats": {
         "agents_done": 5,
         "agents_total": 12,
