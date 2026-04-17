@@ -6,9 +6,9 @@
       "level": "deep",
       "decision": "PENDING",
       "status": "generating",
-      "message": "Analyzing agents · Level DEEP · elapsed 15:00",
-      "progress_pct": 70.0,
-      "elapsed_seconds": 900,
+      "message": "Analyzing agents · Level DEEP · elapsed 16:00",
+      "progress_pct": 74.0,
+      "elapsed_seconds": 960,
       "phase": "Analyzing agents · Level DEEP",
       "pricing": {
         "report_close": null,
