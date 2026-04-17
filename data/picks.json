@@ -1,49 +1,7 @@
 {
-  "generated_at": "2026-04-17T13:52:16.423892+00:00",
+  "generated_at": "2026-04-17T14:15:52.797400+00:00",
   "duration_days": 7,
   "leaderboard": [
-    {
-      "user_id": 8323706681,
-      "chat_id": 8323706681,
-      "display_name": "Easystock",
-      "username": "",
-      "entry_date": "2026-04-16",
-      "settle_date": "2026-04-23",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 1.8279,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "AAPL",
-          "entry_price": 263.4,
-          "latest_price": 268.64,
-          "settle_price": 268.64,
-          "score_price": 268.64,
-          "return_pct": 1.9894,
-          "status": "active"
-        },
-        {
-          "ticker": "NVDA",
-          "entry_price": 198.35,
-          "latest_price": 201.28,
-          "settle_price": 201.28,
-          "score_price": 201.28,
-          "return_pct": 1.4772,
-          "status": "active"
-        },
-        {
-          "ticker": "TSLA",
-          "entry_price": 388.9,
-          "latest_price": 396.745,
-          "settle_price": 396.745,
-          "score_price": 396.745,
-          "return_pct": 2.0172,
-          "status": "active"
-        }
-      ],
-      "rank": 1
-    },
     {
       "user_id": 474592608,
       "chat_id": 474592608,
@@ -53,34 +11,76 @@
       "settle_date": "2026-04-23",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 1.6876,
+      "avg_return_pct": 1.99,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.595,
-          "settle_price": 55.595,
-          "score_price": 55.595,
-          "return_pct": 2.1591,
+          "latest_price": 55.79,
+          "settle_price": 55.79,
+          "score_price": 55.79,
+          "return_pct": 2.5175,
           "status": "active"
         },
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 19.525,
-          "settle_price": 19.525,
-          "score_price": 19.525,
-          "return_pct": 0.3856,
+          "latest_price": 19.535,
+          "settle_price": 19.535,
+          "score_price": 19.535,
+          "return_pct": 0.437,
           "status": "active"
         },
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 146.355,
-          "settle_price": 146.355,
-          "score_price": 146.355,
-          "return_pct": 2.5182,
+          "latest_price": 147.065,
+          "settle_price": 147.065,
+          "score_price": 147.065,
+          "return_pct": 3.0156,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 1.7877,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 263.4,
+          "latest_price": 269.0,
+          "settle_price": 269.0,
+          "score_price": 269.0,
+          "return_pct": 2.126,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.35,
+          "latest_price": 201.3,
+          "settle_price": 201.3,
+          "score_price": 201.3,
+          "return_pct": 1.4873,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 388.9,
+          "latest_price": 395.705,
+          "settle_price": 395.705,
+          "score_price": 395.705,
+          "return_pct": 1.7498,
           "status": "active"
         }
       ],
@@ -89,48 +89,6 @@
   ],
   "top": [
     {
-      "user_id": 8323706681,
-      "chat_id": 8323706681,
-      "display_name": "Easystock",
-      "username": "",
-      "entry_date": "2026-04-16",
-      "settle_date": "2026-04-23",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 1.8279,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "AAPL",
-          "entry_price": 263.4,
-          "latest_price": 268.64,
-          "settle_price": 268.64,
-          "score_price": 268.64,
-          "return_pct": 1.9894,
-          "status": "active"
-        },
-        {
-          "ticker": "NVDA",
-          "entry_price": 198.35,
-          "latest_price": 201.28,
-          "settle_price": 201.28,
-          "score_price": 201.28,
-          "return_pct": 1.4772,
-          "status": "active"
-        },
-        {
-          "ticker": "TSLA",
-          "entry_price": 388.9,
-          "latest_price": 396.745,
-          "settle_price": 396.745,
-          "score_price": 396.745,
-          "return_pct": 2.0172,
-          "status": "active"
-        }
-      ],
-      "rank": 1
-    },
-    {
       "user_id": 474592608,
       "chat_id": 474592608,
       "display_name": "@ozpand",
@@ -139,34 +97,76 @@
       "settle_date": "2026-04-23",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 1.6876,
+      "avg_return_pct": 1.99,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.595,
-          "settle_price": 55.595,
-          "score_price": 55.595,
-          "return_pct": 2.1591,
+          "latest_price": 55.79,
+          "settle_price": 55.79,
+          "score_price": 55.79,
+          "return_pct": 2.5175,
           "status": "active"
         },
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 19.525,
-          "settle_price": 19.525,
-          "score_price": 19.525,
-          "return_pct": 0.3856,
+          "latest_price": 19.535,
+          "settle_price": 19.535,
+          "score_price": 19.535,
+          "return_pct": 0.437,
           "status": "active"
         },
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 146.355,
-          "settle_price": 146.355,
-          "score_price": 146.355,
-          "return_pct": 2.5182,
+          "latest_price": 147.065,
+          "settle_price": 147.065,
+          "score_price": 147.065,
+          "return_pct": 3.0156,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 1.7877,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 263.4,
+          "latest_price": 269.0,
+          "settle_price": 269.0,
+          "score_price": 269.0,
+          "return_pct": 2.126,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.35,
+          "latest_price": 201.3,
+          "settle_price": 201.3,
+          "score_price": 201.3,
+          "return_pct": 1.4873,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 388.9,
+          "latest_price": 395.705,
+          "settle_price": 395.705,
+          "score_price": 395.705,
+          "return_pct": 1.7498,
           "status": "active"
         }
       ],
@@ -175,48 +175,6 @@
   ],
   "active": [
     {
-      "user_id": 8323706681,
-      "chat_id": 8323706681,
-      "display_name": "Easystock",
-      "username": "",
-      "entry_date": "2026-04-16",
-      "settle_date": "2026-04-23",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 1.8279,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "AAPL",
-          "entry_price": 263.4,
-          "latest_price": 268.64,
-          "settle_price": 268.64,
-          "score_price": 268.64,
-          "return_pct": 1.9894,
-          "status": "active"
-        },
-        {
-          "ticker": "NVDA",
-          "entry_price": 198.35,
-          "latest_price": 201.28,
-          "settle_price": 201.28,
-          "score_price": 201.28,
-          "return_pct": 1.4772,
-          "status": "active"
-        },
-        {
-          "ticker": "TSLA",
-          "entry_price": 388.9,
-          "latest_price": 396.745,
-          "settle_price": 396.745,
-          "score_price": 396.745,
-          "return_pct": 2.0172,
-          "status": "active"
-        }
-      ],
-      "rank": 1
-    },
-    {
       "user_id": 474592608,
       "chat_id": 474592608,
       "display_name": "@ozpand",
@@ -225,34 +183,76 @@
       "settle_date": "2026-04-23",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 1.6876,
+      "avg_return_pct": 1.99,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.595,
-          "settle_price": 55.595,
-          "score_price": 55.595,
-          "return_pct": 2.1591,
+          "latest_price": 55.79,
+          "settle_price": 55.79,
+          "score_price": 55.79,
+          "return_pct": 2.5175,
           "status": "active"
         },
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 19.525,
-          "settle_price": 19.525,
-          "score_price": 19.525,
-          "return_pct": 0.3856,
+          "latest_price": 19.535,
+          "settle_price": 19.535,
+          "score_price": 19.535,
+          "return_pct": 0.437,
           "status": "active"
         },
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 146.355,
-          "settle_price": 146.355,
-          "score_price": 146.355,
-          "return_pct": 2.5182,
+          "latest_price": 147.065,
+          "settle_price": 147.065,
+          "score_price": 147.065,
+          "return_pct": 3.0156,
+          "status": "active"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "user_id": 8323706681,
+      "chat_id": 8323706681,
+      "display_name": "Easystock",
+      "username": "",
+      "entry_date": "2026-04-16",
+      "settle_date": "2026-04-23",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 1.7877,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "AAPL",
+          "entry_price": 263.4,
+          "latest_price": 269.0,
+          "settle_price": 269.0,
+          "score_price": 269.0,
+          "return_pct": 2.126,
+          "status": "active"
+        },
+        {
+          "ticker": "NVDA",
+          "entry_price": 198.35,
+          "latest_price": 201.3,
+          "settle_price": 201.3,
+          "score_price": 201.3,
+          "return_pct": 1.4873,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 388.9,
+          "latest_price": 395.705,
+          "settle_price": 395.705,
+          "score_price": 395.705,
+          "return_pct": 1.7498,
           "status": "active"
         }
       ],
