@@ -314,17 +314,17 @@
         }
       ],
       "progress_pct": 95.0,
-      "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 02:16:02",
-      "elapsed_seconds": 8162,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 02:16:15",
+      "elapsed_seconds": 8175,
       "stats": {
-        "agents_done": 4,
+        "agents_done": 5,
         "agents_total": 12,
         "llm_calls": 12,
         "tool_calls": 18,
-        "tokens_in_text": "51.3k",
-        "tokens_out_text": "10.1k",
-        "reports_done": 4,
+        "tokens_in_text": "58.4k",
+        "tokens_out_text": "13.6k",
+        "reports_done": 5,
         "reports_total": 7
       }
     },
