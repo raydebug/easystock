@@ -2070,8 +2070,8 @@
       ],
       "progress_pct": 95.0,
       "phase": "Analyzing: Trader (6/7) · Level DEEP",
-      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 06:04:06",
-      "elapsed_seconds": 21846,
+      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 06:05:06",
+      "elapsed_seconds": 21906,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
