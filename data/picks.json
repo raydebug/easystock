@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T20:45:13.757569+00:00",
+  "generated_at": "2026-04-18T21:44:38.015094+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -171,6 +171,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000005,
+      "chat_id": 0,
+      "display_name": "OzAlpha",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "FSLY",
+          "entry_price": 24.56,
+          "latest_price": 24.56,
+          "settle_price": 24.56,
+          "score_price": 24.56,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WDS.AX",
+          "entry_price": 32.73,
+          "latest_price": 32.73,
+          "settle_price": 32.73,
+          "score_price": 32.73,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DRO.AX",
+          "entry_price": 3.61,
+          "latest_price": 3.61,
+          "settle_price": 3.61,
+          "score_price": 3.61,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000003,
       "chat_id": 0,
       "display_name": "TrendTina",
@@ -210,7 +252,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     }
   ],
   "top": [
@@ -383,6 +425,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000005,
+      "chat_id": 0,
+      "display_name": "OzAlpha",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "FSLY",
+          "entry_price": 24.56,
+          "latest_price": 24.56,
+          "settle_price": 24.56,
+          "score_price": 24.56,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WDS.AX",
+          "entry_price": 32.73,
+          "latest_price": 32.73,
+          "settle_price": 32.73,
+          "score_price": 32.73,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DRO.AX",
+          "entry_price": 3.61,
+          "latest_price": 3.61,
+          "settle_price": 3.61,
+          "score_price": 3.61,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000003,
       "chat_id": 0,
       "display_name": "TrendTina",
@@ -422,7 +506,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     }
   ],
   "active": [
@@ -595,6 +679,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000005,
+      "chat_id": 0,
+      "display_name": "OzAlpha",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "FSLY",
+          "entry_price": 24.56,
+          "latest_price": 24.56,
+          "settle_price": 24.56,
+          "score_price": 24.56,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WDS.AX",
+          "entry_price": 32.73,
+          "latest_price": 32.73,
+          "settle_price": 32.73,
+          "score_price": 32.73,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DRO.AX",
+          "entry_price": 3.61,
+          "latest_price": 3.61,
+          "settle_price": 3.61,
+          "score_price": 3.61,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000003,
       "chat_id": 0,
       "display_name": "TrendTina",
@@ -634,7 +760,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     }
   ],
   "settled": []
