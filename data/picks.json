@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T23:45:51.093172+00:00",
+  "generated_at": "2026-04-18T23:50:49.341909+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -171,6 +171,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.395,
+          "latest_price": 0.395,
+          "settle_price": 0.395,
+          "score_price": 0.395,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -210,7 +252,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "user_id": 9000000003,
@@ -252,7 +294,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "top": [
@@ -425,6 +467,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.395,
+          "latest_price": 0.395,
+          "settle_price": 0.395,
+          "score_price": 0.395,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -464,7 +548,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "user_id": 9000000003,
@@ -506,7 +590,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "active": [
@@ -679,6 +763,48 @@
       "rank": 4
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.395,
+          "latest_price": 0.395,
+          "settle_price": 0.395,
+          "score_price": 0.395,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -718,7 +844,7 @@
           "status": "active"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "user_id": 9000000003,
@@ -760,7 +886,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     }
   ],
   "settled": []
