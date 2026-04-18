@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T14:48:12.857290+00:00",
+  "generated_at": "2026-04-18T15:44:14.147088+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -169,6 +169,48 @@
         }
       ],
       "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 400.62,
+          "latest_price": 400.62,
+          "settle_price": 400.62,
+          "score_price": 400.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
     }
   ],
   "top": [
@@ -339,6 +381,48 @@
         }
       ],
       "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 400.62,
+          "latest_price": 400.62,
+          "settle_price": 400.62,
+          "score_price": 400.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
     }
   ],
   "active": [
@@ -509,6 +593,48 @@
         }
       ],
       "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-19",
+      "settle_date": "2026-04-26",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "TEM",
+          "entry_price": 55.87,
+          "latest_price": 55.87,
+          "settle_price": 55.87,
+          "score_price": 55.87,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "WTC.AX",
+          "entry_price": 46.18,
+          "latest_price": 46.18,
+          "settle_price": 46.18,
+          "score_price": 46.18,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TSLA",
+          "entry_price": 400.62,
+          "latest_price": 400.62,
+          "settle_price": 400.62,
+          "score_price": 400.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 5
     }
   ],
   "settled": []
