@@ -279,10 +279,10 @@
       "ticker": "CSL.AX",
       "company_name": "CSL Limited",
       "date": "2026-04-17",
-      "generated_at": "2026-04-18T00:55:55.873017+00:00",
+      "generated_at": "2026-04-18T01:48:28.947508+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
@@ -333,21 +333,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/CSL.AX/2026-04-17/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 11:40:10",
-      "elapsed_seconds": 42010,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 26,
-        "tool_calls": 18,
-        "tokens_in_text": "193.8k",
-        "tokens_out_text": "51.9k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "DRO.AX",
