@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T09:30:54.899544+00:00",
+  "generated_at": "2026-04-18T09:47:15.302809+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -127,6 +127,48 @@
         }
       ],
       "rank": 3
+    },
+    {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-04-18",
+      "settle_date": "2026-04-25",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "ALX.AX",
+          "entry_price": 4.27,
+          "latest_price": 4.27,
+          "settle_price": 4.27,
+          "score_price": 4.27,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "CSL.AX",
+          "entry_price": 137.13,
+          "latest_price": 137.13,
+          "settle_price": 137.13,
+          "score_price": 137.13,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "ZIP.AX",
+          "entry_price": 2.33,
+          "latest_price": 2.33,
+          "settle_price": 2.33,
+          "score_price": 2.33,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
     }
   ],
   "top": [
@@ -255,6 +297,48 @@
         }
       ],
       "rank": 3
+    },
+    {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-04-18",
+      "settle_date": "2026-04-25",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "ALX.AX",
+          "entry_price": 4.27,
+          "latest_price": 4.27,
+          "settle_price": 4.27,
+          "score_price": 4.27,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "CSL.AX",
+          "entry_price": 137.13,
+          "latest_price": 137.13,
+          "settle_price": 137.13,
+          "score_price": 137.13,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "ZIP.AX",
+          "entry_price": 2.33,
+          "latest_price": 2.33,
+          "settle_price": 2.33,
+          "score_price": 2.33,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
     }
   ],
   "active": [
@@ -383,6 +467,48 @@
         }
       ],
       "rank": 3
+    },
+    {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-04-18",
+      "settle_date": "2026-04-25",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "ALX.AX",
+          "entry_price": 4.27,
+          "latest_price": 4.27,
+          "settle_price": 4.27,
+          "score_price": 4.27,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "CSL.AX",
+          "entry_price": 137.13,
+          "latest_price": 137.13,
+          "settle_price": 137.13,
+          "score_price": 137.13,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "ZIP.AX",
+          "entry_price": 2.33,
+          "latest_price": 2.33,
+          "settle_price": 2.33,
+          "score_price": 2.33,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
     }
   ],
   "settled": []
