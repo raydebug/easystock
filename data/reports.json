@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "XRO.AX",
-      "date": "2026-04-20",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 31:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 1860,
-      "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 4,
-        "agents_total": 12,
-        "llm_calls": 11,
-        "tool_calls": 17,
-        "tokens_in_text": "53.8k",
-        "tokens_out_text": "12.4k",
-        "reports_done": 4,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -2105,6 +2077,52 @@
       ]
     },
     {
+      "ticker": "XRO.AX",
+      "company_name": "Xero Limited",
+      "date": "2026-04-20",
+      "generated_at": "2026-04-19T23:41:26.869481+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "Xero Limited",
+        "report_close": 81.98,
+        "current_price": 81.98,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/XRO.AX/2026-04-20/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-04-20/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/XRO.AX/2026-04-20/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-04-20/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/XRO.AX/2026-04-20/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-04-20/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/XRO.AX/2026-04-20/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/XRO.AX/2026-04-20/sentiment_report.zh-CN.md"
+        }
+      ]
+    },
+    {
       "ticker": "ZIP.AX",
       "company_name": "Zip Co Limited",
       "date": "2026-04-17",
@@ -2184,9 +2202,9 @@
     "valid_reports": 25,
     "wins": 16,
     "losses": 6,
-    "hold_reports": 5,
+    "hold_reports": 6,
     "hold_up": 4,
     "hold_down": 1,
-    "hold_flat": 0
+    "hold_flat": 1
   }
 }
