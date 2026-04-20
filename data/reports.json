@@ -2082,8 +2082,8 @@
       "date": "2026-04-20",
       "generated_at": "2026-04-20T00:45:25.747340+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "HOLD",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 81.63,
@@ -2127,7 +2127,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/XRO.AX/2026-04-20/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:32:01",
+      "elapsed_seconds": 5521,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 18,
+        "tool_calls": 17,
+        "tokens_in_text": "142.1k",
+        "tokens_out_text": "34.6k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "ZIP.AX",
