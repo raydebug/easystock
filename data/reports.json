@@ -1,52 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "GME",
-      "date": "2026-04-22",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level DEEP",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "CAR",
-      "date": "2026-04-22",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 38:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 2280,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 12,
-        "tool_calls": 17,
-        "tokens_in_text": "62.8k",
-        "tokens_out_text": "13.5k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -244,6 +198,59 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/ALX.AX/2026-04-15/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "CAR",
+      "company_name": "Avis Budget Group, Inc.",
+      "date": "2026-04-22",
+      "generated_at": "2026-04-21T22:36:25.953007+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "SELL",
+      "pricing": {
+        "company_name": "Avis Budget Group, Inc.",
+        "report_close": 713.97,
+        "current_price": 713.97,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/CAR/2026-04-22/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/CAR/2026-04-22/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/CAR/2026-04-22/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/CAR/2026-04-22/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/CAR/2026-04-22/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/sentiment_report.zh-CN.md"
         }
       ]
     },
@@ -2272,8 +2279,8 @@
     }
   ],
   "summary": {
-    "pnl_index": 3.8165,
-    "valid_reports": 26,
+    "pnl_index": 3.6752,
+    "valid_reports": 27,
     "wins": 15,
     "losses": 11,
     "hold_reports": 5,
