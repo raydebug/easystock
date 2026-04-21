@@ -205,10 +205,10 @@
       "ticker": "CAR",
       "company_name": "Avis Budget Group, Inc.",
       "date": "2026-04-22",
-      "generated_at": "2026-04-21T22:36:25.953007+00:00",
+      "generated_at": "2026-04-21T23:45:13.786503+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Avis Budget Group, Inc.",
         "report_close": 713.97,
@@ -251,22 +251,15 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/CAR/2026-04-22/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/CAR/2026-04-22/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CAR/2026-04-22/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 01:38:00",
-      "elapsed_seconds": 5880,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 20,
-        "tool_calls": 17,
-        "tokens_in_text": "145.1k",
-        "tokens_out_text": "36.4k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "CBA.AX",
