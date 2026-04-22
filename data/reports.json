@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 160.1,
-        "price_diff": 18.3,
-        "price_diff_pct": 12.9055
+        "current_price": 160.3,
+        "price_diff": 18.5,
+        "price_diff_pct": 13.0465
       },
       "files": [
         {
@@ -205,10 +205,10 @@
       "ticker": "BYND",
       "company_name": "Beyond Meat, Inc.",
       "date": "2026-04-22",
-      "generated_at": "2026-04-22T06:49:11.867571+00:00",
+      "generated_at": "2026-04-22T07:28:07.871341+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Beyond Meat, Inc.",
         "report_close": 1.045,
@@ -218,11 +218,25 @@
       },
       "files": [
         {
+          "name": "final_trade_decision",
+          "path": "reports/BYND/2026-04-22/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/BYND/2026-04-22/final_trade_decision.zh-CN.md"
+        },
+        {
           "name": "fundamentals_report",
           "path": "reports/BYND/2026-04-22/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/BYND/2026-04-22/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/BYND/2026-04-22/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/BYND/2026-04-22/hot_news_since_last_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
@@ -259,21 +273,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/BYND/2026-04-22/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Writing reports · Level DEEP",
-      "message": "Writing reports · Level DEEP · elapsed 03:03:13",
-      "elapsed_seconds": 10993,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 21,
-        "tokens_in_text": "262.8k",
-        "tokens_out_text": "66.2k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "CAR",
@@ -2448,7 +2448,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 3.0845,
+    "pnl_index": 3.0893,
     "valid_reports": 29,
     "wins": 15,
     "losses": 11,
