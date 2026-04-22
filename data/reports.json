@@ -487,10 +487,10 @@
       "ticker": "CVNA",
       "company_name": "Carvana Co.",
       "date": "2026-04-22",
-      "generated_at": "2026-04-22T07:45:29.732443+00:00",
+      "generated_at": "2026-04-22T08:49:13.552278+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "HOLD",
       "pricing": {
         "company_name": "Carvana Co.",
         "report_close": 400.92,
@@ -499,6 +499,20 @@
         "price_diff_pct": -0.0
       },
       "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/CVNA/2026-04-22/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CVNA/2026-04-22/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/CVNA/2026-04-22/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CVNA/2026-04-22/investment_plan.zh-CN.md"
+        },
         {
           "name": "market_report",
           "path": "reports/CVNA/2026-04-22/market_report.md",
@@ -520,21 +534,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/CVNA/2026-04-22/sentiment_report.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:23:17",
-      "elapsed_seconds": 4997,
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 16,
-        "tool_calls": 20,
-        "tokens_in_text": "112.8k",
-        "tokens_out_text": "25.3k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "DRO.AX",
