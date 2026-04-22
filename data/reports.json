@@ -487,10 +487,10 @@
       "ticker": "CVNA",
       "company_name": "Carvana Co.",
       "date": "2026-04-22",
-      "generated_at": "2026-04-22T08:49:13.552278+00:00",
+      "generated_at": "2026-04-22T09:46:26.292093+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Carvana Co.",
         "report_close": 400.92,
@@ -533,22 +533,15 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/CVNA/2026-04-22/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/CVNA/2026-04-22/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/CVNA/2026-04-22/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:23:17",
-      "elapsed_seconds": 8597,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 24,
-        "tool_calls": 20,
-        "tokens_in_text": "191.0k",
-        "tokens_out_text": "46.7k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "DRO.AX",
@@ -2515,13 +2508,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 3.0869,
-    "valid_reports": 29,
+    "pnl_index": 2.984,
+    "valid_reports": 30,
     "wins": 15,
     "losses": 11,
-    "hold_reports": 6,
+    "hold_reports": 5,
     "hold_up": 4,
     "hold_down": 1,
-    "hold_flat": 1
+    "hold_flat": 0
   }
 }
