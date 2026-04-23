@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 155.2,
-        "price_diff": 13.4,
-        "price_diff_pct": 9.4499
+        "current_price": 155.6,
+        "price_diff": 13.8,
+        "price_diff_pct": 9.732
       },
       "files": [
         {
@@ -2522,7 +2522,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 3.0743,
+    "pnl_index": 3.0837,
     "valid_reports": 30,
     "wins": 15,
     "losses": 10,
