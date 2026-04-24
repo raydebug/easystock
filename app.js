@@ -17,6 +17,11 @@ const UI_TEXT = {
     progress: "进度",
     elapsed: "已耗时",
     filterLabel: "市场过滤",
+    decisionFilterLabel: "报告类型",
+    decisionFilterAll: "全部",
+    decisionFilterBuy: "只看 BUY",
+    decisionFilterSell: "只看 SELL",
+    decisionFilterHold: "只看 HOLD",
     filterAll: "全部",
     filterUs: "美股",
     filterAu: "澳股",
@@ -66,6 +71,11 @@ const UI_TEXT = {
     progress: "Progress",
     elapsed: "Elapsed",
     filterLabel: "Market Filter",
+    decisionFilterLabel: "Decision",
+    decisionFilterAll: "All",
+    decisionFilterBuy: "BUY Only",
+    decisionFilterSell: "SELL Only",
+    decisionFilterHold: "HOLD Only",
     filterAll: "All",
     filterUs: "US",
     filterAu: "AU",
@@ -117,6 +127,15 @@ function getMarketFilter() {
 
 function setMarketFilter(filter) {
   localStorage.setItem("market_filter", filter);
+}
+
+function getDecisionFilter() {
+  const filter = localStorage.getItem("decision_filter") || "all";
+  return ["all", "buy", "sell", "hold"].includes(filter) ? filter : "all";
+}
+
+function setDecisionFilter(filter) {
+  localStorage.setItem("decision_filter", filter);
 }
 
 function getKeywordFilter() {
@@ -394,6 +413,32 @@ function bindMarketFilter(render, t) {
   };
 }
 
+function bindDecisionFilter(render, t) {
+  const select = document.getElementById("decision-filter");
+  const label = document.getElementById("decision-filter-label");
+  if (!select || !label) {
+    return;
+  }
+  label.textContent = t.decisionFilterLabel;
+  const options = {
+    all: t.decisionFilterAll,
+    buy: t.decisionFilterBuy,
+    sell: t.decisionFilterSell,
+    hold: t.decisionFilterHold,
+  };
+  select.querySelectorAll("option").forEach((opt) => {
+    const key = opt.value;
+    if (options[key]) {
+      opt.textContent = options[key];
+    }
+  });
+  select.value = getDecisionFilter();
+  select.onchange = () => {
+    setDecisionFilter(select.value);
+    render();
+  };
+}
+
 function bindKeywordFilter(render, t) {
   const input = document.getElementById("keyword-filter");
   const label = document.getElementById("keyword-filter-label");
@@ -562,6 +607,11 @@ async function renderHome() {
       root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
     });
   }, t);
+  bindDecisionFilter(() => {
+    renderHome().catch((err) => {
+      root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
+    });
+  }, t);
   bindKeywordFilter(() => {
     renderHome().catch((err) => {
       root.innerHTML = `<p>${t.loadFailed}: ${err.message}</p>`;
@@ -574,10 +624,15 @@ async function renderHome() {
   }, t);
 
   const selectedMarket = getMarketFilter();
+  const decisionFilter = getDecisionFilter();
   const keyword = getKeywordFilter();
   const sortOrder = getSortOrder();
   const marketFiltered = reports.filter((item) => {
     if (selectedMarket !== "all" && classifyMarket(item.ticker) !== selectedMarket) {
+      return false;
+    }
+    const decision = String(item.decision || "").toLowerCase();
+    if (decisionFilter !== "all" && decision !== decisionFilter) {
       return false;
     }
     return true;
