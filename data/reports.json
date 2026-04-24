@@ -207,8 +207,8 @@
       "date": "2026-04-24",
       "generated_at": "2026-04-24T03:37:19.391268+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "SELL",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "BigBear.ai Holdings, Inc.",
         "report_close": 3.73,
@@ -252,7 +252,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/BBAI/2026-04-24/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 58:00",
+      "elapsed_seconds": 3480,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 15,
+        "tool_calls": 20,
+        "tokens_in_text": "73.0k",
+        "tokens_out_text": "21.2k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "BYND",
