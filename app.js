@@ -543,7 +543,7 @@ function renderStatusCard(item, t, status) {
   const isFailed = status === "failed";
   const isQueued = status === "queued";
   const statusLabel = isFailed ? t.failed : (isQueued ? t.queued : t.generating);
-  const level = String(item.level || "medium").toUpperCase();
+  const level = String(item.level || "deep").toUpperCase();
   const progress = typeof item.progress_pct === "number" ? Math.max(0, Math.min(100, item.progress_pct)) : null;
   const elapsedText = formatElapsed(item.elapsed_seconds);
   const stats = (item && typeof item.stats === "object" && item.stats) ? item.stats : null;
@@ -666,7 +666,7 @@ async function renderHome() {
       const priceBlockCls = getPriceBlockClass(item);
       const originalIdx = reports.indexOf(item);
       const link = `./report.html?id=${originalIdx}&file=final_trade_decision`;
-      const level = String(item.level || "medium").toUpperCase();
+      const level = String(item.level || "deep").toUpperCase();
 
       return `
         <a class="card" href="${link}">
