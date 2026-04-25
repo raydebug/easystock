@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T14:40:33.494279+00:00",
+  "generated_at": "2026-04-25T15:44:23.656994+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -213,6 +213,48 @@
       "rank": 5
     },
     {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.54,
+          "settle_price": 82.54,
+          "score_price": 82.54,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.62,
+          "settle_price": 424.62,
+          "score_price": 424.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 6
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -252,7 +294,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "user_id": 9000000001,
@@ -294,7 +336,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000004,
@@ -336,7 +378,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000003,
@@ -378,7 +420,7 @@
           "status": "active"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 474592608,
@@ -420,7 +462,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     }
   ],
   "top": [
@@ -635,6 +677,48 @@
       "rank": 5
     },
     {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.54,
+          "settle_price": 82.54,
+          "score_price": 82.54,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.62,
+          "settle_price": 424.62,
+          "score_price": 424.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 6
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -674,7 +758,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "user_id": 9000000001,
@@ -716,7 +800,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000004,
@@ -758,7 +842,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000003,
@@ -798,48 +882,6 @@
           "score_price": 376.3,
           "return_pct": -6.0706,
           "status": "active"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "user_id": 474592608,
-      "chat_id": 474592608,
-      "display_name": "@ozpand",
-      "username": "ozpand",
-      "entry_date": "2026-04-16",
-      "settle_date": "2026-04-23",
-      "duration_days": 7,
-      "status": "settled",
-      "avg_return_pct": -6.5419,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "TEM",
-          "entry_price": 54.42,
-          "latest_price": 52.12,
-          "settle_price": 51.44,
-          "score_price": 51.44,
-          "return_pct": -5.4759,
-          "status": "settled"
-        },
-        {
-          "ticker": "RGTI",
-          "entry_price": 19.45,
-          "latest_price": 16.61,
-          "settle_price": 16.86,
-          "score_price": 16.86,
-          "return_pct": -13.3162,
-          "status": "settled"
-        },
-        {
-          "ticker": "PLTR",
-          "entry_price": 142.76,
-          "latest_price": 143.09,
-          "settle_price": 141.57,
-          "score_price": 141.57,
-          "return_pct": -0.8336,
-          "status": "settled"
         }
       ],
       "rank": 10
@@ -973,6 +1015,48 @@
       "rank": 5
     },
     {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.54,
+          "settle_price": 82.54,
+          "score_price": 82.54,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.62,
+          "settle_price": 424.62,
+          "score_price": 424.62,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 6
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -1012,7 +1096,7 @@
           "status": "active"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "user_id": 9000000001,
@@ -1054,7 +1138,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000003,
@@ -1096,7 +1180,7 @@
           "status": "active"
         }
       ],
-      "rank": 9
+      "rank": 10
     }
   ],
   "settled": [
@@ -1224,7 +1308,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 474592608,
@@ -1266,7 +1350,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
