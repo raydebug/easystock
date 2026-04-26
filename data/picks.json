@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T16:44:28.851910+00:00",
+  "generated_at": "2026-04-26T17:44:44.169136+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -68,7 +68,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 208.27,
+          "latest_price": 208.26,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -129,6 +129,90 @@
       "rank": 3
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0121,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.38,
+          "latest_price": 0.38,
+          "settle_price": 0.38,
+          "score_price": 0.38,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0105,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.6,
+          "settle_price": 424.62,
+          "score_price": 424.6,
+          "return_pct": -0.0047,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000004,
       "chat_id": 0,
       "display_name": "QuantQuinn",
@@ -168,7 +252,7 @@
           "status": "active"
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "user_id": 9000000002,
@@ -207,90 +291,6 @@
           "settle_price": 81.51,
           "score_price": 81.51,
           "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "user_id": 9000000001,
-      "chat_id": 0,
-      "display_name": "MomentumMia",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "DXB.AX",
-          "entry_price": 0.38,
-          "latest_price": 0.38,
-          "settle_price": 0.38,
-          "score_price": 0.38,
-          "return_pct": 0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "user_id": 9000000003,
-      "chat_id": 0,
-      "display_name": "TrendTina",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "MSFT",
-          "entry_price": 424.62,
-          "latest_price": 424.62,
-          "settle_price": 424.62,
-          "score_price": 424.62,
-          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -488,7 +488,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 16.61,
+          "latest_price": 16.605,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -574,7 +574,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 208.27,
+          "latest_price": 208.26,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -635,6 +635,90 @@
       "rank": 3
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0121,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.38,
+          "latest_price": 0.38,
+          "settle_price": 0.38,
+          "score_price": 0.38,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0105,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.6,
+          "settle_price": 424.62,
+          "score_price": 424.6,
+          "return_pct": -0.0047,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000004,
       "chat_id": 0,
       "display_name": "QuantQuinn",
@@ -674,7 +758,7 @@
           "status": "active"
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "user_id": 9000000002,
@@ -713,90 +797,6 @@
           "settle_price": 81.51,
           "score_price": 81.51,
           "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "user_id": 9000000001,
-      "chat_id": 0,
-      "display_name": "MomentumMia",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "DXB.AX",
-          "entry_price": 0.38,
-          "latest_price": 0.38,
-          "settle_price": 0.38,
-          "score_price": 0.38,
-          "return_pct": 0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "user_id": 9000000003,
-      "chat_id": 0,
-      "display_name": "TrendTina",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "MSFT",
-          "entry_price": 424.62,
-          "latest_price": 424.62,
-          "settle_price": 424.62,
-          "score_price": 424.62,
-          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -973,6 +973,90 @@
       "rank": 3
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0121,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.38,
+          "latest_price": 0.38,
+          "settle_price": 0.38,
+          "score_price": 0.38,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "user_id": 9000000003,
+      "chat_id": 0,
+      "display_name": "TrendTina",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0105,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 82.57,
+          "settle_price": 82.54,
+          "score_price": 82.57,
+          "return_pct": 0.0363,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 354.92,
+          "settle_price": 354.92,
+          "score_price": 354.92,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "MSFT",
+          "entry_price": 424.62,
+          "latest_price": 424.6,
+          "settle_price": 424.62,
+          "score_price": 424.6,
+          "return_pct": -0.0047,
+          "status": "active"
+        }
+      ],
+      "rank": 5
+    },
+    {
       "user_id": 9000000004,
       "chat_id": 0,
       "display_name": "QuantQuinn",
@@ -1012,7 +1096,7 @@
           "status": "active"
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "user_id": 9000000002,
@@ -1051,90 +1135,6 @@
           "settle_price": 81.51,
           "score_price": 81.51,
           "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "user_id": 9000000001,
-      "chat_id": 0,
-      "display_name": "MomentumMia",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "DXB.AX",
-          "entry_price": 0.38,
-          "latest_price": 0.38,
-          "settle_price": 0.38,
-          "score_price": 0.38,
-          "return_pct": 0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "user_id": 9000000003,
-      "chat_id": 0,
-      "display_name": "TrendTina",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": 0.0,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 82.54,
-          "settle_price": 82.54,
-          "score_price": 82.54,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 354.92,
-          "settle_price": 354.92,
-          "score_price": 354.92,
-          "return_pct": -0.0,
-          "status": "active"
-        },
-        {
-          "ticker": "MSFT",
-          "entry_price": 424.62,
-          "latest_price": 424.62,
-          "settle_price": 424.62,
-          "score_price": 424.62,
-          "return_pct": 0.0,
           "status": "active"
         }
       ],
@@ -1208,7 +1208,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 208.27,
+          "latest_price": 208.26,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -1418,7 +1418,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 16.61,
+          "latest_price": 16.605,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,

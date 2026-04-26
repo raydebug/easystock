@@ -1086,9 +1086,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 82.54,
-        "price_diff": 20.82,
-        "price_diff_pct": 33.733
+        "current_price": 82.57,
+        "price_diff": 20.85,
+        "price_diff_pct": 33.7816
       },
       "files": [
         {
@@ -1308,9 +1308,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 370.87,
-        "current_price": 424.62,
-        "price_diff": 53.75,
-        "price_diff_pct": 14.493
+        "current_price": 424.6,
+        "price_diff": 53.73,
+        "price_diff_pct": 14.4876
       },
       "files": [
         {
@@ -1375,9 +1375,9 @@
       "pricing": {
         "company_name": "Netflix, Inc.",
         "report_close": 103.01,
-        "current_price": 92.44,
-        "price_diff": -10.57,
-        "price_diff_pct": -10.2611
+        "current_price": 92.355,
+        "price_diff": -10.655,
+        "price_diff_pct": -10.3437
       },
       "files": [
         {
@@ -1428,9 +1428,9 @@
       "pricing": {
         "company_name": "NVIDIA Corporation",
         "report_close": 183.91,
-        "current_price": 208.27,
-        "price_diff": 24.36,
-        "price_diff_pct": 13.2456
+        "current_price": 208.26,
+        "price_diff": 24.35,
+        "price_diff_pct": 13.2402
       },
       "files": [
         {
@@ -1650,9 +1650,9 @@
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.45,
-        "current_price": 16.61,
-        "price_diff": -2.84,
-        "price_diff_pct": -14.6015
+        "current_price": 16.605,
+        "price_diff": -2.845,
+        "price_diff_pct": -14.6273
       },
       "files": [
         {
@@ -2670,7 +2670,7 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.1293,
+    "pnl_index": -0.1312,
     "valid_reports": 32,
     "wins": 15,
     "losses": 15,
