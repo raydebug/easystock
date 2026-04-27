@@ -1276,17 +1276,17 @@
         }
       ],
       "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:20:00",
-      "elapsed_seconds": 4800,
+      "phase": "Analyzing: Trader (6/7) · Level DEEP",
+      "message": "Analyzing: Trader (6/7) · Level DEEP · elapsed 01:20:53",
+      "elapsed_seconds": 4853,
       "stats": {
-        "agents_done": 5,
+        "agents_done": 6,
         "agents_total": 12,
         "llm_calls": 18,
         "tool_calls": 17,
-        "tokens_in_text": "112.0k",
-        "tokens_out_text": "31.6k",
-        "reports_done": 5,
+        "tokens_in_text": "113.0k",
+        "tokens_out_text": "33.2k",
+        "reports_done": 6,
         "reports_total": 7
       }
     },
