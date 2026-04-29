@@ -1597,17 +1597,17 @@
         }
       ],
       "progress_pct": 74.0,
-      "phase": "Analyzing: Social Analyst (2/7) · Level DEEP",
-      "message": "Analyzing: Social Analyst (2/7) · Level DEEP · elapsed 16:00",
+      "phase": "Analyzing: News Analyst (3/7) · Level DEEP",
+      "message": "Analyzing: News Analyst (3/7) · Level DEEP · elapsed 16:00",
       "elapsed_seconds": 960,
       "stats": {
-        "agents_done": 2,
+        "agents_done": 3,
         "agents_total": 12,
         "llm_calls": 12,
         "tool_calls": 16,
-        "tokens_in_text": "27.9k",
-        "tokens_out_text": "6.3k",
-        "reports_done": 2,
+        "tokens_in_text": "31.3k",
+        "tokens_out_text": "7.8k",
+        "reports_done": 3,
         "reports_total": 7
       }
     },
