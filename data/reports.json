@@ -1596,14 +1596,14 @@
           "translated_path": "reports/PBH.AX/2026-04-29/sentiment_report.zh-CN.md"
         }
       ],
-      "progress_pct": 79.0,
+      "progress_pct": 82.0,
       "phase": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP",
-      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 17:17",
-      "elapsed_seconds": 1037,
+      "message": "Analyzing: Fundamentals Analyst (4/7) · Level DEEP · elapsed 18:00",
+      "elapsed_seconds": 1080,
       "stats": {
         "agents_done": 4,
         "agents_total": 12,
-        "llm_calls": 14,
+        "llm_calls": 15,
         "tool_calls": 20,
         "tokens_in_text": "34.0k",
         "tokens_out_text": "9.1k",
