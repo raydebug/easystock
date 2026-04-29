@@ -1571,8 +1571,8 @@
       "date": "2026-04-29",
       "generated_at": "2026-04-29T03:48:33.295258+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "HOLD",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "PointsBet Holdings Limited",
         "report_close": 1.055,
@@ -1616,7 +1616,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/PBH.AX/2026-04-29/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:17:01",
+      "elapsed_seconds": 4621,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 20,
+        "tool_calls": 20,
+        "tokens_in_text": "85.4k",
+        "tokens_out_text": "29.2k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "PLTR",
