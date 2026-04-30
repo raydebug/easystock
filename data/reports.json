@@ -1160,9 +1160,9 @@
       "pricing": {
         "company_name": "Invion Limited",
         "report_close": 0.06,
-        "current_price": 0.062,
-        "price_diff": 0.002,
-        "price_diff_pct": 3.3333
+        "current_price": 0.063,
+        "price_diff": 0.003,
+        "price_diff_pct": 5.0
       },
       "files": [
         {
@@ -2818,7 +2818,7 @@
     }
   ],
   "summary": {
-    "pnl_index": -0.9382,
+    "pnl_index": -0.9888,
     "valid_reports": 33,
     "wins": 17,
     "losses": 16,
