@@ -1,52 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "4DX.AX",
-      "date": "2026-05-01",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level DEEP",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
-      "ticker": "IBX.AX",
-      "date": "2026-05-01",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:08:51",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 4131,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 17,
-        "tool_calls": 27,
-        "tokens_in_text": "120.6k",
-        "tokens_out_text": "25.6k",
-        "reports_done": 5,
-        "reports_total": 7
-      },
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -131,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.69,
-        "price_diff": 2.56,
-        "price_diff_pct": 7.7271
+        "current_price": 35.85,
+        "price_diff": 2.72,
+        "price_diff_pct": 8.2101
       },
       "files": [
         {
@@ -184,9 +138,9 @@
       "pricing": {
         "company_name": "Atlas Arteria Limited",
         "report_close": 4.27,
-        "current_price": 4.785,
-        "price_diff": 0.515,
-        "price_diff_pct": 12.0609
+        "current_price": 4.78,
+        "price_diff": 0.51,
+        "price_diff_pct": 11.9438
       },
       "files": [
         {
@@ -480,9 +434,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 173.66,
-        "price_diff": 0.86,
-        "price_diff_pct": 0.4977
+        "current_price": 173.39,
+        "price_diff": 0.59,
+        "price_diff_pct": 0.3414
       },
       "files": [
         {
@@ -554,9 +508,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 125.005,
-        "price_diff": -12.125,
-        "price_diff_pct": -8.842
+        "current_price": 124.68,
+        "price_diff": -12.45,
+        "price_diff_pct": -9.079
       },
       "files": [
         {
@@ -688,9 +642,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.6,
-        "price_diff": -0.33,
-        "price_diff_pct": -8.3969
+        "current_price": 3.615,
+        "price_diff": -0.315,
+        "price_diff_pct": -8.0153
       },
       "files": [
         {
@@ -836,9 +790,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.25,
-        "price_diff": 0.25,
-        "price_diff_pct": 2.7778
+        "current_price": 9.34,
+        "price_diff": 0.34,
+        "price_diff_pct": 3.7778
       },
       "files": [
         {
@@ -1118,6 +1072,59 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/GRAB/2026-04-11/trader_investment_plan.zh-CN.md"
+        }
+      ]
+    },
+    {
+      "ticker": "IBX.AX",
+      "company_name": "Imagion Biosystems Limited",
+      "date": "2026-05-01",
+      "generated_at": "2026-05-01T06:24:35.060871+00:00",
+      "level": "deep",
+      "status": "completed",
+      "decision": "HOLD",
+      "pricing": {
+        "company_name": "Imagion Biosystems Limited",
+        "report_close": 0.016,
+        "current_price": 0.016,
+        "price_diff": -0.0,
+        "price_diff_pct": -0.0
+      },
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/IBX.AX/2026-05-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/IBX.AX/2026-05-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/IBX.AX/2026-05-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/IBX.AX/2026-05-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/IBX.AX/2026-05-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/sentiment_report.zh-CN.md"
         }
       ]
     },
@@ -1918,9 +1925,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.8,
-        "price_diff": -0.57,
-        "price_diff_pct": -3.2815
+        "current_price": 16.74,
+        "price_diff": -0.63,
+        "price_diff_pct": -3.6269
       },
       "files": [
         {
@@ -2059,9 +2066,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 30.84,
-        "price_diff": 0.32,
-        "price_diff_pct": 1.0485
+        "current_price": 30.79,
+        "price_diff": 0.27,
+        "price_diff_pct": 0.8847
       },
       "files": [
         {
@@ -2207,9 +2214,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 15.6,
-        "price_diff": 1.65,
-        "price_diff_pct": 11.828
+        "current_price": 15.615,
+        "price_diff": 1.665,
+        "price_diff_pct": 11.9355
       },
       "files": [
         {
@@ -2577,9 +2584,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 32.975,
-        "price_diff": -2.825,
-        "price_diff_pct": -7.8911
+        "current_price": 33.09,
+        "price_diff": -2.71,
+        "price_diff_pct": -7.5698
       },
       "files": [
         {
@@ -2651,9 +2658,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.805,
-        "price_diff": 4.645,
-        "price_diff_pct": 11.8616
+        "current_price": 43.85,
+        "price_diff": 4.69,
+        "price_diff_pct": 11.9765
       },
       "files": [
         {
@@ -2725,9 +2732,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 79.98,
-        "price_diff": -2.17,
-        "price_diff_pct": -2.6415
+        "current_price": 80.62,
+        "price_diff": -1.53,
+        "price_diff_pct": -1.8624
       },
       "files": [
         {
@@ -2864,13 +2871,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.4211,
+    "pnl_index": 1.4786,
     "valid_reports": 33,
     "wins": 17,
     "losses": 16,
-    "hold_reports": 6,
+    "hold_reports": 7,
     "hold_up": 5,
     "hold_down": 1,
-    "hold_flat": 0
+    "hold_flat": 1
   }
 }
