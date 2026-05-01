@@ -1,34 +1,6 @@
 {
   "reports": [
     {
-      "ticker": "IBX.AX",
-      "date": "2026-05-01",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing agents · Level DEEP · elapsed 07:00",
-      "progress_pct": 38.0,
-      "elapsed_seconds": 420,
-      "phase": "Analyzing agents · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": [],
-      "stats": {
-        "agents_done": 0,
-        "agents_total": 12,
-        "llm_calls": 4,
-        "tool_calls": 11,
-        "tokens_in_text": "22.1k",
-        "tokens_out_text": "1.4k",
-        "reports_done": 0,
-        "reports_total": 7
-      }
-    },
-    {
       "ticker": "9992.HK",
       "company_name": "Pop Mart International Group Limited",
       "date": "2026-04-05",
@@ -113,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.87,
-        "price_diff": 2.74,
-        "price_diff_pct": 8.2704
+        "current_price": 35.69,
+        "price_diff": 2.56,
+        "price_diff_pct": 7.7271
       },
       "files": [
         {
@@ -462,9 +434,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 174.065,
-        "price_diff": 1.265,
-        "price_diff_pct": 0.7321
+        "current_price": 173.66,
+        "price_diff": 0.86,
+        "price_diff_pct": 0.4977
       },
       "files": [
         {
@@ -536,9 +508,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 124.815,
-        "price_diff": -12.315,
-        "price_diff_pct": -8.9805
+        "current_price": 125.005,
+        "price_diff": -12.125,
+        "price_diff_pct": -8.842
       },
       "files": [
         {
@@ -670,9 +642,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.615,
-        "price_diff": -0.315,
-        "price_diff_pct": -8.0153
+        "current_price": 3.6,
+        "price_diff": -0.33,
+        "price_diff_pct": -8.3969
       },
       "files": [
         {
@@ -744,9 +716,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.22,
-        "price_diff": -0.1,
-        "price_diff_pct": -31.25
+        "current_price": 0.215,
+        "price_diff": -0.105,
+        "price_diff_pct": -32.8125
       },
       "files": [
         {
@@ -818,9 +790,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.28,
-        "price_diff": 0.28,
-        "price_diff_pct": 3.1111
+        "current_price": 9.25,
+        "price_diff": 0.25,
+        "price_diff_pct": 2.7778
       },
       "files": [
         {
@@ -1604,9 +1576,9 @@
       "pricing": {
         "company_name": "PointsBet Holdings Limited",
         "report_close": 1.01,
-        "current_price": 1.025,
-        "price_diff": 0.015,
-        "price_diff_pct": 1.4851
+        "current_price": 1.02,
+        "price_diff": 0.01,
+        "price_diff_pct": 0.9901
       },
       "files": [
         {
@@ -1900,9 +1872,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.69,
-        "price_diff": -0.68,
-        "price_diff_pct": -3.9148
+        "current_price": 16.8,
+        "price_diff": -0.57,
+        "price_diff_pct": -3.2815
       },
       "files": [
         {
@@ -2041,9 +2013,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 30.88,
-        "price_diff": 0.36,
-        "price_diff_pct": 1.1796
+        "current_price": 30.84,
+        "price_diff": 0.32,
+        "price_diff_pct": 1.0485
       },
       "files": [
         {
@@ -2189,9 +2161,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 15.52,
-        "price_diff": 1.57,
-        "price_diff_pct": 11.2545
+        "current_price": 15.6,
+        "price_diff": 1.65,
+        "price_diff_pct": 11.828
       },
       "files": [
         {
@@ -2559,9 +2531,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.215,
-        "price_diff": -2.585,
-        "price_diff_pct": -7.2207
+        "current_price": 32.975,
+        "price_diff": -2.825,
+        "price_diff_pct": -7.8911
       },
       "files": [
         {
@@ -2633,9 +2605,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.64,
-        "price_diff": 4.48,
-        "price_diff_pct": 11.4402
+        "current_price": 43.805,
+        "price_diff": 4.645,
+        "price_diff_pct": 11.8616
       },
       "files": [
         {
@@ -2707,9 +2679,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 79.99,
-        "price_diff": -2.16,
-        "price_diff_pct": -2.6293
+        "current_price": 79.98,
+        "price_diff": -2.17,
+        "price_diff_pct": -2.6415
       },
       "files": [
         {
@@ -2781,9 +2753,9 @@
       "pricing": {
         "company_name": "Zip Co Limited",
         "report_close": 2.33,
-        "current_price": 2.41,
-        "price_diff": 0.08,
-        "price_diff_pct": 3.4335
+        "current_price": 2.405,
+        "price_diff": 0.075,
+        "price_diff_pct": 3.2189
       },
       "files": [
         {
@@ -2846,7 +2818,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.4338,
+    "pnl_index": 1.4211,
     "valid_reports": 33,
     "wins": 17,
     "losses": 16,
