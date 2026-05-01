@@ -4,10 +4,10 @@
       "ticker": "4DX.AX",
       "company_name": "4DMedical Limited",
       "date": "2026-05-01",
-      "generated_at": "2026-05-01T10:20:49.031564+00:00",
+      "generated_at": "2026-05-01T11:07:56.207644+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "4DMedical Limited",
         "report_close": 4.02,
@@ -17,11 +17,25 @@
       },
       "files": [
         {
+          "name": "final_trade_decision",
+          "path": "reports/4DX.AX/2026-05-01/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/final_trade_decision.zh-CN.md"
+        },
+        {
           "name": "fundamentals_report",
           "path": "reports/4DX.AX/2026-05-01/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/4DX.AX/2026-05-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/4DX.AX/2026-05-01/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/hot_news_since_last_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
@@ -58,21 +72,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/4DX.AX/2026-05-01/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Writing reports · Level DEEP",
-      "message": "Writing reports · Level DEEP · elapsed 02:40:59",
-      "elapsed_seconds": 9659,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 19,
-        "tokens_in_text": "211.3k",
-        "tokens_out_text": "63.8k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "9992.HK",
