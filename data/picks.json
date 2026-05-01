@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T17:46:41.298187+00:00",
+  "generated_at": "2026-05-01T18:46:57.101069+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -11,34 +11,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 7.2762,
+      "avg_return_pct": 7.0692,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
           "status": "active"
         },
         {
           "ticker": "UNH",
           "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
           "status": "active"
         },
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.7,
-          "settle_price": 414.7,
-          "score_price": 414.7,
-          "return_pct": -2.3362,
+          "latest_price": 415.08,
+          "settle_price": 415.08,
+          "score_price": 415.08,
+          "return_pct": -2.2467,
           "status": "active"
         }
       ],
@@ -53,34 +53,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 5.4871,
+      "avg_return_pct": 5.531,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "CAR",
           "entry_price": 204.0,
-          "latest_price": 183.71,
-          "settle_price": 183.71,
-          "score_price": 183.71,
-          "return_pct": -9.9461,
+          "latest_price": 183.79,
+          "settle_price": 183.79,
+          "score_price": 183.79,
+          "return_pct": -9.9069,
           "status": "active"
         },
         {
           "ticker": "FSLY",
           "entry_price": 23.76,
-          "latest_price": 27.525,
-          "settle_price": 27.525,
-          "score_price": 27.525,
-          "return_pct": 15.846,
+          "latest_price": 28.32,
+          "settle_price": 28.32,
+          "score_price": 28.32,
+          "return_pct": 19.1919,
           "status": "active"
         },
         {
           "ticker": "BYND",
           "entry_price": 0.873,
-          "latest_price": 0.9652,
-          "settle_price": 0.9652,
-          "score_price": 0.9652,
-          "return_pct": 10.5613,
+          "latest_price": 0.9368,
+          "settle_price": 0.9368,
+          "score_price": 0.9368,
+          "return_pct": 7.3081,
           "status": "active"
         }
       ],
@@ -95,25 +95,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
@@ -137,25 +137,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
@@ -227,7 +227,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 282.33,
+          "latest_price": 280.64,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -236,7 +236,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 200.09,
+          "latest_price": 198.285,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -245,7 +245,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 388.9,
-          "latest_price": 396.94,
+          "latest_price": 393.835,
           "settle_price": 373.72,
           "score_price": 373.72,
           "return_pct": -3.9033,
@@ -269,7 +269,7 @@
         {
           "ticker": "FSLY",
           "entry_price": 24.56,
-          "latest_price": 27.525,
+          "latest_price": 28.32,
           "settle_price": 23.76,
           "score_price": 23.76,
           "return_pct": -3.2573,
@@ -320,7 +320,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -353,7 +353,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -371,7 +371,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.935,
+          "latest_price": 393.835,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -395,7 +395,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -413,7 +413,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.89,
+          "latest_price": 393.93,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -421,48 +421,6 @@
         }
       ],
       "rank": 10
-    },
-    {
-      "user_id": 9000000001,
-      "chat_id": 0,
-      "display_name": "MomentumMia",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": -6.4188,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
-          "status": "active"
-        },
-        {
-          "ticker": "DXB.AX",
-          "entry_price": 0.38,
-          "latest_price": 0.215,
-          "settle_price": 0.215,
-          "score_price": 0.215,
-          "return_pct": -43.4211,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
-          "status": "active"
-        }
-      ],
-      "rank": 11
     },
     {
       "user_id": 474592608,
@@ -479,7 +437,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -488,7 +446,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.545,
+          "latest_price": 17.35,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -497,11 +455,53 @@
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 145.1,
+          "latest_price": 143.8,
           "settle_price": 141.57,
           "score_price": 141.57,
           "return_pct": -0.8336,
           "status": "settled"
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": -6.6556,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
+          "status": "active"
+        },
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.38,
+          "latest_price": 0.215,
+          "settle_price": 0.215,
+          "score_price": 0.215,
+          "return_pct": -43.4211,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
+          "status": "active"
         }
       ],
       "rank": 12
@@ -517,34 +517,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 7.2762,
+      "avg_return_pct": 7.0692,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
           "status": "active"
         },
         {
           "ticker": "UNH",
           "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
           "status": "active"
         },
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.7,
-          "settle_price": 414.7,
-          "score_price": 414.7,
-          "return_pct": -2.3362,
+          "latest_price": 415.08,
+          "settle_price": 415.08,
+          "score_price": 415.08,
+          "return_pct": -2.2467,
           "status": "active"
         }
       ],
@@ -559,34 +559,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 5.4871,
+      "avg_return_pct": 5.531,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "CAR",
           "entry_price": 204.0,
-          "latest_price": 183.71,
-          "settle_price": 183.71,
-          "score_price": 183.71,
-          "return_pct": -9.9461,
+          "latest_price": 183.79,
+          "settle_price": 183.79,
+          "score_price": 183.79,
+          "return_pct": -9.9069,
           "status": "active"
         },
         {
           "ticker": "FSLY",
           "entry_price": 23.76,
-          "latest_price": 27.525,
-          "settle_price": 27.525,
-          "score_price": 27.525,
-          "return_pct": 15.846,
+          "latest_price": 28.32,
+          "settle_price": 28.32,
+          "score_price": 28.32,
+          "return_pct": 19.1919,
           "status": "active"
         },
         {
           "ticker": "BYND",
           "entry_price": 0.873,
-          "latest_price": 0.9652,
-          "settle_price": 0.9652,
-          "score_price": 0.9652,
-          "return_pct": 10.5613,
+          "latest_price": 0.9368,
+          "settle_price": 0.9368,
+          "score_price": 0.9368,
+          "return_pct": 7.3081,
           "status": "active"
         }
       ],
@@ -601,25 +601,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
@@ -643,25 +643,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
@@ -733,7 +733,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 282.33,
+          "latest_price": 280.64,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -742,7 +742,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 200.09,
+          "latest_price": 198.285,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -751,7 +751,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 388.9,
-          "latest_price": 396.94,
+          "latest_price": 393.835,
           "settle_price": 373.72,
           "score_price": 373.72,
           "return_pct": -3.9033,
@@ -775,7 +775,7 @@
         {
           "ticker": "FSLY",
           "entry_price": 24.56,
-          "latest_price": 27.525,
+          "latest_price": 28.32,
           "settle_price": 23.76,
           "score_price": 23.76,
           "return_pct": -3.2573,
@@ -826,7 +826,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -859,7 +859,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -877,7 +877,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.935,
+          "latest_price": 393.835,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -901,7 +901,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -919,7 +919,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.89,
+          "latest_price": 393.93,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -927,48 +927,6 @@
         }
       ],
       "rank": 10
-    },
-    {
-      "user_id": 9000000001,
-      "chat_id": 0,
-      "display_name": "MomentumMia",
-      "username": "",
-      "entry_date": "2026-04-26",
-      "settle_date": "2026-05-03",
-      "duration_days": 7,
-      "status": "active",
-      "avg_return_pct": -6.4188,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "INTC",
-          "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
-          "status": "active"
-        },
-        {
-          "ticker": "DXB.AX",
-          "entry_price": 0.38,
-          "latest_price": 0.215,
-          "settle_price": 0.215,
-          "score_price": 0.215,
-          "return_pct": -43.4211,
-          "status": "active"
-        },
-        {
-          "ticker": "UNH",
-          "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
-          "status": "active"
-        }
-      ],
-      "rank": 11
     },
     {
       "user_id": 474592608,
@@ -985,7 +943,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -994,7 +952,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.545,
+          "latest_price": 17.35,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -1003,11 +961,53 @@
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 145.1,
+          "latest_price": 143.8,
           "settle_price": 141.57,
           "score_price": 141.57,
           "return_pct": -0.8336,
           "status": "settled"
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-04-26",
+      "settle_date": "2026-05-03",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": -6.6556,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 82.54,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
+          "status": "active"
+        },
+        {
+          "ticker": "DXB.AX",
+          "entry_price": 0.38,
+          "latest_price": 0.215,
+          "settle_price": 0.215,
+          "score_price": 0.215,
+          "return_pct": -43.4211,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 354.92,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
+          "status": "active"
         }
       ],
       "rank": 12
@@ -1023,34 +1023,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 7.2762,
+      "avg_return_pct": 7.0692,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
           "status": "active"
         },
         {
           "ticker": "UNH",
           "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
           "status": "active"
         },
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.7,
-          "settle_price": 414.7,
-          "score_price": 414.7,
-          "return_pct": -2.3362,
+          "latest_price": 415.08,
+          "settle_price": 415.08,
+          "score_price": 415.08,
+          "return_pct": -2.2467,
           "status": "active"
         }
       ],
@@ -1065,34 +1065,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 5.4871,
+      "avg_return_pct": 5.531,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "CAR",
           "entry_price": 204.0,
-          "latest_price": 183.71,
-          "settle_price": 183.71,
-          "score_price": 183.71,
-          "return_pct": -9.9461,
+          "latest_price": 183.79,
+          "settle_price": 183.79,
+          "score_price": 183.79,
+          "return_pct": -9.9069,
           "status": "active"
         },
         {
           "ticker": "FSLY",
           "entry_price": 23.76,
-          "latest_price": 27.525,
-          "settle_price": 27.525,
-          "score_price": 27.525,
-          "return_pct": 15.846,
+          "latest_price": 28.32,
+          "settle_price": 28.32,
+          "score_price": 28.32,
+          "return_pct": 19.1919,
           "status": "active"
         },
         {
           "ticker": "BYND",
           "entry_price": 0.873,
-          "latest_price": 0.9652,
-          "settle_price": 0.9652,
-          "score_price": 0.9652,
-          "return_pct": 10.5613,
+          "latest_price": 0.9368,
+          "settle_price": 0.9368,
+          "score_price": 0.9368,
+          "return_pct": 7.3081,
           "status": "active"
         }
       ],
@@ -1107,25 +1107,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
@@ -1149,25 +1149,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
@@ -1239,7 +1239,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 282.33,
+          "latest_price": 280.64,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -1248,7 +1248,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 200.09,
+          "latest_price": 198.285,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -1257,7 +1257,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 388.9,
-          "latest_price": 396.94,
+          "latest_price": 393.835,
           "settle_price": 373.72,
           "score_price": 373.72,
           "return_pct": -3.9033,
@@ -1281,7 +1281,7 @@
         {
           "ticker": "FSLY",
           "entry_price": 24.56,
-          "latest_price": 27.525,
+          "latest_price": 28.32,
           "settle_price": 23.76,
           "score_price": 23.76,
           "return_pct": -3.2573,
@@ -1332,7 +1332,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1365,7 +1365,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1383,7 +1383,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.935,
+          "latest_price": 393.835,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -1407,7 +1407,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1425,7 +1425,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.89,
+          "latest_price": 393.93,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -1445,34 +1445,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 7.2762,
+      "avg_return_pct": 7.0692,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
           "status": "active"
         },
         {
           "ticker": "UNH",
           "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
           "status": "active"
         },
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.7,
-          "settle_price": 414.7,
-          "score_price": 414.7,
-          "return_pct": -2.3362,
+          "latest_price": 415.08,
+          "settle_price": 415.08,
+          "score_price": 415.08,
+          "return_pct": -2.2467,
           "status": "active"
         }
       ],
@@ -1487,34 +1487,34 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 5.4871,
+      "avg_return_pct": 5.531,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "CAR",
           "entry_price": 204.0,
-          "latest_price": 183.71,
-          "settle_price": 183.71,
-          "score_price": 183.71,
-          "return_pct": -9.9461,
+          "latest_price": 183.79,
+          "settle_price": 183.79,
+          "score_price": 183.79,
+          "return_pct": -9.9069,
           "status": "active"
         },
         {
           "ticker": "FSLY",
           "entry_price": 23.76,
-          "latest_price": 27.525,
-          "settle_price": 27.525,
-          "score_price": 27.525,
-          "return_pct": 15.846,
+          "latest_price": 28.32,
+          "settle_price": 28.32,
+          "score_price": 28.32,
+          "return_pct": 19.1919,
           "status": "active"
         },
         {
           "ticker": "BYND",
           "entry_price": 0.873,
-          "latest_price": 0.9652,
-          "settle_price": 0.9652,
-          "score_price": 0.9652,
-          "return_pct": 10.5613,
+          "latest_price": 0.9368,
+          "settle_price": 0.9368,
+          "score_price": 0.9368,
+          "return_pct": 7.3081,
           "status": "active"
         }
       ],
@@ -1529,25 +1529,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
@@ -1571,25 +1571,25 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 2.2548,
+      "avg_return_pct": 2.1626,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "BBAI",
           "entry_price": 3.7,
-          "latest_price": 4.062,
-          "settle_price": 4.0618,
-          "score_price": 4.062,
-          "return_pct": 9.7838,
+          "latest_price": 4.07,
+          "settle_price": 4.0699,
+          "score_price": 4.07,
+          "return_pct": 10.0,
           "status": "active"
         },
         {
           "ticker": "UPST",
           "entry_price": 33.49,
-          "latest_price": 32.865,
-          "settle_price": 32.865,
-          "score_price": 32.865,
-          "return_pct": -1.8662,
+          "latest_price": 32.7,
+          "settle_price": 32.7,
+          "score_price": 32.7,
+          "return_pct": -2.3589,
           "status": "active"
         },
         {
@@ -1613,16 +1613,16 @@
       "settle_date": "2026-05-03",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": -6.4188,
+      "avg_return_pct": -6.6556,
       "pick_count": 3,
       "picks": [
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 98.975,
-          "settle_price": 98.9745,
-          "score_price": 98.975,
-          "return_pct": 19.9116,
+          "latest_price": 98.42,
+          "settle_price": 98.42,
+          "score_price": 98.42,
+          "return_pct": 19.2392,
           "status": "active"
         },
         {
@@ -1637,14 +1637,14 @@
         {
           "ticker": "UNH",
           "entry_price": 354.92,
-          "latest_price": 370.015,
-          "settle_price": 370.015,
-          "score_price": 370.015,
-          "return_pct": 4.2531,
+          "latest_price": 369.88,
+          "settle_price": 369.88,
+          "score_price": 369.88,
+          "return_pct": 4.215,
           "status": "active"
         }
       ],
-      "rank": 11
+      "rank": 12
     }
   ],
   "settled": [
@@ -1705,7 +1705,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 282.33,
+          "latest_price": 280.64,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -1714,7 +1714,7 @@
         {
           "ticker": "NVDA",
           "entry_price": 198.35,
-          "latest_price": 200.09,
+          "latest_price": 198.285,
           "settle_price": 199.64,
           "score_price": 199.64,
           "return_pct": 0.6504,
@@ -1723,7 +1723,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 388.9,
-          "latest_price": 396.94,
+          "latest_price": 393.835,
           "settle_price": 373.72,
           "score_price": 373.72,
           "return_pct": -3.9033,
@@ -1747,7 +1747,7 @@
         {
           "ticker": "FSLY",
           "entry_price": 24.56,
-          "latest_price": 27.525,
+          "latest_price": 28.32,
           "settle_price": 23.76,
           "score_price": 23.76,
           "return_pct": -3.2573,
@@ -1798,7 +1798,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1831,7 +1831,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1849,7 +1849,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.935,
+          "latest_price": 393.835,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -1873,7 +1873,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.38,
+          "latest_price": 54.93,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1891,7 +1891,7 @@
         {
           "ticker": "TSLA",
           "entry_price": 400.62,
-          "latest_price": 396.89,
+          "latest_price": 393.93,
           "settle_price": 376.3,
           "score_price": 376.3,
           "return_pct": -6.0706,
@@ -1915,7 +1915,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.38,
+          "latest_price": 54.905,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -1924,7 +1924,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.545,
+          "latest_price": 17.35,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -1933,14 +1933,14 @@
         {
           "ticker": "PLTR",
           "entry_price": 142.76,
-          "latest_price": 145.1,
+          "latest_price": 143.8,
           "settle_price": 141.57,
           "score_price": 141.57,
           "return_pct": -0.8336,
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 11
     }
   ],
   "user_stats": [
