@@ -1079,10 +1079,10 @@
       "ticker": "IBX.AX",
       "company_name": "Imagion Biosystems Limited",
       "date": "2026-05-01",
-      "generated_at": "2026-05-01T07:11:58.770238+00:00",
+      "generated_at": "2026-05-01T08:14:42.318435+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "SELL",
       "pricing": {
         "company_name": "Imagion Biosystems Limited",
         "report_close": 0.017,
@@ -1133,21 +1133,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/IBX.AX/2026-05-01/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 03:10:03",
-      "elapsed_seconds": 11403,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 32,
-        "tool_calls": 27,
-        "tokens_in_text": "309.5k",
-        "tokens_out_text": "63.0k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "INTC",
