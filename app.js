@@ -52,6 +52,12 @@ const UI_TEXT = {
     picksActive: "进行中",
     picksEmpty: "暂无模拟选股记录",
     picksSettled: "已结算",
+    picksHistory: "历史记录",
+    picksUsers: "参与者",
+    picksStats: "历史成绩",
+    picksWinRate: "胜率",
+    picksAvg: "均值",
+    picksBest: "最佳",
   },
   en: {
     title: "Easy Stock",
@@ -106,6 +112,12 @@ const UI_TEXT = {
     picksActive: "Active",
     picksEmpty: "No pick-game records yet",
     picksSettled: "Settled",
+    picksHistory: "History",
+    picksUsers: "Players",
+    picksStats: "Historical Stats",
+    picksWinRate: "Win Rate",
+    picksAvg: "Avg",
+    picksBest: "Best",
   },
 };
 const AUTO_REFRESH_MS = 30000;
@@ -203,19 +215,22 @@ function renderPickGamePanel(payload, t) {
   const top = Array.isArray(payload && payload.top) ? payload.top : [];
   const active = Array.isArray(payload && payload.active) ? payload.active : [];
   const settled = Array.isArray(payload && payload.settled) ? payload.settled : [];
+  const statsTop = Array.isArray(payload && payload.stats_top) ? payload.stats_top : [];
+  const summary = payload && typeof payload.summary === "object" ? payload.summary : {};
   const durationDays = payload && payload.duration_days;
   summaryHolder.innerHTML = `
     <strong>${t.picksTitle}</strong>
     <span>${t.picksWindow}: <b>${typeof durationDays === "number" ? durationDays : 7}d</b></span>
-    <span>${t.picksLeaders}: <b>${top.length}</b></span>
+    <span>${t.picksHistory}: <b>${typeof summary.entry_count === "number" ? summary.entry_count : top.length}</b></span>
+    <span>${t.picksUsers}: <b>${typeof summary.user_count === "number" ? summary.user_count : statsTop.length}</b></span>
     <span>${t.picksActive}: <b>${active.length}</b></span>
     <span>${t.picksSettled}: <b>${settled.length}</b></span>
   `;
-  if (!top.length) {
+  if (!top.length && !statsTop.length) {
     boardHolder.innerHTML = `<p>${t.picksEmpty}</p>`;
     return;
   }
-  boardHolder.innerHTML = top.map((item) => {
+  const leaderCards = top.map((item) => {
     const avg = typeof item.avg_return_pct === "number" ? item.avg_return_pct : null;
     const avgCls = trendClass(avg);
     const statusLabel = String(item.status || "").toLowerCase() === "settled" ? t.picksSettled : t.picksActive;
@@ -232,6 +247,21 @@ function renderPickGamePanel(payload, t) {
       </article>
     `;
   }).join("");
+  const statCards = statsTop.slice(0, 6).map((item) => {
+    const avg = typeof item.avg_return_pct === "number" ? item.avg_return_pct : null;
+    const best = typeof item.best_return_pct === "number" ? item.best_return_pct : null;
+    const winRate = typeof item.win_rate_pct === "number" ? `${item.win_rate_pct.toFixed(1)}%` : "--";
+    return `
+      <article class="pick-card pick-stat-card">
+        <h3>#${item.rank || "?"} ${item.display_name || "Unknown"}</h3>
+        <p>${t.picksStats} · ${t.picksSettled} ${item.settled_count || 0}/${item.entry_count || 0}</p>
+        <p>${t.picksWinRate}: <strong>${winRate}</strong></p>
+        <p class="${trendClass(avg)}">${t.picksAvg}: <strong>${avg === null ? "--" : fmtPct(avg)}</strong></p>
+        <p class="${trendClass(best)}">${t.picksBest}: <strong>${best === null ? "--" : fmtPct(best)}</strong></p>
+      </article>
+    `;
+  }).join("");
+  boardHolder.innerHTML = `${leaderCards}${statCards}`;
 }
 
 function renderPnlSummary(summary, t) {
