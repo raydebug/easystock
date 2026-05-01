@@ -85,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.96,
-        "price_diff": 2.83,
-        "price_diff_pct": 8.5421
+        "current_price": 35.92,
+        "price_diff": 2.79,
+        "price_diff_pct": 8.4214
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 174.585,
-        "price_diff": 1.785,
-        "price_diff_pct": 1.033
+        "current_price": 174.57,
+        "price_diff": 1.77,
+        "price_diff_pct": 1.0243
       },
       "files": [
         {
@@ -508,9 +508,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 125.06,
-        "price_diff": -12.07,
-        "price_diff_pct": -8.8019
+        "current_price": 124.98,
+        "price_diff": -12.15,
+        "price_diff_pct": -8.8602
       },
       "files": [
         {
@@ -642,9 +642,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.6,
-        "price_diff": -0.33,
-        "price_diff_pct": -8.3969
+        "current_price": 3.585,
+        "price_diff": -0.345,
+        "price_diff_pct": -8.7786
       },
       "files": [
         {
@@ -790,9 +790,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.26,
-        "price_diff": 0.26,
-        "price_diff_pct": 2.8889
+        "current_price": 9.25,
+        "price_diff": 0.25,
+        "price_diff_pct": 2.7778
       },
       "files": [
         {
@@ -1872,9 +1872,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.6,
-        "price_diff": -0.77,
-        "price_diff_pct": -4.4329
+        "current_price": 16.625,
+        "price_diff": -0.745,
+        "price_diff_pct": -4.289
       },
       "files": [
         {
@@ -2013,9 +2013,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 30.86,
-        "price_diff": 0.34,
-        "price_diff_pct": 1.114
+        "current_price": 30.85,
+        "price_diff": 0.33,
+        "price_diff_pct": 1.0813
       },
       "files": [
         {
@@ -2161,9 +2161,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 15.5,
-        "price_diff": 1.55,
-        "price_diff_pct": 11.1111
+        "current_price": 15.47,
+        "price_diff": 1.52,
+        "price_diff_pct": 10.8961
       },
       "files": [
         {
@@ -2531,9 +2531,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.39,
-        "price_diff": -2.41,
-        "price_diff_pct": -6.7318
+        "current_price": 33.28,
+        "price_diff": -2.52,
+        "price_diff_pct": -7.0391
       },
       "files": [
         {
@@ -2605,9 +2605,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.52,
-        "price_diff": 4.36,
-        "price_diff_pct": 11.1338
+        "current_price": 43.49,
+        "price_diff": 4.33,
+        "price_diff_pct": 11.0572
       },
       "files": [
         {
@@ -2679,9 +2679,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 79.73,
-        "price_diff": -2.42,
-        "price_diff_pct": -2.9458
+        "current_price": 80.11,
+        "price_diff": -2.04,
+        "price_diff_pct": -2.4833
       },
       "files": [
         {
@@ -2818,7 +2818,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.3722,
+    "pnl_index": 1.3622,
     "valid_reports": 33,
     "wins": 17,
     "losses": 16,
