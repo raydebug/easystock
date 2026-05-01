@@ -85,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.89,
-        "price_diff": 2.76,
-        "price_diff_pct": 8.3308
+        "current_price": 35.87,
+        "price_diff": 2.74,
+        "price_diff_pct": 8.2704
       },
       "files": [
         {
@@ -138,9 +138,9 @@
       "pricing": {
         "company_name": "Atlas Arteria Limited",
         "report_close": 4.27,
-        "current_price": 4.79,
-        "price_diff": 0.52,
-        "price_diff_pct": 12.178
+        "current_price": 4.785,
+        "price_diff": 0.515,
+        "price_diff_pct": 12.0609
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 174.21,
-        "price_diff": 1.41,
-        "price_diff_pct": 0.816
+        "current_price": 174.065,
+        "price_diff": 1.265,
+        "price_diff_pct": 0.7321
       },
       "files": [
         {
@@ -508,9 +508,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 124.91,
-        "price_diff": -12.22,
-        "price_diff_pct": -8.9113
+        "current_price": 124.815,
+        "price_diff": -12.315,
+        "price_diff_pct": -8.9805
       },
       "files": [
         {
@@ -790,9 +790,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.24,
-        "price_diff": 0.24,
-        "price_diff_pct": 2.6667
+        "current_price": 9.28,
+        "price_diff": 0.28,
+        "price_diff_pct": 3.1111
       },
       "files": [
         {
@@ -1872,9 +1872,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.68,
-        "price_diff": -0.69,
-        "price_diff_pct": -3.9724
+        "current_price": 16.69,
+        "price_diff": -0.68,
+        "price_diff_pct": -3.9148
       },
       "files": [
         {
@@ -2531,9 +2531,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.22,
-        "price_diff": -2.58,
-        "price_diff_pct": -7.2067
+        "current_price": 33.215,
+        "price_diff": -2.585,
+        "price_diff_pct": -7.2207
       },
       "files": [
         {
@@ -2605,9 +2605,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.67,
-        "price_diff": 4.51,
-        "price_diff_pct": 11.5169
+        "current_price": 43.64,
+        "price_diff": 4.48,
+        "price_diff_pct": 11.4402
       },
       "files": [
         {
@@ -2679,9 +2679,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 80.045,
-        "price_diff": -2.105,
-        "price_diff_pct": -2.5624
+        "current_price": 79.99,
+        "price_diff": -2.16,
+        "price_diff_pct": -2.6293
       },
       "files": [
         {
@@ -2818,7 +2818,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.429,
+    "pnl_index": 1.4338,
     "valid_reports": 33,
     "wins": 17,
     "losses": 16,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T04:18:28.218553+00:00",
+  "generated_at": "2026-05-01T04:23:16.670892+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -110,7 +110,7 @@
         {
           "ticker": "CSL.AX",
           "entry_price": 137.13,
-          "latest_price": 124.93,
+          "latest_price": 124.815,
           "settle_price": 130.0,
           "score_price": 130.0,
           "return_pct": -5.1994,
@@ -179,7 +179,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -203,10 +203,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -221,7 +221,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -245,10 +245,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -278,7 +278,7 @@
         {
           "ticker": "WDS.AX",
           "entry_price": 32.73,
-          "latest_price": 33.22,
+          "latest_price": 33.215,
           "settle_price": 32.61,
           "score_price": 32.61,
           "return_pct": -0.3666,
@@ -287,7 +287,7 @@
         {
           "ticker": "DRO.AX",
           "entry_price": 3.61,
-          "latest_price": 3.62,
+          "latest_price": 3.615,
           "settle_price": 3.72,
           "score_price": 3.72,
           "return_pct": 3.0471,
@@ -329,7 +329,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -362,7 +362,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -404,7 +404,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -616,7 +616,7 @@
         {
           "ticker": "CSL.AX",
           "entry_price": 137.13,
-          "latest_price": 124.93,
+          "latest_price": 124.815,
           "settle_price": 130.0,
           "score_price": 130.0,
           "return_pct": -5.1994,
@@ -685,7 +685,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -709,10 +709,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -727,7 +727,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -751,10 +751,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -784,7 +784,7 @@
         {
           "ticker": "WDS.AX",
           "entry_price": 32.73,
-          "latest_price": 33.22,
+          "latest_price": 33.215,
           "settle_price": 32.61,
           "score_price": 32.61,
           "return_pct": -0.3666,
@@ -793,7 +793,7 @@
         {
           "ticker": "DRO.AX",
           "entry_price": 3.61,
-          "latest_price": 3.62,
+          "latest_price": 3.615,
           "settle_price": 3.72,
           "score_price": 3.72,
           "return_pct": 3.0471,
@@ -835,7 +835,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -868,7 +868,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -910,7 +910,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1122,7 +1122,7 @@
         {
           "ticker": "CSL.AX",
           "entry_price": 137.13,
-          "latest_price": 124.93,
+          "latest_price": 124.815,
           "settle_price": 130.0,
           "score_price": 130.0,
           "return_pct": -5.1994,
@@ -1191,7 +1191,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -1215,10 +1215,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -1233,7 +1233,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -1257,10 +1257,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -1290,7 +1290,7 @@
         {
           "ticker": "WDS.AX",
           "entry_price": 32.73,
-          "latest_price": 33.22,
+          "latest_price": 33.215,
           "settle_price": 32.61,
           "score_price": 32.61,
           "return_pct": -0.3666,
@@ -1299,7 +1299,7 @@
         {
           "ticker": "DRO.AX",
           "entry_price": 3.61,
-          "latest_price": 3.62,
+          "latest_price": 3.615,
           "settle_price": 3.72,
           "score_price": 3.72,
           "return_pct": 3.0471,
@@ -1341,7 +1341,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1374,7 +1374,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1416,7 +1416,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1529,7 +1529,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -1553,10 +1553,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -1571,7 +1571,7 @@
       "settle_date": "2026-05-02",
       "duration_days": 7,
       "status": "active",
-      "avg_return_pct": 0.0162,
+      "avg_return_pct": -0.0001,
       "pick_count": 3,
       "picks": [
         {
@@ -1595,10 +1595,10 @@
         {
           "ticker": "XRO.AX",
           "entry_price": 81.51,
-          "latest_price": 80.03,
-          "settle_price": 80.03,
-          "score_price": 80.03,
-          "return_pct": -1.8157,
+          "latest_price": 79.99,
+          "settle_price": 79.99,
+          "score_price": 79.99,
+          "return_pct": -1.8648,
           "status": "active"
         }
       ],
@@ -1672,7 +1672,7 @@
         {
           "ticker": "CSL.AX",
           "entry_price": 137.13,
-          "latest_price": 124.93,
+          "latest_price": 124.815,
           "settle_price": 130.0,
           "score_price": 130.0,
           "return_pct": -5.1994,
@@ -1756,7 +1756,7 @@
         {
           "ticker": "WDS.AX",
           "entry_price": 32.73,
-          "latest_price": 33.22,
+          "latest_price": 33.215,
           "settle_price": 32.61,
           "score_price": 32.61,
           "return_pct": -0.3666,
@@ -1765,7 +1765,7 @@
         {
           "ticker": "DRO.AX",
           "entry_price": 3.61,
-          "latest_price": 3.62,
+          "latest_price": 3.615,
           "settle_price": 3.72,
           "score_price": 3.72,
           "return_pct": 3.0471,
@@ -1807,7 +1807,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1840,7 +1840,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
@@ -1882,7 +1882,7 @@
         {
           "ticker": "WTC.AX",
           "entry_price": 46.18,
-          "latest_price": 43.67,
+          "latest_price": 43.64,
           "settle_price": 44.44,
           "score_price": 44.44,
           "return_pct": -3.7679,
