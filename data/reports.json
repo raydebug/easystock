@@ -286,9 +286,9 @@
       "pricing": {
         "company_name": "BigBear.ai Holdings, Inc.",
         "report_close": 3.7,
-        "current_price": 4.064,
-        "price_diff": 0.364,
-        "price_diff_pct": 9.8378
+        "current_price": 4.161,
+        "price_diff": 0.461,
+        "price_diff_pct": 12.4595
       },
       "files": [
         {
@@ -360,9 +360,9 @@
       "pricing": {
         "company_name": "Beyond Meat, Inc.",
         "report_close": 1.1,
-        "current_price": 0.9359,
-        "price_diff": -0.1641,
-        "price_diff_pct": -14.9182
+        "current_price": 0.9454,
+        "price_diff": -0.1546,
+        "price_diff_pct": -14.0545
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Avis Budget Group, Inc.",
         "report_close": 443.94,
-        "current_price": 183.79,
-        "price_diff": -260.15,
-        "price_diff_pct": -58.6003
+        "current_price": 180.926,
+        "price_diff": -263.014,
+        "price_diff_pct": -59.2454
       },
       "files": [
         {
@@ -642,9 +642,9 @@
       "pricing": {
         "company_name": "Carvana Co.",
         "report_close": 416.79,
-        "current_price": 379.69,
-        "price_diff": -37.1,
-        "price_diff_pct": -8.9014
+        "current_price": 379.875,
+        "price_diff": -36.915,
+        "price_diff_pct": -8.857
       },
       "files": [
         {
@@ -938,9 +938,9 @@
       "pricing": {
         "company_name": "Fastly, Inc.",
         "report_close": 33.5,
-        "current_price": 28.32,
-        "price_diff": -5.18,
-        "price_diff_pct": -15.4627
+        "current_price": 27.89,
+        "price_diff": -5.61,
+        "price_diff_pct": -16.7463
       },
       "files": [
         {
@@ -1012,9 +1012,9 @@
       "pricing": {
         "company_name": "GameStop Corp.",
         "report_close": 25.66,
-        "current_price": 26.645,
-        "price_diff": 0.985,
-        "price_diff_pct": 3.8387
+        "current_price": 26.685,
+        "price_diff": 1.025,
+        "price_diff_pct": 3.9945
       },
       "files": [
         {
@@ -1086,9 +1086,9 @@
       "pricing": {
         "company_name": "Grab Holdings Limited",
         "report_close": 3.68,
-        "current_price": 3.642,
-        "price_diff": -0.038,
-        "price_diff_pct": -1.0326
+        "current_price": 3.65,
+        "price_diff": -0.03,
+        "price_diff_pct": -0.8152
       },
       "files": [
         {
@@ -1234,9 +1234,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 98.4,
-        "price_diff": 36.68,
-        "price_diff_pct": 59.4297
+        "current_price": 99.745,
+        "price_diff": 38.025,
+        "price_diff_pct": 61.6089
       },
       "files": [
         {
@@ -1382,9 +1382,9 @@
       "pricing": {
         "company_name": "Lithium Americas Corp.",
         "report_close": 4.92,
-        "current_price": 5.7,
-        "price_diff": 0.78,
-        "price_diff_pct": 15.8537
+        "current_price": 5.685,
+        "price_diff": 0.765,
+        "price_diff_pct": 15.5488
       },
       "files": [
         {
@@ -1456,9 +1456,9 @@
       "pricing": {
         "company_name": "McDonald's Corporation",
         "report_close": 309.55,
-        "current_price": 287.18,
-        "price_diff": -22.37,
-        "price_diff_pct": -7.2266
+        "current_price": 287.1,
+        "price_diff": -22.45,
+        "price_diff_pct": -7.2525
       },
       "files": [
         {
@@ -1530,9 +1530,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 370.87,
-        "current_price": 414.805,
-        "price_diff": 43.935,
-        "price_diff_pct": 11.8465
+        "current_price": 416.021,
+        "price_diff": 45.151,
+        "price_diff_pct": 12.1743
       },
       "files": [
         {
@@ -1597,9 +1597,9 @@
       "pricing": {
         "company_name": "Netflix, Inc.",
         "report_close": 103.01,
-        "current_price": 92.165,
-        "price_diff": -10.845,
-        "price_diff_pct": -10.5281
+        "current_price": 91.96,
+        "price_diff": -11.05,
+        "price_diff_pct": -10.7271
       },
       "files": [
         {
@@ -1650,9 +1650,9 @@
       "pricing": {
         "company_name": "NVIDIA Corporation",
         "report_close": 183.91,
-        "current_price": 198.3,
-        "price_diff": 14.39,
-        "price_diff_pct": 7.8245
+        "current_price": 199.48,
+        "price_diff": 15.57,
+        "price_diff_pct": 8.4661
       },
       "files": [
         {
@@ -1798,9 +1798,9 @@
       "pricing": {
         "company_name": "Palantir Technologies Inc.",
         "report_close": 128.06,
-        "current_price": 143.814,
-        "price_diff": 15.754,
-        "price_diff_pct": 12.302
+        "current_price": 144.5,
+        "price_diff": 16.44,
+        "price_diff_pct": 12.8377
       },
       "files": [
         {
@@ -1872,9 +1872,9 @@
       "pricing": {
         "company_name": "QuantumScape Corporation",
         "report_close": 6.36,
-        "current_price": 7.255,
-        "price_diff": 0.895,
-        "price_diff_pct": 14.0723
+        "current_price": 7.241,
+        "price_diff": 0.881,
+        "price_diff_pct": 13.8522
       },
       "files": [
         {
@@ -1946,9 +1946,9 @@
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.45,
-        "current_price": 17.36,
-        "price_diff": -2.09,
-        "price_diff_pct": -10.7455
+        "current_price": 17.43,
+        "price_diff": -2.02,
+        "price_diff_pct": -10.3856
       },
       "files": [
         {
@@ -2094,9 +2094,9 @@
       "pricing": {
         "company_name": "Snap Inc.",
         "report_close": 5.6,
-        "current_price": 6.29,
-        "price_diff": 0.69,
-        "price_diff_pct": 12.3214
+        "current_price": 6.24,
+        "price_diff": 0.64,
+        "price_diff_pct": 11.4286
       },
       "files": [
         {
@@ -2235,9 +2235,9 @@
       "pricing": {
         "company_name": "Tempus AI, Inc.",
         "report_close": 45.98,
-        "current_price": 54.905,
-        "price_diff": 8.925,
-        "price_diff_pct": 19.4106
+        "current_price": 55.15,
+        "price_diff": 9.17,
+        "price_diff_pct": 19.9435
       },
       "files": [
         {
@@ -2383,9 +2383,9 @@
       "pricing": {
         "company_name": "Tesla, Inc.",
         "report_close": 345.62,
-        "current_price": 393.844,
-        "price_diff": 48.224,
-        "price_diff_pct": 13.9529
+        "current_price": 391.67,
+        "price_diff": 46.05,
+        "price_diff_pct": 13.3239
       },
       "files": [
         {
@@ -2457,9 +2457,9 @@
       "pricing": {
         "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
         "report_close": 370.6,
-        "current_price": 397.48,
-        "price_diff": 26.88,
-        "price_diff_pct": 7.2531
+        "current_price": 398.72,
+        "price_diff": 28.12,
+        "price_diff_pct": 7.5877
       },
       "files": [
         {
@@ -2531,9 +2531,9 @@
       "pricing": {
         "company_name": "UnitedHealth Group Incorporated",
         "report_close": 305.98,
-        "current_price": 369.715,
-        "price_diff": 63.735,
-        "price_diff_pct": 20.8298
+        "current_price": 370.22,
+        "price_diff": 64.24,
+        "price_diff_pct": 20.9948
       },
       "files": [
         {
@@ -2605,9 +2605,9 @@
       "pricing": {
         "company_name": "Upstart Holdings, Inc.",
         "report_close": 33.49,
-        "current_price": 32.67,
-        "price_diff": -0.82,
-        "price_diff_pct": -2.4485
+        "current_price": 32.74,
+        "price_diff": -0.75,
+        "price_diff_pct": -2.2395
       },
       "files": [
         {
@@ -2966,7 +2966,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 2.0493,
+    "pnl_index": 2.1552,
     "valid_reports": 35,
     "wins": 17,
     "losses": 16,
