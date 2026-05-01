@@ -1081,8 +1081,8 @@
       "date": "2026-05-01",
       "generated_at": "2026-05-01T06:24:35.060871+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "HOLD",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Imagion Biosystems Limited",
         "report_close": 0.016,
@@ -1126,7 +1126,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/IBX.AX/2026-05-01/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:10:00",
+      "elapsed_seconds": 4200,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 18,
+        "tool_calls": 27,
+        "tokens_in_text": "120.6k",
+        "tokens_out_text": "25.6k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "INTC",
