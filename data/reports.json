@@ -1081,8 +1081,8 @@
       "date": "2026-05-01",
       "generated_at": "2026-05-01T08:14:42.318435+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "SELL",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Imagion Biosystems Limited",
         "report_close": 0.017,
@@ -1133,7 +1133,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/IBX.AX/2026-05-01/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Portfolio Manager (7/7) · Level DEEP",
+      "message": "Analyzing: Portfolio Manager (7/7) · Level DEEP · elapsed 03:10:39",
+      "elapsed_seconds": 11439,
+      "stats": {
+        "agents_done": 10,
+        "agents_total": 12,
+        "llm_calls": 32,
+        "tool_calls": 27,
+        "tokens_in_text": "317.1k",
+        "tokens_out_text": "67.7k",
+        "reports_done": 7,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "INTC",
