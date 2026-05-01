@@ -85,9 +85,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.85,
-        "price_diff": 2.72,
-        "price_diff_pct": 8.2101
+        "current_price": 35.82,
+        "price_diff": 2.69,
+        "price_diff_pct": 8.1195
       },
       "files": [
         {
@@ -138,9 +138,9 @@
       "pricing": {
         "company_name": "Atlas Arteria Limited",
         "report_close": 4.27,
-        "current_price": 4.78,
-        "price_diff": 0.51,
-        "price_diff_pct": 11.9438
+        "current_price": 4.8,
+        "price_diff": 0.53,
+        "price_diff_pct": 12.4122
       },
       "files": [
         {
@@ -434,9 +434,9 @@
       "pricing": {
         "company_name": "Commonwealth Bank of Australia",
         "report_close": 172.8,
-        "current_price": 173.39,
-        "price_diff": 0.59,
-        "price_diff_pct": 0.3414
+        "current_price": 173.04,
+        "price_diff": 0.24,
+        "price_diff_pct": 0.1389
       },
       "files": [
         {
@@ -508,9 +508,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 124.68,
-        "price_diff": -12.45,
-        "price_diff_pct": -9.079
+        "current_price": 124.84,
+        "price_diff": -12.29,
+        "price_diff_pct": -8.9623
       },
       "files": [
         {
@@ -642,9 +642,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.615,
-        "price_diff": -0.315,
-        "price_diff_pct": -8.0153
+        "current_price": 3.61,
+        "price_diff": -0.32,
+        "price_diff_pct": -8.1425
       },
       "files": [
         {
@@ -790,9 +790,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.34,
-        "price_diff": 0.34,
-        "price_diff_pct": 3.7778
+        "current_price": 9.3,
+        "price_diff": 0.3,
+        "price_diff_pct": 3.3333
       },
       "files": [
         {
@@ -1079,14 +1079,14 @@
       "ticker": "IBX.AX",
       "company_name": "Imagion Biosystems Limited",
       "date": "2026-05-01",
-      "generated_at": "2026-05-01T06:24:35.060871+00:00",
+      "generated_at": "2026-05-01T07:11:58.770238+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "SELL",
       "pricing": {
         "company_name": "Imagion Biosystems Limited",
-        "report_close": 0.016,
-        "current_price": 0.016,
+        "report_close": 0.017,
+        "current_price": 0.017,
         "price_diff": -0.0,
         "price_diff_pct": -0.0
       },
@@ -1125,22 +1125,15 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/IBX.AX/2026-05-01/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/IBX.AX/2026-05-01/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/IBX.AX/2026-05-01/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:09:01",
-      "elapsed_seconds": 7741,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 25,
-        "tool_calls": 27,
-        "tokens_in_text": "201.0k",
-        "tokens_out_text": "42.2k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "INTC",
@@ -1939,9 +1932,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.74,
-        "price_diff": -0.63,
-        "price_diff_pct": -3.6269
+        "current_price": 16.78,
+        "price_diff": -0.59,
+        "price_diff_pct": -3.3967
       },
       "files": [
         {
@@ -2080,9 +2073,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 30.79,
-        "price_diff": 0.27,
-        "price_diff_pct": 0.8847
+        "current_price": 30.75,
+        "price_diff": 0.23,
+        "price_diff_pct": 0.7536
       },
       "files": [
         {
@@ -2228,9 +2221,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 15.615,
-        "price_diff": 1.665,
-        "price_diff_pct": 11.9355
+        "current_price": 15.57,
+        "price_diff": 1.62,
+        "price_diff_pct": 11.6129
       },
       "files": [
         {
@@ -2598,9 +2591,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 33.09,
-        "price_diff": -2.71,
-        "price_diff_pct": -7.5698
+        "current_price": 33.12,
+        "price_diff": -2.68,
+        "price_diff_pct": -7.486
       },
       "files": [
         {
@@ -2672,9 +2665,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.85,
-        "price_diff": 4.69,
-        "price_diff_pct": 11.9765
+        "current_price": 43.73,
+        "price_diff": 4.57,
+        "price_diff_pct": 11.6701
       },
       "files": [
         {
@@ -2746,9 +2739,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 80.62,
-        "price_diff": -1.53,
-        "price_diff_pct": -1.8624
+        "current_price": 80.57,
+        "price_diff": -1.58,
+        "price_diff_pct": -1.9233
       },
       "files": [
         {
@@ -2820,9 +2813,9 @@
       "pricing": {
         "company_name": "Zip Co Limited",
         "report_close": 2.33,
-        "current_price": 2.405,
-        "price_diff": 0.075,
-        "price_diff_pct": 3.2189
+        "current_price": 2.41,
+        "price_diff": 0.08,
+        "price_diff_pct": 3.4335
       },
       "files": [
         {
@@ -2885,13 +2878,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.4786,
-    "valid_reports": 33,
+    "pnl_index": 1.4403,
+    "valid_reports": 34,
     "wins": 17,
     "losses": 16,
-    "hold_reports": 7,
+    "hold_reports": 6,
     "hold_up": 5,
     "hold_down": 1,
-    "hold_flat": 1
+    "hold_flat": 0
   }
 }
