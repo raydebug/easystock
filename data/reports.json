@@ -2,31 +2,56 @@
   "reports": [
     {
       "ticker": "4DX.AX",
+      "company_name": "4DMedical Limited",
       "date": "2026-05-01",
+      "generated_at": "2026-05-01T09:25:51.991874+00:00",
       "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:00:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 3600,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
+        "company_name": "4DMedical Limited",
+        "report_close": 4.02,
+        "current_price": 4.02,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
-      "files": [],
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 18,
-        "tool_calls": 19,
-        "tokens_in_text": "85.3k",
-        "tokens_out_text": "25.9k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/4DX.AX/2026-05-01/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/4DX.AX/2026-05-01/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/4DX.AX/2026-05-01/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/4DX.AX/2026-05-01/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/4DX.AX/2026-05-01/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/4DX.AX/2026-05-01/sentiment_report.zh-CN.md"
+        }
+      ]
     },
     {
       "ticker": "9992.HK",
@@ -2920,8 +2945,8 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.4403,
-    "valid_reports": 34,
+    "pnl_index": 1.3991,
+    "valid_reports": 35,
     "wins": 17,
     "losses": 16,
     "hold_reports": 6,
