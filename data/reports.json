@@ -60,17 +60,17 @@
         }
       ],
       "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:40:01",
-      "elapsed_seconds": 9601,
+      "phase": "Analyzing: Portfolio Manager (7/7) · Level DEEP",
+      "message": "Analyzing: Portfolio Manager (7/7) · Level DEEP · elapsed 02:40:35",
+      "elapsed_seconds": 9635,
       "stats": {
-        "agents_done": 6,
+        "agents_done": 10,
         "agents_total": 12,
         "llm_calls": 30,
         "tool_calls": 19,
-        "tokens_in_text": "202.4k",
-        "tokens_out_text": "60.2k",
-        "reports_done": 6,
+        "tokens_in_text": "210.0k",
+        "tokens_out_text": "63.5k",
+        "reports_done": 7,
         "reports_total": 7
       }
     },
