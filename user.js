@@ -14,8 +14,9 @@ const USER_UI_TEXT = {
     allRecords: "选股信息",
     currentPicks: "当前选股",
     historicalSummary: "历史成绩汇总",
-    viewHistoricalRecords: "查看已结算历史记录",
+    settledHistory: "已结算历史记录",
     noCurrentPicks: "暂无进行中的选股",
+    noSettledHistory: "暂无已结算历史记录",
   },
   en: {
     title: "User Records",
@@ -32,8 +33,9 @@ const USER_UI_TEXT = {
     allRecords: "Pick Info",
     currentPicks: "Current Picks",
     historicalSummary: "Historical Summary",
-    viewHistoricalRecords: "View Settled History",
+    settledHistory: "Settled History",
     noCurrentPicks: "No active picks",
+    noSettledHistory: "No settled history yet",
   },
 };
 
@@ -122,13 +124,10 @@ function renderCurrentPicksHtml(items, t) {
   `;
 }
 
-function renderHistoricalSummaryHtml(stats, userId, t) {
+function renderHistoricalSummaryHtml(stats, t) {
   return `
     <section class="pick-record-group">
-      <div class="pick-record-heading">
-        <h3>${t.historicalSummary}</h3>
-        <a class="inline-link" href="./user-history.html?user_id=${encodeURIComponent(userId)}">${t.viewHistoricalRecords}</a>
-      </div>
+      <h3>${t.historicalSummary}</h3>
       <div class="summary-bar user-detail-summary">
         <span>${t.entries}: <b>${stats.entry_count || 0}</b></span>
         <span>${t.winRate}: <b>${fmtPct(stats.win_rate_pct)}</b></span>
@@ -140,16 +139,28 @@ function renderHistoricalSummaryHtml(stats, userId, t) {
   `;
 }
 
+function renderSettledHistoryHtml(items, t) {
+  return `
+    <section class="pick-record-group">
+      <h3>${t.settledHistory}</h3>
+      ${items.length > 0
+        ? `<div class="pick-entry-list compact-history">${items.map((item) => renderEntryHtml(item, t)).join("")}</div>`
+        : `<p class="pick-empty">${t.noSettledHistory}</p>`}
+    </section>
+  `;
+}
+
 function renderUserDetail(stats, items, t) {
   const root = document.getElementById("user-detail");
-  const userId = Number.parseInt(stats.user_id || 0, 10) || userIdFromUrl();
   const activeItems = items.filter((item) => String(item.status || "").toLowerCase() === "active");
+  const settledItems = items.filter((item) => String(item.status || "").toLowerCase() === "settled");
   root.innerHTML = `
     <article class="user-detail-card">
       <h2>${t.allRecords}</h2>
       <div class="pick-record-box">
         ${renderCurrentPicksHtml(activeItems, t)}
-        ${renderHistoricalSummaryHtml(stats, userId, t)}
+        ${renderHistoricalSummaryHtml(stats, t)}
+        ${renderSettledHistoryHtml(settledItems, t)}
       </div>
     </article>
   `;
