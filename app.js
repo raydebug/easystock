@@ -212,57 +212,43 @@ function renderPickGamePanel(payload, t) {
   if (!summaryHolder || !boardHolder) {
     return;
   }
-  const top = Array.isArray(payload && payload.top) ? payload.top : [];
   const active = Array.isArray(payload && payload.active) ? payload.active : [];
   const settled = Array.isArray(payload && payload.settled) ? payload.settled : [];
   const statsTop = Array.isArray(payload && payload.stats_top) ? payload.stats_top : [];
+  const userStats = Array.isArray(payload && payload.user_stats) ? payload.user_stats : statsTop;
   const summary = payload && typeof payload.summary === "object" ? payload.summary : {};
   const durationDays = payload && payload.duration_days;
   summaryHolder.innerHTML = `
     <strong>${t.picksTitle}</strong>
     <span>${t.picksWindow}: <b>${typeof durationDays === "number" ? durationDays : 7}d</b></span>
-    <span>${t.picksHistory}: <b>${typeof summary.entry_count === "number" ? summary.entry_count : top.length}</b></span>
-    <span>${t.picksUsers}: <b>${typeof summary.user_count === "number" ? summary.user_count : statsTop.length}</b></span>
+    <span>${t.picksHistory}: <b>${typeof summary.entry_count === "number" ? summary.entry_count : userStats.length}</b></span>
+    <span>${t.picksUsers}: <b>${typeof summary.user_count === "number" ? summary.user_count : userStats.length}</b></span>
     <span>${t.picksActive}: <b>${active.length}</b></span>
     <span>${t.picksSettled}: <b>${settled.length}</b></span>
   `;
-  if (!top.length && !statsTop.length) {
+  if (!userStats.length) {
     boardHolder.innerHTML = `<p>${t.picksEmpty}</p>`;
     return;
   }
-  const leaderCards = top.map((item) => {
-    const avg = typeof item.avg_return_pct === "number" ? item.avg_return_pct : null;
-    const avgCls = trendClass(avg);
-    const statusLabel = String(item.status || "").toLowerCase() === "settled" ? t.picksSettled : t.picksActive;
-    const picks = Array.isArray(item.picks) ? item.picks.map((pick) => {
-      const ret = typeof pick.return_pct === "number" ? `${pick.return_pct > 0 ? "+" : ""}${pick.return_pct.toFixed(2)}%` : "--";
-      return `<span class="${trendClass(pick.return_pct)}">${pick.ticker}: ${ret}</span>`;
-    }).join("<br>") : "";
-    return `
-      <article class="pick-card">
-        <h3>#${item.rank || "?"} ${item.display_name || "Unknown"}</h3>
-        <p>${statusLabel} · ${item.entry_date || "--"}</p>
-        <p class="${avgCls}"><strong>${avg === null ? "--" : fmtPct(avg)}</strong></p>
-        <p>${picks}</p>
-      </article>
-    `;
-  }).join("");
-  const statCards = statsTop.slice(0, 6).map((item) => {
+  boardHolder.innerHTML = userStats.map((item) => {
     const avg = typeof item.avg_return_pct === "number" ? item.avg_return_pct : null;
     const best = typeof item.best_return_pct === "number" ? item.best_return_pct : null;
     const winRate = typeof item.win_rate_pct === "number" ? `${item.win_rate_pct.toFixed(1)}%` : "--";
+    const userId = Number.parseInt(item.user_id || 0, 10);
+    const link = `./user.html?user_id=${encodeURIComponent(userId)}`;
     return `
-      <article class="pick-card pick-stat-card">
+      <a class="pick-card pick-stat-card" href="${link}">
         <h3>#${item.rank || "?"} ${item.display_name || "Unknown"}</h3>
         <p>${t.picksStats} · ${t.picksSettled} ${item.settled_count || 0}/${item.entry_count || 0}</p>
+        <p>${t.picksActive}: <strong>${item.active_count || 0}</strong></p>
         <p>${t.picksWinRate}: <strong>${winRate}</strong></p>
         <p class="${trendClass(avg)}">${t.picksAvg}: <strong>${avg === null ? "--" : fmtPct(avg)}</strong></p>
         <p class="${trendClass(best)}">${t.picksBest}: <strong>${best === null ? "--" : fmtPct(best)}</strong></p>
-      </article>
+      </a>
     `;
   }).join("");
-  boardHolder.innerHTML = `${leaderCards}${statCards}`;
 }
+
 
 function renderPnlSummary(summary, t) {
   const holder = document.getElementById("pnl-summary");
