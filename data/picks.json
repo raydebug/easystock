@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T03:49:27.320852+00:00",
+  "generated_at": "2026-05-02T04:49:44.147123+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -78,7 +78,7 @@
           "ticker": "BYND",
           "entry_price": 0.873,
           "latest_price": 0.9487,
-          "settle_price": 0.9487,
+          "settle_price": 0.949,
           "score_price": 0.9487,
           "return_pct": 8.6712,
           "status": "active"
@@ -584,7 +584,7 @@
           "ticker": "BYND",
           "entry_price": 0.873,
           "latest_price": 0.9487,
-          "settle_price": 0.9487,
+          "settle_price": 0.949,
           "score_price": 0.9487,
           "return_pct": 8.6712,
           "status": "active"
@@ -1090,7 +1090,7 @@
           "ticker": "BYND",
           "entry_price": 0.873,
           "latest_price": 0.9487,
-          "settle_price": 0.9487,
+          "settle_price": 0.949,
           "score_price": 0.9487,
           "return_pct": 8.6712,
           "status": "active"
@@ -1512,7 +1512,7 @@
           "ticker": "BYND",
           "entry_price": 0.873,
           "latest_price": 0.9487,
-          "settle_price": 0.9487,
+          "settle_price": 0.949,
           "score_price": 0.9487,
           "return_pct": 8.6712,
           "status": "active"
