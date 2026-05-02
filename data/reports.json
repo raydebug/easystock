@@ -709,10 +709,10 @@
       "ticker": "DPZ",
       "company_name": "Domino's Pizza, Inc.",
       "date": "2026-05-02",
-      "generated_at": "2026-05-02T12:09:59.361307+00:00",
+      "generated_at": "2026-05-02T13:09:21.938658+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Domino's Pizza, Inc.",
         "report_close": 337.77,
@@ -756,21 +756,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/DPZ/2026-05-02/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 02:43:02",
-      "elapsed_seconds": 9782,
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 30,
-        "tool_calls": 20,
-        "tokens_in_text": "222.2k",
-        "tokens_out_text": "60.0k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "DRO.AX",
