@@ -711,8 +711,8 @@
       "date": "2026-05-03",
       "generated_at": "2026-05-02T23:19:33.781217+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "BUY",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Domino's Pizza Enterprises Limited",
         "report_close": 16.31,
@@ -763,7 +763,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/DMP.AX/2026-05-03/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:41:01",
+      "elapsed_seconds": 9661,
+      "stats": {
+        "agents_done": 6,
+        "agents_total": 12,
+        "llm_calls": 32,
+        "tool_calls": 23,
+        "tokens_in_text": "204.7k",
+        "tokens_out_text": "57.2k",
+        "reports_done": 6,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "DPZ",
