@@ -711,8 +711,8 @@
       "date": "2026-05-02",
       "generated_at": "2026-05-02T12:09:59.361307+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "BUY",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Domino's Pizza, Inc.",
         "report_close": 337.77,
@@ -756,7 +756,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/DPZ/2026-05-02/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:44:02",
+      "elapsed_seconds": 6242,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 23,
+        "tool_calls": 20,
+        "tokens_in_text": "144.1k",
+        "tokens_out_text": "40.5k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "DRO.AX",
