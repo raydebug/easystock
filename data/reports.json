@@ -758,17 +758,17 @@
         }
       ],
       "progress_pct": 95.0,
-      "phase": "Analyzing: Portfolio Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Portfolio Manager (6/7) · Level DEEP · elapsed 02:48:33",
-      "elapsed_seconds": 10113,
+      "phase": "Writing reports · Level DEEP",
+      "message": "Writing reports · Level DEEP · elapsed 02:48:55",
+      "elapsed_seconds": 10135,
       "stats": {
         "agents_done": 9,
         "agents_total": 12,
-        "llm_calls": 30,
+        "llm_calls": 31,
         "tool_calls": 20,
-        "tokens_in_text": "229.8k",
-        "tokens_out_text": "64.6k",
-        "reports_done": 6,
+        "tokens_in_text": "230.7k",
+        "tokens_out_text": "64.9k",
+        "reports_done": 7,
         "reports_total": 7
       }
     },
