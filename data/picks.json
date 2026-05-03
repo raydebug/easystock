@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T21:10:08.350736+00:00",
+  "generated_at": "2026-05-03T22:09:17.610110+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -255,6 +255,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000004,
+      "chat_id": 0,
+      "display_name": "QuantQuinn",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "LAC",
+          "entry_price": 5.71,
+          "latest_price": 5.71,
+          "settle_price": 5.71,
+          "score_price": 5.71,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "BBAI",
+          "entry_price": 4.14,
+          "latest_price": 4.14,
+          "settle_price": 4.14,
+          "score_price": 4.14,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "GME",
+          "entry_price": 26.53,
+          "latest_price": 26.53,
+          "settle_price": 26.53,
+          "score_price": 26.53,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000002,
       "chat_id": 0,
       "display_name": "ValueVic",
@@ -294,7 +336,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000005,
@@ -336,7 +378,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000001,
@@ -378,7 +420,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000004,
@@ -420,7 +462,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000003,
@@ -462,7 +504,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000001,
@@ -504,7 +546,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 474592608,
@@ -546,7 +588,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     }
   ],
   "history": [
@@ -803,6 +845,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000004,
+      "chat_id": 0,
+      "display_name": "QuantQuinn",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "LAC",
+          "entry_price": 5.71,
+          "latest_price": 5.71,
+          "settle_price": 5.71,
+          "score_price": 5.71,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "BBAI",
+          "entry_price": 4.14,
+          "latest_price": 4.14,
+          "settle_price": 4.14,
+          "score_price": 4.14,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "GME",
+          "entry_price": 26.53,
+          "latest_price": 26.53,
+          "settle_price": 26.53,
+          "score_price": 26.53,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000002,
       "chat_id": 0,
       "display_name": "ValueVic",
@@ -842,7 +926,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000005,
@@ -884,7 +968,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000001,
@@ -926,7 +1010,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000004,
@@ -968,7 +1052,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000003,
@@ -1010,7 +1094,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000001,
@@ -1052,7 +1136,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 474592608,
@@ -1094,7 +1178,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     }
   ],
   "top": [
@@ -1351,6 +1435,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000004,
+      "chat_id": 0,
+      "display_name": "QuantQuinn",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "LAC",
+          "entry_price": 5.71,
+          "latest_price": 5.71,
+          "settle_price": 5.71,
+          "score_price": 5.71,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "BBAI",
+          "entry_price": 4.14,
+          "latest_price": 4.14,
+          "settle_price": 4.14,
+          "score_price": 4.14,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "GME",
+          "entry_price": 26.53,
+          "latest_price": 26.53,
+          "settle_price": 26.53,
+          "score_price": 26.53,
+          "return_pct": -0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000002,
       "chat_id": 0,
       "display_name": "ValueVic",
@@ -1390,7 +1516,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000005,
@@ -1432,7 +1558,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000001,
@@ -1474,52 +1600,52 @@
           "status": "settled"
         }
       ],
-      "rank": 9
-    },
+      "rank": 10
+    }
+  ],
+  "active": [
     {
       "user_id": 9000000004,
       "chat_id": 0,
       "display_name": "QuantQuinn",
       "username": "",
-      "entry_date": "2026-04-18",
-      "settle_date": "2026-04-25",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
       "duration_days": 7,
-      "status": "settled",
-      "avg_return_pct": -5.5168,
+      "status": "active",
+      "avg_return_pct": 0.0,
       "pick_count": 3,
       "picks": [
         {
-          "ticker": "TEM",
-          "entry_price": 55.87,
-          "latest_price": 55.01,
-          "settle_price": 52.12,
-          "score_price": 52.12,
-          "return_pct": -6.712,
-          "status": "settled"
+          "ticker": "LAC",
+          "entry_price": 5.71,
+          "latest_price": 5.71,
+          "settle_price": 5.71,
+          "score_price": 5.71,
+          "return_pct": -0.0,
+          "status": "active"
         },
         {
-          "ticker": "WTC.AX",
-          "entry_price": 46.18,
-          "latest_price": 43.73,
-          "settle_price": 44.44,
-          "score_price": 44.44,
-          "return_pct": -3.7679,
-          "status": "settled"
+          "ticker": "BBAI",
+          "entry_price": 4.14,
+          "latest_price": 4.14,
+          "settle_price": 4.14,
+          "score_price": 4.14,
+          "return_pct": 0.0,
+          "status": "active"
         },
         {
-          "ticker": "TSLA",
-          "entry_price": 400.62,
-          "latest_price": 390.82,
-          "settle_price": 376.3,
-          "score_price": 376.3,
-          "return_pct": -6.0706,
-          "status": "settled"
+          "ticker": "GME",
+          "entry_price": 26.53,
+          "latest_price": 26.53,
+          "settle_price": 26.53,
+          "score_price": 26.53,
+          "return_pct": -0.0,
+          "status": "active"
         }
       ],
-      "rank": 10
-    }
-  ],
-  "active": [
+      "rank": 7
+    },
     {
       "user_id": 9000000002,
       "chat_id": 0,
@@ -1560,7 +1686,7 @@
           "status": "active"
         }
       ],
-      "rank": 7
+      "rank": 8
     }
   ],
   "settled": [
@@ -1856,7 +1982,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000001,
@@ -1898,7 +2024,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000004,
@@ -1940,7 +2066,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000003,
@@ -1982,7 +2108,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000001,
@@ -2024,7 +2150,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 474592608,
@@ -2066,7 +2192,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     }
   ],
   "user_stats": [
@@ -2143,15 +2269,15 @@
       "chat_id": 0,
       "display_name": "QuantQuinn",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 1,
       "settled_loss_count": 1,
       "best_return_pct": 2.8331,
       "worst_return_pct": -5.5168,
       "avg_return_pct": -1.3418,
-      "latest_entry_date": "2026-04-25",
+      "latest_entry_date": "2026-05-04",
       "win_rate_pct": 50.0,
       "rank": 5
     },
@@ -2264,15 +2390,15 @@
       "chat_id": 0,
       "display_name": "QuantQuinn",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 1,
       "settled_loss_count": 1,
       "best_return_pct": 2.8331,
       "worst_return_pct": -5.5168,
       "avg_return_pct": -1.3418,
-      "latest_entry_date": "2026-04-25",
+      "latest_entry_date": "2026-05-04",
       "win_rate_pct": 50.0,
       "rank": 5
     },
@@ -2312,8 +2438,8 @@
     }
   ],
   "summary": {
-    "entry_count": 13,
-    "active_count": 1,
+    "entry_count": 14,
+    "active_count": 2,
     "settled_count": 12,
     "user_count": 7
   }
