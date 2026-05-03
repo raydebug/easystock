@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T15:27:30.126356+00:00",
+  "generated_at": "2026-05-03T16:08:41.173722+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -255,6 +255,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "4DX.AX",
+          "entry_price": 4.02,
+          "latest_price": 4.02,
+          "settle_price": 4.02,
+          "score_price": 4.02,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DMP.AX",
+          "entry_price": 16.31,
+          "latest_price": 16.31,
+          "settle_price": 16.31,
+          "score_price": 16.31,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DPZ",
+          "entry_price": 337.77,
+          "latest_price": 337.77,
+          "settle_price": 337.77,
+          "score_price": 337.77,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -294,7 +336,7 @@
           "status": "settled"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000001,
@@ -336,7 +378,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000004,
@@ -378,7 +420,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000003,
@@ -420,7 +462,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -462,7 +504,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 474592608,
@@ -504,7 +546,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     }
   ],
   "history": [
@@ -761,6 +803,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "4DX.AX",
+          "entry_price": 4.02,
+          "latest_price": 4.02,
+          "settle_price": 4.02,
+          "score_price": 4.02,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DMP.AX",
+          "entry_price": 16.31,
+          "latest_price": 16.31,
+          "settle_price": 16.31,
+          "score_price": 16.31,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DPZ",
+          "entry_price": 337.77,
+          "latest_price": 337.77,
+          "settle_price": 337.77,
+          "score_price": 337.77,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -800,7 +884,7 @@
           "status": "settled"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000001,
@@ -842,7 +926,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000004,
@@ -884,7 +968,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000003,
@@ -926,7 +1010,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -968,7 +1052,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 474592608,
@@ -1010,7 +1094,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     }
   ],
   "top": [
@@ -1267,6 +1351,48 @@
       "rank": 6
     },
     {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "4DX.AX",
+          "entry_price": 4.02,
+          "latest_price": 4.02,
+          "settle_price": 4.02,
+          "score_price": 4.02,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DMP.AX",
+          "entry_price": 16.31,
+          "latest_price": 16.31,
+          "settle_price": 16.31,
+          "score_price": 16.31,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DPZ",
+          "entry_price": 337.77,
+          "latest_price": 337.77,
+          "settle_price": 337.77,
+          "score_price": 337.77,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -1306,7 +1432,7 @@
           "status": "settled"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000001,
@@ -1348,7 +1474,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000004,
@@ -1390,52 +1516,53 @@
           "status": "settled"
         }
       ],
-      "rank": 9
-    },
-    {
-      "user_id": 9000000003,
-      "chat_id": 0,
-      "display_name": "TrendTina",
-      "username": "",
-      "entry_date": "2026-04-19",
-      "settle_date": "2026-04-26",
-      "duration_days": 7,
-      "status": "settled",
-      "avg_return_pct": -5.5168,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "TEM",
-          "entry_price": 55.87,
-          "latest_price": 55.0,
-          "settle_price": 52.12,
-          "score_price": 52.12,
-          "return_pct": -6.712,
-          "status": "settled"
-        },
-        {
-          "ticker": "WTC.AX",
-          "entry_price": 46.18,
-          "latest_price": 43.73,
-          "settle_price": 44.44,
-          "score_price": 44.44,
-          "return_pct": -3.7679,
-          "status": "settled"
-        },
-        {
-          "ticker": "TSLA",
-          "entry_price": 400.62,
-          "latest_price": 390.82,
-          "settle_price": 376.3,
-          "score_price": 376.3,
-          "return_pct": -6.0706,
-          "status": "settled"
-        }
-      ],
       "rank": 10
     }
   ],
-  "active": [],
+  "active": [
+    {
+      "user_id": 9000000002,
+      "chat_id": 0,
+      "display_name": "ValueVic",
+      "username": "",
+      "entry_date": "2026-05-04",
+      "settle_date": "2026-05-11",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "4DX.AX",
+          "entry_price": 4.02,
+          "latest_price": 4.02,
+          "settle_price": 4.02,
+          "score_price": 4.02,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DMP.AX",
+          "entry_price": 16.31,
+          "latest_price": 16.31,
+          "settle_price": 16.31,
+          "score_price": 16.31,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "DPZ",
+          "entry_price": 337.77,
+          "latest_price": 337.77,
+          "settle_price": 337.77,
+          "score_price": 337.77,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 7
+    }
+  ],
   "settled": [
     {
       "user_id": 9000000003,
@@ -1729,7 +1856,7 @@
           "status": "settled"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": 9000000001,
@@ -1771,7 +1898,7 @@
           "status": "settled"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": 9000000004,
@@ -1813,7 +1940,7 @@
           "status": "settled"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000003,
@@ -1855,7 +1982,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -1897,7 +2024,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 474592608,
@@ -1939,7 +2066,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     }
   ],
   "user_stats": [
@@ -1965,15 +2092,15 @@
       "chat_id": 0,
       "display_name": "ValueVic",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 2,
       "settled_loss_count": 0,
       "best_return_pct": 2.8331,
       "worst_return_pct": 1.1673,
       "avg_return_pct": 2.0002,
-      "latest_entry_date": "2026-04-25",
+      "latest_entry_date": "2026-05-04",
       "win_rate_pct": 100.0,
       "rank": 2
     },
@@ -2086,15 +2213,15 @@
       "chat_id": 0,
       "display_name": "ValueVic",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 2,
       "settled_loss_count": 0,
       "best_return_pct": 2.8331,
       "worst_return_pct": 1.1673,
       "avg_return_pct": 2.0002,
-      "latest_entry_date": "2026-04-25",
+      "latest_entry_date": "2026-05-04",
       "win_rate_pct": 100.0,
       "rank": 2
     },
@@ -2185,8 +2312,8 @@
     }
   ],
   "summary": {
-    "entry_count": 12,
-    "active_count": 0,
+    "entry_count": 13,
+    "active_count": 1,
     "settled_count": 12,
     "user_count": 7
   }
