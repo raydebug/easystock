@@ -1375,9 +1375,9 @@
       "pricing": {
         "company_name": "Intel Corporation",
         "report_close": 61.72,
-        "current_price": 99.62,
-        "price_diff": 37.9,
-        "price_diff_pct": 61.4063
+        "current_price": 99.61,
+        "price_diff": 37.89,
+        "price_diff_pct": 61.3901
       },
       "files": [
         {
@@ -1671,9 +1671,9 @@
       "pricing": {
         "company_name": "Microsoft Corporation",
         "report_close": 370.87,
-        "current_price": 414.44,
-        "price_diff": 43.57,
-        "price_diff_pct": 11.7481
+        "current_price": 414.195,
+        "price_diff": 43.325,
+        "price_diff_pct": 11.682
       },
       "files": [
         {
@@ -2087,9 +2087,9 @@
       "pricing": {
         "company_name": "Rigetti Computing, Inc.",
         "report_close": 19.45,
-        "current_price": 17.5,
-        "price_diff": -1.95,
-        "price_diff_pct": -10.0257
+        "current_price": 17.52,
+        "price_diff": -1.93,
+        "price_diff_pct": -9.9229
       },
       "files": [
         {
@@ -2376,9 +2376,9 @@
       "pricing": {
         "company_name": "Tempus AI, Inc.",
         "report_close": 45.98,
-        "current_price": 55.0,
-        "price_diff": 9.02,
-        "price_diff_pct": 19.6172
+        "current_price": 55.01,
+        "price_diff": 9.03,
+        "price_diff_pct": 19.639
       },
       "files": [
         {
@@ -3107,7 +3107,7 @@
     }
   ],
   "summary": {
-    "pnl_index": 2.0976,
+    "pnl_index": 2.0988,
     "valid_reports": 37,
     "wins": 17,
     "losses": 16,

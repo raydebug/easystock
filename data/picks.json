@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T17:08:59.570503+00:00",
+  "generated_at": "2026-05-03T18:09:16.397650+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -17,7 +17,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -35,7 +35,7 @@
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.44,
+          "latest_price": 414.195,
           "settle_price": 414.44,
           "score_price": 414.44,
           "return_pct": -2.3974,
@@ -227,7 +227,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 280.14,
+          "latest_price": 280.25,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -362,7 +362,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -395,7 +395,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -437,7 +437,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -479,7 +479,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -521,7 +521,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -530,7 +530,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.5,
+          "latest_price": 17.52,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -565,7 +565,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -583,7 +583,7 @@
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.44,
+          "latest_price": 414.195,
           "settle_price": 414.44,
           "score_price": 414.44,
           "return_pct": -2.3974,
@@ -775,7 +775,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 280.14,
+          "latest_price": 280.25,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -910,7 +910,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -943,7 +943,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -985,7 +985,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1027,7 +1027,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -1069,7 +1069,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -1078,7 +1078,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.5,
+          "latest_price": 17.52,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
@@ -1113,7 +1113,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -1131,7 +1131,7 @@
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.44,
+          "latest_price": 414.195,
           "settle_price": 414.44,
           "score_price": 414.44,
           "return_pct": -2.3974,
@@ -1323,7 +1323,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 280.14,
+          "latest_price": 280.25,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -1458,7 +1458,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1491,7 +1491,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1579,7 +1579,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -1597,7 +1597,7 @@
         {
           "ticker": "MSFT",
           "entry_price": 424.62,
-          "latest_price": 414.44,
+          "latest_price": 414.195,
           "settle_price": 414.44,
           "score_price": 414.44,
           "return_pct": -2.3974,
@@ -1789,7 +1789,7 @@
         {
           "ticker": "AAPL",
           "entry_price": 263.4,
-          "latest_price": 280.14,
+          "latest_price": 280.25,
           "settle_price": 273.43,
           "score_price": 273.43,
           "return_pct": 3.8079,
@@ -1882,7 +1882,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1915,7 +1915,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1957,7 +1957,7 @@
         {
           "ticker": "TEM",
           "entry_price": 55.87,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 52.12,
           "score_price": 52.12,
           "return_pct": -6.712,
@@ -1999,7 +1999,7 @@
         {
           "ticker": "INTC",
           "entry_price": 82.54,
-          "latest_price": 99.62,
+          "latest_price": 99.61,
           "settle_price": 99.62,
           "score_price": 99.62,
           "return_pct": 20.693,
@@ -2041,7 +2041,7 @@
         {
           "ticker": "TEM",
           "entry_price": 54.42,
-          "latest_price": 55.0,
+          "latest_price": 55.01,
           "settle_price": 51.44,
           "score_price": 51.44,
           "return_pct": -5.4759,
@@ -2050,7 +2050,7 @@
         {
           "ticker": "RGTI",
           "entry_price": 19.45,
-          "latest_price": 17.5,
+          "latest_price": 17.52,
           "settle_price": 16.86,
           "score_price": 16.86,
           "return_pct": -13.3162,
