@@ -1590,10 +1590,10 @@
       "ticker": "LYC.AX",
       "company_name": "Lynas Rare Earths Limited",
       "date": "2026-05-05",
-      "generated_at": "2026-05-04T22:39:20.878498+00:00",
+      "generated_at": "2026-05-04T23:35:34.541854+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Lynas Rare Earths Limited",
         "report_close": 18.9,
@@ -1636,22 +1636,15 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/sentiment_report.zh-CN.md"
+        },
+        {
+          "name": "trader_investment_plan",
+          "path": "reports/LYC.AX/2026-05-05/trader_investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/LYC.AX/2026-05-05/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:27:52",
-      "elapsed_seconds": 8872,
-      "stats": {
-        "agents_done": 6,
-        "agents_total": 12,
-        "llm_calls": 26,
-        "tool_calls": 21,
-        "tokens_in_text": "201.9k",
-        "tokens_out_text": "51.2k",
-        "reports_done": 6,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "MCD",
