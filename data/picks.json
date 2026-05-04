@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T20:43:35.218571+00:00",
+  "generated_at": "2026-05-04T21:43:17.666407+00:00",
   "duration_days": 7,
   "leaderboard": [
     {
@@ -339,6 +339,48 @@
       "rank": 8
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-05-05",
+      "settle_date": "2026-05-12",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 95.78,
+          "latest_price": 95.78,
+          "settle_price": 95.78,
+          "score_price": 95.78,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.81,
+          "latest_price": 55.81,
+          "settle_price": 55.81,
+          "score_price": 55.81,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 370.75,
+          "latest_price": 370.75,
+          "settle_price": 370.75,
+          "score_price": 370.75,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 9
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -378,7 +420,7 @@
           "status": "active"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000005,
@@ -420,7 +462,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -462,7 +504,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000004,
@@ -504,7 +546,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 9000000003,
@@ -546,7 +588,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "user_id": 9000000001,
@@ -588,7 +630,7 @@
           "status": "settled"
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "user_id": 474592608,
@@ -630,7 +672,7 @@
           "status": "settled"
         }
       ],
-      "rank": 15
+      "rank": 16
     }
   ],
   "history": [
@@ -971,6 +1013,48 @@
       "rank": 8
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-05-05",
+      "settle_date": "2026-05-12",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 95.78,
+          "latest_price": 95.78,
+          "settle_price": 95.78,
+          "score_price": 95.78,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.81,
+          "latest_price": 55.81,
+          "settle_price": 55.81,
+          "score_price": 55.81,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 370.75,
+          "latest_price": 370.75,
+          "settle_price": 370.75,
+          "score_price": 370.75,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 9
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -1010,7 +1094,7 @@
           "status": "active"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "user_id": 9000000005,
@@ -1052,7 +1136,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -1094,7 +1178,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000004,
@@ -1136,7 +1220,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 9000000003,
@@ -1178,7 +1262,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "user_id": 9000000001,
@@ -1220,7 +1304,7 @@
           "status": "settled"
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "user_id": 474592608,
@@ -1262,7 +1346,7 @@
           "status": "settled"
         }
       ],
-      "rank": 15
+      "rank": 16
     }
   ],
   "top": [
@@ -1603,6 +1687,48 @@
       "rank": 8
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-05-05",
+      "settle_date": "2026-05-12",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 95.78,
+          "latest_price": 95.78,
+          "settle_price": 95.78,
+          "score_price": 95.78,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.81,
+          "latest_price": 55.81,
+          "settle_price": 55.81,
+          "score_price": 55.81,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 370.75,
+          "latest_price": 370.75,
+          "settle_price": 370.75,
+          "score_price": 370.75,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 9
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -1640,48 +1766,6 @@
           "score_price": 27.49,
           "return_pct": 0.0,
           "status": "active"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "user_id": 9000000005,
-      "chat_id": 0,
-      "display_name": "OzAlpha",
-      "username": "",
-      "entry_date": "2026-04-19",
-      "settle_date": "2026-04-26",
-      "duration_days": 7,
-      "status": "settled",
-      "avg_return_pct": -0.1923,
-      "pick_count": 3,
-      "picks": [
-        {
-          "ticker": "FSLY",
-          "entry_price": 24.56,
-          "latest_price": 27.49,
-          "settle_price": 23.76,
-          "score_price": 23.76,
-          "return_pct": -3.2573,
-          "status": "settled"
-        },
-        {
-          "ticker": "WDS.AX",
-          "entry_price": 32.73,
-          "latest_price": 32.11,
-          "settle_price": 32.61,
-          "score_price": 32.61,
-          "return_pct": -0.3666,
-          "status": "settled"
-        },
-        {
-          "ticker": "DRO.AX",
-          "entry_price": 3.61,
-          "latest_price": 3.75,
-          "settle_price": 3.72,
-          "score_price": 3.72,
-          "return_pct": 3.0471,
-          "status": "settled"
         }
       ],
       "rank": 10
@@ -1773,6 +1857,48 @@
       "rank": 8
     },
     {
+      "user_id": 9000000001,
+      "chat_id": 0,
+      "display_name": "MomentumMia",
+      "username": "",
+      "entry_date": "2026-05-05",
+      "settle_date": "2026-05-12",
+      "duration_days": 7,
+      "status": "active",
+      "avg_return_pct": 0.0,
+      "pick_count": 3,
+      "picks": [
+        {
+          "ticker": "INTC",
+          "entry_price": 95.78,
+          "latest_price": 95.78,
+          "settle_price": 95.78,
+          "score_price": 95.78,
+          "return_pct": 0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "TEM",
+          "entry_price": 55.81,
+          "latest_price": 55.81,
+          "settle_price": 55.81,
+          "score_price": 55.81,
+          "return_pct": -0.0,
+          "status": "active"
+        },
+        {
+          "ticker": "UNH",
+          "entry_price": 370.75,
+          "latest_price": 370.75,
+          "settle_price": 370.75,
+          "score_price": 370.75,
+          "return_pct": 0.0,
+          "status": "active"
+        }
+      ],
+      "rank": 9
+    },
+    {
       "user_id": 9000000005,
       "chat_id": 0,
       "display_name": "OzAlpha",
@@ -1812,7 +1938,7 @@
           "status": "active"
         }
       ],
-      "rank": 9
+      "rank": 10
     }
   ],
   "settled": [
@@ -2108,7 +2234,7 @@
           "status": "settled"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "user_id": 9000000001,
@@ -2150,7 +2276,7 @@
           "status": "settled"
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "user_id": 9000000004,
@@ -2192,7 +2318,7 @@
           "status": "settled"
         }
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "user_id": 9000000003,
@@ -2234,7 +2360,7 @@
           "status": "settled"
         }
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "user_id": 9000000001,
@@ -2276,7 +2402,7 @@
           "status": "settled"
         }
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "user_id": 474592608,
@@ -2318,7 +2444,7 @@
           "status": "settled"
         }
       ],
-      "rank": 15
+      "rank": 16
     }
   ],
   "user_stats": [
@@ -2412,15 +2538,15 @@
       "chat_id": 0,
       "display_name": "MomentumMia",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 0,
       "settled_loss_count": 2,
       "best_return_pct": -4.7591,
       "worst_return_pct": -6.2743,
       "avg_return_pct": -5.5167,
-      "latest_entry_date": "2026-04-26",
+      "latest_entry_date": "2026-05-05",
       "win_rate_pct": 0.0,
       "rank": 6
     },
@@ -2533,15 +2659,15 @@
       "chat_id": 0,
       "display_name": "MomentumMia",
       "username": "",
-      "entry_count": 2,
-      "active_count": 0,
+      "entry_count": 3,
+      "active_count": 1,
       "settled_count": 2,
       "settled_win_count": 0,
       "settled_loss_count": 2,
       "best_return_pct": -4.7591,
       "worst_return_pct": -6.2743,
       "avg_return_pct": -5.5167,
-      "latest_entry_date": "2026-04-26",
+      "latest_entry_date": "2026-05-05",
       "win_rate_pct": 0.0,
       "rank": 6
     },
@@ -2564,8 +2690,8 @@
     }
   ],
   "summary": {
-    "entry_count": 15,
-    "active_count": 3,
+    "entry_count": 16,
+    "active_count": 4,
     "settled_count": 12,
     "user_count": 7
   }
