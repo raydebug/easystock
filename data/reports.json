@@ -1590,10 +1590,10 @@
       "ticker": "LYC.AX",
       "company_name": "Lynas Rare Earths Limited",
       "date": "2026-05-05",
-      "generated_at": "2026-05-04T21:40:22.302617+00:00",
+      "generated_at": "2026-05-04T22:39:20.878498+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "SELL",
       "pricing": {
         "company_name": "Lynas Rare Earths Limited",
         "report_close": 18.9,
@@ -1608,6 +1608,13 @@
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/LYC.AX/2026-05-05/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/LYC.AX/2026-05-05/investment_plan.zh-CN.md"
         },
         {
           "name": "market_report",
@@ -1630,21 +1637,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/sentiment_report.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:26:00",
-      "elapsed_seconds": 5160,
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 19,
-        "tool_calls": 21,
-        "tokens_in_text": "127.4k",
-        "tokens_out_text": "28.5k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "MCD",
@@ -3167,13 +3160,13 @@
     }
   ],
   "summary": {
-    "pnl_index": 1.8215,
-    "valid_reports": 37,
+    "pnl_index": 1.7736,
+    "valid_reports": 38,
     "wins": 19,
     "losses": 18,
-    "hold_reports": 7,
+    "hold_reports": 6,
     "hold_up": 4,
     "hold_down": 2,
-    "hold_flat": 1
+    "hold_flat": 0
   }
 }
