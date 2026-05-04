@@ -11,9 +11,9 @@
       "pricing": {
         "company_name": "4DMedical Limited",
         "report_close": 4.02,
-        "current_price": 3.99,
-        "price_diff": -0.03,
-        "price_diff_pct": -0.7463
+        "current_price": 4.045,
+        "price_diff": 0.025,
+        "price_diff_pct": 0.6219
       },
       "files": [
         {
@@ -85,9 +85,9 @@
       "pricing": {
         "company_name": "Pop Mart International Group Limited",
         "report_close": 141.8,
-        "current_price": 158.0,
-        "price_diff": 16.2,
-        "price_diff_pct": 11.4245
+        "current_price": 158.3,
+        "price_diff": 16.5,
+        "price_diff_pct": 11.6361
       },
       "files": [
         {
@@ -159,9 +159,9 @@
       "pricing": {
         "company_name": "Ampol Limited",
         "report_close": 33.13,
-        "current_price": 35.13,
-        "price_diff": 2.0,
-        "price_diff_pct": 6.0368
+        "current_price": 35.22,
+        "price_diff": 2.09,
+        "price_diff_pct": 6.3085
       },
       "files": [
         {
@@ -582,9 +582,9 @@
       "pricing": {
         "company_name": "CSL Limited",
         "report_close": 137.13,
-        "current_price": 124.45,
-        "price_diff": -12.68,
-        "price_diff_pct": -9.2467
+        "current_price": 124.63,
+        "price_diff": -12.5,
+        "price_diff_pct": -9.1154
       },
       "files": [
         {
@@ -716,9 +716,9 @@
       "pricing": {
         "company_name": "Domino's Pizza Enterprises Limited",
         "report_close": 16.31,
-        "current_price": 16.23,
-        "price_diff": -0.08,
-        "price_diff_pct": -0.4905
+        "current_price": 16.095,
+        "price_diff": -0.215,
+        "price_diff_pct": -1.3182
       },
       "files": [
         {
@@ -857,9 +857,9 @@
       "pricing": {
         "company_name": "DroneShield Limited",
         "report_close": 3.93,
-        "current_price": 3.72,
-        "price_diff": -0.21,
-        "price_diff_pct": -5.3435
+        "current_price": 3.75,
+        "price_diff": -0.18,
+        "price_diff_pct": -4.5802
       },
       "files": [
         {
@@ -931,9 +931,9 @@
       "pricing": {
         "company_name": "Dimerix Limited",
         "report_close": 0.32,
-        "current_price": 0.215,
-        "price_diff": -0.105,
-        "price_diff_pct": -32.8125
+        "current_price": 0.22,
+        "price_diff": -0.1,
+        "price_diff_pct": -31.25
       },
       "files": [
         {
@@ -1005,9 +1005,9 @@
       "pricing": {
         "company_name": "Electro Optic Systems Holdings Limited",
         "report_close": 9.0,
-        "current_price": 9.73,
-        "price_diff": 0.73,
-        "price_diff_pct": 8.1111
+        "current_price": 9.88,
+        "price_diff": 0.88,
+        "price_diff_pct": 9.7778
       },
       "files": [
         {
@@ -1865,9 +1865,9 @@
       "pricing": {
         "company_name": "PointsBet Holdings Limited",
         "report_close": 1.01,
-        "current_price": 1.03,
-        "price_diff": 0.02,
-        "price_diff_pct": 1.9802
+        "current_price": 1.02,
+        "price_diff": 0.01,
+        "price_diff_pct": 0.9901
       },
       "files": [
         {
@@ -2161,9 +2161,9 @@
       "pricing": {
         "company_name": "Sandfire Resources Limited",
         "report_close": 17.37,
-        "current_price": 16.825,
-        "price_diff": -0.545,
-        "price_diff_pct": -3.1376
+        "current_price": 16.86,
+        "price_diff": -0.51,
+        "price_diff_pct": -2.9361
       },
       "files": [
         {
@@ -2302,9 +2302,9 @@
       "pricing": {
         "company_name": "SPDR ETFs Australia - State Street SPDR MSCI Australia Select High Dividend Yield ETF",
         "report_close": 30.52,
-        "current_price": 30.65,
-        "price_diff": 0.13,
-        "price_diff_pct": 0.4259
+        "current_price": 30.6,
+        "price_diff": 0.08,
+        "price_diff_pct": 0.2621
       },
       "files": [
         {
@@ -2450,9 +2450,9 @@
       "pricing": {
         "company_name": "Telix Pharmaceuticals Limited",
         "report_close": 13.95,
-        "current_price": 15.65,
-        "price_diff": 1.7,
-        "price_diff_pct": 12.1864
+        "current_price": 15.63,
+        "price_diff": 1.68,
+        "price_diff_pct": 12.043
       },
       "files": [
         {
@@ -2820,9 +2820,9 @@
       "pricing": {
         "company_name": "Woodside Energy Group Ltd",
         "report_close": 35.8,
-        "current_price": 32.0,
-        "price_diff": -3.8,
-        "price_diff_pct": -10.6145
+        "current_price": 32.04,
+        "price_diff": -3.76,
+        "price_diff_pct": -10.5028
       },
       "files": [
         {
@@ -2894,9 +2894,9 @@
       "pricing": {
         "company_name": "WiseTech Global Limited",
         "report_close": 39.16,
-        "current_price": 43.0,
-        "price_diff": 3.84,
-        "price_diff_pct": 9.8059
+        "current_price": 43.11,
+        "price_diff": 3.95,
+        "price_diff_pct": 10.0868
       },
       "files": [
         {
@@ -2968,9 +2968,9 @@
       "pricing": {
         "company_name": "Xero Limited",
         "report_close": 82.15,
-        "current_price": 83.06,
-        "price_diff": 0.91,
-        "price_diff_pct": 1.1077
+        "current_price": 83.34,
+        "price_diff": 1.19,
+        "price_diff_pct": 1.4486
       },
       "files": [
         {
@@ -3042,9 +3042,9 @@
       "pricing": {
         "company_name": "Zip Co Limited",
         "report_close": 2.33,
-        "current_price": 2.455,
-        "price_diff": 0.125,
-        "price_diff_pct": 5.3648
+        "current_price": 2.465,
+        "price_diff": 0.135,
+        "price_diff_pct": 5.794
       },
       "files": [
         {
@@ -3107,10 +3107,10 @@
     }
   ],
   "summary": {
-    "pnl_index": 2.5923,
+    "pnl_index": 2.7188,
     "valid_reports": 37,
-    "wins": 19,
-    "losses": 17,
+    "wins": 20,
+    "losses": 16,
     "hold_reports": 6,
     "hold_up": 4,
     "hold_down": 2,
