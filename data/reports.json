@@ -1592,8 +1592,8 @@
       "date": "2026-05-05",
       "generated_at": "2026-05-04T22:39:20.878498+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "SELL",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Lynas Rare Earths Limited",
         "report_close": 18.9,
@@ -1637,7 +1637,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/sentiment_report.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:27:00",
+      "elapsed_seconds": 5220,
+      "stats": {
+        "agents_done": 5,
+        "agents_total": 12,
+        "llm_calls": 19,
+        "tool_calls": 21,
+        "tokens_in_text": "127.4k",
+        "tokens_out_text": "28.5k",
+        "reports_done": 5,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "MCD",
