@@ -355,8 +355,8 @@
       "date": "2026-05-05",
       "generated_at": "2026-05-05T14:34:39.943680+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "SELL",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "ANZ Group Holdings Limited",
         "report_close": 35.95,
@@ -407,7 +407,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/ANZ.AX/2026-05-05/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:26:01",
+      "elapsed_seconds": 8761,
+      "stats": {
+        "agents_done": 6,
+        "agents_total": 12,
+        "llm_calls": 33,
+        "tool_calls": 29,
+        "tokens_in_text": "180.0k",
+        "tokens_out_text": "58.0k",
+        "reports_done": 6,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "BBAI",
