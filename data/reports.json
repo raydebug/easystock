@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "ANZ.AX",
+      "date": "2026-05-05",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "queued",
+      "message": "排队中 第1位 / Queued #1 · Level DEEP",
+      "progress_pct": 0.0,
+      "elapsed_seconds": 0,
+      "phase": "Queued · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "1810.HK",
       "date": "2026-05-05",
       "level": "deep",
