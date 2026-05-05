@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "ticker": "1810.HK",
+      "date": "2026-05-05",
+      "level": "deep",
+      "decision": "PENDING",
+      "status": "generating",
+      "message": "Generating ... · Level DEEP",
+      "progress_pct": 10.0,
+      "elapsed_seconds": 0,
+      "phase": "Generating · Level DEEP",
+      "pricing": {
+        "report_close": null,
+        "current_price": null,
+        "price_diff": null,
+        "price_diff_pct": null
+      },
+      "files": []
+    },
+    {
       "ticker": "4DX.AX",
       "company_name": "4DMedical Limited",
       "date": "2026-05-01",
