@@ -1590,10 +1590,10 @@
       "ticker": "LYC.AX",
       "company_name": "Lynas Rare Earths Limited",
       "date": "2026-05-05",
-      "generated_at": "2026-05-04T23:35:34.541854+00:00",
+      "generated_at": "2026-05-05T00:16:59.297904+00:00",
       "level": "deep",
-      "status": "generating",
-      "decision": "PENDING",
+      "status": "completed",
+      "decision": "BUY",
       "pricing": {
         "company_name": "Lynas Rare Earths Limited",
         "report_close": 18.9,
@@ -1603,11 +1603,25 @@
       },
       "files": [
         {
+          "name": "final_trade_decision",
+          "path": "reports/LYC.AX/2026-05-05/final_trade_decision.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/LYC.AX/2026-05-05/final_trade_decision.zh-CN.md"
+        },
+        {
           "name": "fundamentals_report",
           "path": "reports/LYC.AX/2026-05-05/fundamentals_report.md",
           "source_lang": "en",
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "hot_news_since_last_report",
+          "path": "reports/LYC.AX/2026-05-05/hot_news_since_last_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/LYC.AX/2026-05-05/hot_news_since_last_report.zh-CN.md"
         },
         {
           "name": "investment_plan",
@@ -1644,21 +1658,7 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/LYC.AX/2026-05-05/trader_investment_plan.zh-CN.md"
         }
-      ],
-      "progress_pct": 95.0,
-      "phase": "Writing reports · Level DEEP",
-      "message": "Writing reports · Level DEEP · elapsed 02:59:04",
-      "elapsed_seconds": 10744,
-      "stats": {
-        "agents_done": 10,
-        "agents_total": 12,
-        "llm_calls": 31,
-        "tool_calls": 21,
-        "tokens_in_text": "256.4k",
-        "tokens_out_text": "61.1k",
-        "reports_done": 7,
-        "reports_total": 7
-      }
+      ]
     },
     {
       "ticker": "MCD",
