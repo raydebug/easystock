@@ -1,50 +1,57 @@
 {
   "reports": [
     {
-      "ticker": "ANZ.AX",
-      "date": "2026-05-05",
-      "level": "deep",
-      "decision": "PENDING",
-      "status": "queued",
-      "message": "排队中 第1位 / Queued #1 · Level DEEP",
-      "progress_pct": 0.0,
-      "elapsed_seconds": 0,
-      "phase": "Queued · Level DEEP",
-      "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
-      },
-      "files": []
-    },
-    {
       "ticker": "1810.HK",
+      "company_name": "Xiaomi Corporation",
       "date": "2026-05-05",
+      "generated_at": "2026-05-05T10:28:13.740303+00:00",
       "level": "deep",
-      "decision": "PENDING",
-      "status": "generating",
-      "message": "Analyzing: Research Manager (5/7) · Level DEEP · elapsed 01:00:00",
-      "progress_pct": 95.0,
-      "elapsed_seconds": 3600,
-      "phase": "Analyzing: Research Manager (5/7) · Level DEEP",
+      "status": "completed",
+      "decision": "HOLD",
       "pricing": {
-        "report_close": null,
-        "current_price": null,
-        "price_diff": null,
-        "price_diff_pct": null
+        "company_name": "Xiaomi Corporation",
+        "report_close": 30.46,
+        "current_price": 30.46,
+        "price_diff": 0.0,
+        "price_diff_pct": 0.0
       },
-      "files": [],
-      "stats": {
-        "agents_done": 5,
-        "agents_total": 12,
-        "llm_calls": 14,
-        "tool_calls": 17,
-        "tokens_in_text": "74.8k",
-        "tokens_out_text": "24.7k",
-        "reports_done": 5,
-        "reports_total": 7
-      }
+      "files": [
+        {
+          "name": "fundamentals_report",
+          "path": "reports/1810.HK/2026-05-05/fundamentals_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/1810.HK/2026-05-05/fundamentals_report.zh-CN.md"
+        },
+        {
+          "name": "investment_plan",
+          "path": "reports/1810.HK/2026-05-05/investment_plan.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/1810.HK/2026-05-05/investment_plan.zh-CN.md"
+        },
+        {
+          "name": "market_report",
+          "path": "reports/1810.HK/2026-05-05/market_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/1810.HK/2026-05-05/market_report.zh-CN.md"
+        },
+        {
+          "name": "news_report",
+          "path": "reports/1810.HK/2026-05-05/news_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/1810.HK/2026-05-05/news_report.zh-CN.md"
+        },
+        {
+          "name": "sentiment_report",
+          "path": "reports/1810.HK/2026-05-05/sentiment_report.md",
+          "source_lang": "en",
+          "translated_lang": "zh-CN",
+          "translated_path": "reports/1810.HK/2026-05-05/sentiment_report.zh-CN.md"
+        }
+      ]
     },
     {
       "ticker": "4DX.AX",
@@ -3231,9 +3238,9 @@
     "valid_reports": 38,
     "wins": 18,
     "losses": 18,
-    "hold_reports": 6,
+    "hold_reports": 7,
     "hold_up": 5,
     "hold_down": 1,
-    "hold_flat": 0
+    "hold_flat": 1
   }
 }
