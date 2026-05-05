@@ -410,15 +410,15 @@
       ],
       "progress_pct": 95.0,
       "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
-      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:56:01",
-      "elapsed_seconds": 10561,
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:56:49",
+      "elapsed_seconds": 10609,
       "stats": {
         "agents_done": 6,
         "agents_total": 12,
         "llm_calls": 36,
         "tool_calls": 29,
-        "tokens_in_text": "218.8k",
-        "tokens_out_text": "66.2k",
+        "tokens_in_text": "233.3k",
+        "tokens_out_text": "68.5k",
         "reports_done": 6,
         "reports_total": 7
       }
