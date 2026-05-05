@@ -6,8 +6,8 @@
       "date": "2026-05-05",
       "generated_at": "2026-05-05T11:30:41.546427+00:00",
       "level": "deep",
-      "status": "completed",
-      "decision": "BUY",
+      "status": "generating",
+      "decision": "PENDING",
       "pricing": {
         "company_name": "Xiaomi Corporation",
         "report_close": 30.46,
@@ -58,7 +58,21 @@
           "translated_lang": "zh-CN",
           "translated_path": "reports/1810.HK/2026-05-05/trader_investment_plan.zh-CN.md"
         }
-      ]
+      ],
+      "progress_pct": 95.0,
+      "phase": "Analyzing: Research Manager (6/7) · Level DEEP",
+      "message": "Analyzing: Research Manager (6/7) · Level DEEP · elapsed 02:02:02",
+      "elapsed_seconds": 7322,
+      "stats": {
+        "agents_done": 6,
+        "agents_total": 12,
+        "llm_calls": 23,
+        "tool_calls": 17,
+        "tokens_in_text": "168.8k",
+        "tokens_out_text": "47.6k",
+        "reports_done": 6,
+        "reports_total": 7
+      }
     },
     {
       "ticker": "4DX.AX",
